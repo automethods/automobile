@@ -1,0 +1,3513 @@
+{
+  "schema": "technical-vehicle-operations-dataset/1",
+  "version": "0.1.2",
+  "id": "dataset.vehicle.operations",
+  "date": "2026-10-08",
+  "policy": "Source observations and explicit scenario inputs; no automatic price, interval, wear-life or failure-rate adoption.",
+  "sources": [
+    {
+      "id": "a22112-2020",
+      "title": "A22112_en_ua_2020.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/A22112_en_ua_2020.pdf",
+      "artifactSha256": "97af94d388c18f91a918ba61061b39df1a0c63e965ecefb352b3b8c81f6fdd9a",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/EV_hybrid/Bohdan/A22112_en_ua_2020.pdf",
+      "originSha256": "97af94d388c18f91a918ba61061b39df1a0c63e965ecefb352b3b8c81f6fdd9a",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "a22112-undated",
+      "title": "А22112.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/А22112.pdf",
+      "artifactSha256": "51dacce68c7f9ec1c1066792d38754cc79a4f0462b07beb7d177c1ff30f08fdb",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/EV_hybrid/Bohdan/А22112.pdf",
+      "originSha256": "51dacce68c7f9ec1c1066792d38754cc79a4f0462b07beb7d177c1ff30f08fdb",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "a22212",
+      "title": "A22212_en_ua_2020.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/A22212_en_ua_2020.pdf",
+      "artifactSha256": "c3069c999aa23c3801dfd18da235e74f81da3646a19163fe344852b5854dd120",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/EV_hybrid/Bohdan/A22212_en_ua_2020.pdf",
+      "originSha256": "c3069c999aa23c3801dfd18da235e74f81da3646a19163fe344852b5854dd120",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "a22412",
+      "title": "A22412_en_ua_2020.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/A22412_en_ua_2020.pdf",
+      "artifactSha256": "207c712cdc25820838352153087a7ae7b0ff4df4a7e2b286d5bcb732a5e9860a",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/EV_hybrid/Bohdan/A22412_en_ua_2020.pdf",
+      "originSha256": "207c712cdc25820838352153087a7ae7b0ff4df4a7e2b286d5bcb732a5e9860a",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "a14532",
+      "title": "A14532_en_ua_2020.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/A14532_en_ua_2020.pdf",
+      "artifactSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/EV_hybrid/Bohdan/A14532_en_ua_2020.pdf",
+      "originSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "a70132",
+      "title": "A70132_en_ua_2020.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/A70132_en_ua_2020.pdf",
+      "artifactSha256": "476caa7af83b5cb68a18d5f38c86c53ca70d354c2d3b68f8af4ffb514443e2f6",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/EV_hybrid/Bohdan/A70132_en_ua_2020.pdf",
+      "originSha256": "476caa7af83b5cb68a18d5f38c86c53ca70d354c2d3b68f8af4ffb514443e2f6",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "granton",
+      "title": "GTZ6129BEVR_en.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/GTZ6129BEVR_en.pdf",
+      "artifactSha256": "8efe2c5ae4caedee4a4afa99218a61c7ddd34f750bb05824fc6199fa26c6fb58",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/EV_hybrid/Bohdan/GTZ6129BEVR_en.pdf",
+      "originSha256": "8efe2c5ae4caedee4a4afa99218a61c7ddd34f750bb05824fc6199fa26c6fb58",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "byd-b12b",
+      "title": "BYD B12.b brochure 0929-BPS-V3; date unspecified",
+      "kind": "manufacturer",
+      "artifact": "sources/BYD-eBus-B12.pdf",
+      "artifactSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/EV_hybrid/BYD/BYD-eBus-B12.pdf",
+      "originSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "scania-20MC225",
+      "title": "Scania_bus_20MC225-sv.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/Scania_bus_20MC225-sv.pdf",
+      "artifactSha256": "dbdaf0021938898b0ee994858b4b00a5570672a08802419990551fca3a751ece",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/Scania_bus_20MC225-sv.pdf",
+      "originSha256": "dbdaf0021938898b0ee994858b4b00a5570672a08802419990551fca3a751ece",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "scania-21MC013",
+      "title": "Scania_bus_21MC013-sv.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/Scania_bus_21MC013-sv.pdf",
+      "artifactSha256": "afb030b41b0f7c7dc2a2f94c4250b5841bb5b1cc8be2f7c5b2e8c3ad5454658f",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/Scania_bus_21MC013-sv.pdf",
+      "originSha256": "afb030b41b0f7c7dc2a2f94c4250b5841bb5b1cc8be2f7c5b2e8c3ad5454658f",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "scania-21MC014",
+      "title": "Scania_bus_21MC014-sv.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/Scania_bus_21MC014-sv.pdf",
+      "artifactSha256": "f2b90cc3d5063cedc6c8a878ed2dae67a0e1f8f228ed792eabcbe3edac0e25e5",
+      "artifactType": "original-file",
+      "originPath": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/Scania_bus_21MC014-sv.pdf",
+      "originSha256": "f2b90cc3d5063cedc6c8a878ed2dae67a0e1f8f228ed792eabcbe3edac0e25e5",
+      "url": null,
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "ua-order102",
+      "title": "ua-maintenance-order102.html",
+      "kind": "regulatory",
+      "artifact": "sources/ua-maintenance-order102.html",
+      "artifactSha256": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+      "artifactType": "original-file",
+      "originPath": "/tmp/transport-operations-20261008/downloads/ua-maintenance-order102.html",
+      "originSha256": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+      "url": "https://zakon.rada.gov.ua/laws/show/z0268-98/print",
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "toyota-ua",
+      "title": "toyota-ua-maintenance.html",
+      "kind": "manufacturer",
+      "artifact": "sources/toyota-ua-maintenance.html",
+      "artifactSha256": "6d59dcd763b1a544ad19372defb4fb722a742155c386b9c8a256608203ff1492",
+      "artifactType": "original-file",
+      "originPath": "/tmp/transport-operations-20261008/downloads/toyota-ua-maintenance.html",
+      "originSha256": "6d59dcd763b1a544ad19372defb4fb722a742155c386b9c8a256608203ff1492",
+      "url": "https://www.toyota.ua/owners/maintenance/tekhnichne-obslugovuvannya",
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "bogdan-school-price",
+      "title": "bogdan-school-201906.html",
+      "kind": "manufacturer",
+      "artifact": "sources/bogdan-school-201906.html",
+      "artifactSha256": "f33ca47ddc4915517fb93babf93f9e7ad256116a4946848a87c5870ed9e6a94b",
+      "artifactType": "original-file",
+      "originPath": "/tmp/transport-operations-20261008/downloads/bogdan-school-201906.html",
+      "originSha256": "f33ca47ddc4915517fb93babf93f9e7ad256116a4946848a87c5870ed9e6a94b",
+      "url": "https://bogdan.ua/novini/pershi-5-z-20-shkilnyh-avtobusiv-bogdan-a22412-vyrushyly-u-zhytomyrsku-oblast/",
+      "documentDate": "2019-06-05",
+      "retrievedAt": "2026-10-08",
+      "eventDate": "2019-06-04"
+    },
+    {
+      "id": "bogdan-dealer-price",
+      "title": "dealer-a22112.html",
+      "kind": "dealer",
+      "artifact": "sources/dealer-a22112.html",
+      "artifactSha256": "8551b2388ba58fda6a5b650ebaa3c13cd327f892e653efb3f6e9177f2ebf3ed5",
+      "artifactType": "original-file",
+      "originPath": "/tmp/transport-operations-20261008/downloads/dealer-a22112.html",
+      "originSha256": "8551b2388ba58fda6a5b650ebaa3c13cd327f892e653efb3f6e9177f2ebf3ed5",
+      "url": "https://truck-bus.in.ua/bogdan/avtobus-bogdan-a22112.html",
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "solaris-riga-price",
+      "title": "solaris-riga-202212.pdf",
+      "kind": "manufacturer",
+      "artifact": "sources/solaris-riga-202212.pdf",
+      "artifactSha256": "ead1f9b459f495d056833dda459c24a7f2637823d66e2deeb69577978e3d65ce",
+      "artifactType": "original-file",
+      "originPath": "/tmp/transport-operations-20261008/downloads/solaris-riga-202212.pdf",
+      "originSha256": "ead1f9b459f495d056833dda459c24a7f2637823d66e2deeb69577978e3d65ce",
+      "url": "https://www.solarisbus.com/en/press/pdf/1885",
+      "documentDate": "2022-12-01",
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "cummins-isb67",
+      "title": "Cummins ISB6.7 EPA2010 School Bus maintenance table",
+      "kind": "manufacturer",
+      "artifact": "sources/cummins-isb67-reviewed.json",
+      "artifactSha256": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2",
+      "artifactType": "reviewed-web-extraction",
+      "originPath": "/tmp/transport-operations-20261008/cummins-isb67-reviewed.json",
+      "originSha256": null,
+      "url": "https://selfscreening.cummins.com/en-na/engines/products/isb67-epa-2010?application=School+Bus&v=321",
+      "documentDate": null,
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "nrel-80022",
+      "title": "Foothill Transit BEB evaluation, June2021, NREL/TP-5400-80022",
+      "kind": "independent-fleet-study",
+      "artifact": "sources/nrel-80022-reviewed.json",
+      "artifactSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "artifactType": "reviewed-web-extraction",
+      "originPath": "/tmp/transport-operations-20261008/nrel-80022-reviewed.json",
+      "originSha256": null,
+      "url": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "documentDate": "2021-06",
+      "retrievedAt": "2026-10-08"
+    },
+    {
+      "id": "riga-202407",
+      "title": "Rigas satiksme procurement announcement, 2July2024",
+      "kind": "operator",
+      "artifact": "sources/riga-202407-reviewed.json",
+      "artifactSha256": "d21a8de507d385b67716471a02e923c71ac2fff7683d39a596b1f65577619f0e",
+      "artifactType": "reviewed-web-extraction",
+      "originPath": "/tmp/transport-operations-20261008/riga-202407-reviewed.json",
+      "originSha256": null,
+      "url": "https://www.rigassatiksme.lv/en/current%20information/rigas-satiksme-has-concluded-an-agreement-with-solaris-bus-coach-sp-z-o-o-for-the-procurement-of-17-more-electric-buses/",
+      "documentDate": "2024-07-02",
+      "retrievedAt": "2026-10-08"
+    }
+  ],
+  "records": [
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-7fc5509e47ce961b7ca5",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22112-brochure2020",
+        "prototypeId": "vp-bogdan-a22112-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 61.0,
+        "max": 61.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "2020-file city brochure; 6100kg curb"
+      },
+      "sourceId": "a22112-2020",
+      "sourceFile": "Data/Vehicle/operations/sources/A22112_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "97af94d388c18f91a918ba61061b39df1a0c63e965ecefb352b3b8c81f6fdd9a",
+      "locator": "PDF p.2 passenger capacity",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-817af1fad366b9d34510",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22112-undated6400",
+        "prototypeId": "vp-bogdan-a22112-undated6400",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 61.0,
+        "max": 61.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "undated city brochure; 6400kg curb"
+      },
+      "sourceId": "a22112-undated",
+      "sourceFile": "Data/Vehicle/operations/sources/А22112.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "51dacce68c7f9ec1c1066792d38754cc79a4f0462b07beb7d177c1ff30f08fdb",
+      "locator": "PDF p.2 passenger capacity",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-c9d650dc8a758a185a88",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22112-brochure2020",
+        "prototypeId": "vp-bogdan-a22112-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "optional_folding_seats",
+      "value": {
+        "min": 4.0,
+        "max": 4.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "a22112-2020",
+      "sourceFile": "Data/Vehicle/operations/sources/A22112_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "97af94d388c18f91a918ba61061b39df1a0c63e965ecefb352b3b8c81f6fdd9a",
+      "locator": "PDF p.2 seating row",
+      "notes": "Optional four folding seats, not an increase to the independently stated total capacity.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-922fd64f14d411744d74",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22112-undated6400",
+        "prototypeId": "vp-bogdan-a22112-undated6400",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "optional_folding_seats",
+      "value": {
+        "min": 4.0,
+        "max": 4.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "a22112-undated",
+      "sourceFile": "Data/Vehicle/operations/sources/А22112.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "51dacce68c7f9ec1c1066792d38754cc79a4f0462b07beb7d177c1ff30f08fdb",
+      "locator": "PDF p.2 seating row",
+      "notes": "Optional four folding seats, not an increase to the independently stated total capacity.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-9e97667a8a57c41eba32",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22212-suburban",
+        "prototypeId": "vp-bogdan-a22212-suburban",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 42.0,
+        "max": 42.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "suburban; 2020-file brochure"
+      },
+      "sourceId": "a22212",
+      "sourceFile": "Data/Vehicle/operations/sources/A22212_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "c3069c999aa23c3801dfd18da235e74f81da3646a19163fe344852b5854dd120",
+      "locator": "PDF p.2 passenger capacity",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-e15a3752d74014b7a716",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22212-intercity",
+        "prototypeId": "vp-bogdan-a22212-intercity",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 30.0,
+        "max": 30.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "intercity; 2020-file brochure"
+      },
+      "sourceId": "a22212",
+      "sourceFile": "Data/Vehicle/operations/sources/A22212_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "c3069c999aa23c3801dfd18da235e74f81da3646a19163fe344852b5854dd120",
+      "locator": "PDF p.2 passenger capacity",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-8007c6bc1ccb3af49f88",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22412-school-options",
+        "prototypeId": "vp-bogdan-a22412-school-options",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 30.0,
+        "max": 32.0,
+        "unit": "person",
+        "statistic": "interval",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "school bus; 30/32 passenger-seat options",
+        "allowedValues": [
+          30,
+          32
+        ],
+        "statisticBasis": "discrete-seating-options"
+      },
+      "sourceId": "a22412",
+      "sourceFile": "Data/Vehicle/operations/sources/A22412_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "207c712cdc25820838352153087a7ae7b0ff4df4a7e2b286d5bcb732a5e9860a",
+      "locator": "PDF p.2 passenger capacity",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-6dee21a27b78b6708c75",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 70.0,
+        "max": 70.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "suburban"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 passenger capacity",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-a168dc7953ba42d79cd8",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_length",
+      "value": {
+        "min": 8210.0,
+        "max": 8210.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 8.21,
+        "max": 8.21,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-a6af6d492bdaac0aa6a1",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_length",
+      "value": {
+        "min": 9820.0,
+        "max": 9820.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 9.82,
+        "max": 9.82,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-c6514866b4589496d265",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_width",
+      "value": {
+        "min": 2300.0,
+        "max": 2300.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 2.3000000000000003,
+        "max": 2.3000000000000003,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-8b668ac8ce0f969e7fa3",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_width",
+      "value": {
+        "min": 2500.0,
+        "max": 2500.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 2.5,
+        "max": 2.5,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-d8558bf18f429c29573a",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_height",
+      "value": {
+        "min": 3150.0,
+        "max": 3150.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 3.15,
+        "max": 3.15,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-b23912add8bd8cc70b86",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_height",
+      "value": {
+        "min": 2960.0,
+        "max": 2960.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 2.96,
+        "max": 2.96,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-4288fe2c129546b4d74d",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_wheelbase",
+      "value": {
+        "min": 4400.0,
+        "max": 4400.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 4.4,
+        "max": 4.4,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-7efb008ee65ab73c84c1",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_wheelbase",
+      "value": {
+        "min": 4800.0,
+        "max": 4800.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 4.8,
+        "max": 4.8,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-c16a04f7dcef7a79bb7e",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_track_front",
+      "value": {
+        "min": 1886.0,
+        "max": 1886.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 1.8860000000000001,
+        "max": 1.8860000000000001,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-88e766bd6cb62c770d5d",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_track_front",
+      "value": {
+        "min": 2077.0,
+        "max": 2077.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 2.077,
+        "max": 2.077,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-87fd0f8a56e6de0ee8a2",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_track_rear",
+      "value": {
+        "min": 1715.0,
+        "max": 1715.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 1.715,
+        "max": 1.715,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-fd6964606e35ddac1f7b",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_track_rear",
+      "value": {
+        "min": 1878.0,
+        "max": 1878.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 1.8780000000000001,
+        "max": 1.8780000000000001,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-99a44c81f8b195a9c113",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 43.0,
+        "max": 43.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "intercity"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 passenger capacity",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-27cc68c96f8d48efecd5",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_length",
+      "value": {
+        "min": 8210.0,
+        "max": 8210.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 8.21,
+        "max": 8.21,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-2ce2a48ff009023b7f36",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_length",
+      "value": {
+        "min": 9820.0,
+        "max": 9820.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 9.82,
+        "max": 9.82,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-a03c205bf81bb8b3ad6e",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_width",
+      "value": {
+        "min": 2300.0,
+        "max": 2300.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 2.3000000000000003,
+        "max": 2.3000000000000003,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-eb80e7582485a10bd031",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_width",
+      "value": {
+        "min": 2500.0,
+        "max": 2500.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 2.5,
+        "max": 2.5,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-211947376fed2c76dadf",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_height",
+      "value": {
+        "min": 3150.0,
+        "max": 3150.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 3.15,
+        "max": 3.15,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-64b28c620c66f4e24a7c",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_height",
+      "value": {
+        "min": 2960.0,
+        "max": 2960.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 2.96,
+        "max": 2.96,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-6bdbf2bc60c2c50ffc31",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_wheelbase",
+      "value": {
+        "min": 4400.0,
+        "max": 4400.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 4.4,
+        "max": 4.4,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-c4f02442434d0cfb46cb",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_wheelbase",
+      "value": {
+        "min": 4800.0,
+        "max": 4800.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 4.8,
+        "max": 4.8,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-cad0fb364a1509984e84",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_track_front",
+      "value": {
+        "min": 1886.0,
+        "max": 1886.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 1.8860000000000001,
+        "max": 1.8860000000000001,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-a8e9078d69d194642359",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_track_front",
+      "value": {
+        "min": 2077.0,
+        "max": 2077.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 2.077,
+        "max": 2.077,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-daa4112cdc10953b584d",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_track_rear",
+      "value": {
+        "min": 1715.0,
+        "max": 1715.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 1.715,
+        "max": 1.715,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 dimension table",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-3daff36e92e47e27126d",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "geometry_candidate_track_rear",
+      "value": {
+        "min": 1878.0,
+        "max": 1878.0,
+        "unit": "mm",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 1.8780000000000001,
+        "max": 1.8780000000000001,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "mainFieldAdoption": "withheld",
+        "status": "conflicting-source-alternative"
+      },
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.1dimension drawing",
+      "notes": "Conflicting source alternatives; not adopted into the main dimensions or chassis model.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-4661d7cc62f0a0d65153",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a70132-brochure2020",
+        "prototypeId": "vp-bogdan-a70132-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 106.0,
+        "max": 106.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "city low-floor; IVECO diesel/Allison6"
+      },
+      "sourceId": "a70132",
+      "sourceFile": "Data/Vehicle/operations/sources/A70132_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "476caa7af83b5cb68a18d5f38c86c53ca70d354c2d3b68f8af4ffb514443e2f6",
+      "locator": "PDF p.2 passenger capacity",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-1abff712585906ec9734",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-granton-gtz6129bevr-brochure",
+        "prototypeId": "vp-granton-gtz6129bevr-brochure",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": 81.0,
+        "max": 81.0,
+        "unit": "person",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "DANA195kW; CATL374.65kWh; brochure"
+      },
+      "sourceId": "granton",
+      "sourceFile": "Data/Vehicle/operations/sources/GTZ6129BEVR_en.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "8efe2c5ae4caedee4a4afa99218a61c7ddd34f750bb05824fc6199fa26c6fb58",
+      "locator": "PDF p.4 specification",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-ab3eab024f0e56254363",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-granton-gtz6129bevr-brochure",
+        "prototypeId": "vp-granton-gtz6129bevr-brochure",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": null,
+        "max": 80.0,
+        "unit": "person",
+        "statistic": "maximum",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "granton",
+      "sourceFile": "Data/Vehicle/operations/sources/GTZ6129BEVR_en.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "8efe2c5ae4caedee4a4afa99218a61c7ddd34f750bb05824fc6199fa26c6fb58",
+      "locator": "PDF p.2 narrative",
+      "notes": "Narrative says up to80; specification p.4 states81. Retain conflict, do not average.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-14c42e1d885d130e384d",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-granton-gtz6129bevr-brochure",
+        "prototypeId": "vp-granton-gtz6129bevr-brochure",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "charging_time",
+      "value": {
+        "min": 4.3,
+        "max": 4.3,
+        "unit": "h",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 15480.0,
+        "max": 15480.0,
+        "unit": "s"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "chargerPowerKw": 90,
+        "socEndPct": 100,
+        "socStartPct": "unspecified"
+      },
+      "sourceId": "granton",
+      "sourceFile": "Data/Vehicle/operations/sources/GTZ6129BEVR_en.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "8efe2c5ae4caedee4a4afa99218a61c7ddd34f750bb05824fc6199fa26c6fb58",
+      "locator": "PDF p.4 charging table 90kW",
+      "notes": "Manufacturer full-charge claim, not a fixed-power charging simulation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-8f89a6aaa0d1bc22f81b",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-granton-gtz6129bevr-brochure",
+        "prototypeId": "vp-granton-gtz6129bevr-brochure",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "charging_time",
+      "value": {
+        "min": 3.2,
+        "max": 3.2,
+        "unit": "h",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 11520.0,
+        "max": 11520.0,
+        "unit": "s"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "chargerPowerKw": 120,
+        "socEndPct": 100,
+        "socStartPct": "unspecified"
+      },
+      "sourceId": "granton",
+      "sourceFile": "Data/Vehicle/operations/sources/GTZ6129BEVR_en.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "8efe2c5ae4caedee4a4afa99218a61c7ddd34f750bb05824fc6199fa26c6fb58",
+      "locator": "PDF p.4 charging table 120kW",
+      "notes": "Manufacturer full-charge claim, not a fixed-power charging simulation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-c7a0aec8e796eddc40fd",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-granton-gtz6129bevr-brochure",
+        "prototypeId": "vp-granton-gtz6129bevr-brochure",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "charging_time",
+      "value": {
+        "min": 2.5,
+        "max": 2.5,
+        "unit": "h",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 9000.0,
+        "max": 9000.0,
+        "unit": "s"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "chargerPowerKw": 150,
+        "socEndPct": 100,
+        "socStartPct": "unspecified"
+      },
+      "sourceId": "granton",
+      "sourceFile": "Data/Vehicle/operations/sources/GTZ6129BEVR_en.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "8efe2c5ae4caedee4a4afa99218a61c7ddd34f750bb05824fc6199fa26c6fb58",
+      "locator": "PDF p.4 charging table 150kW",
+      "notes": "Manufacturer full-charge claim, not a fixed-power charging simulation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-3195d13d5144f2f506bc",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "passenger_capacity",
+      "value": {
+        "min": null,
+        "max": 105.0,
+        "unit": "person",
+        "statistic": "maximum",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "EU",
+      "asOf": null,
+      "context": {
+        "includesDriver": false,
+        "layoutBasis": "0929-BPS-V3 brochure; battery options unspecified"
+      },
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.15 basic parameters",
+      "notes": "Published passenger capacity; check selected seating/wheelchair arrangement and gross/axle mass limits.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-525ddccf5a3080789187",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "battery_capacity",
+      "value": {
+        "min": null,
+        "max": 565.0,
+        "unit": "kWh",
+        "statistic": "maximum",
+        "currency": null
+      },
+      "canonical": {
+        "min": null,
+        "max": 2034000000.0,
+        "unit": "J"
+      },
+      "market": "EU",
+      "asOf": null,
+      "context": {},
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.15 basic parameters",
+      "notes": "Manufacturer maximum; configuration/procedure/usable energy not specified.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-7befef6e9b31452b6381",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "range_claim",
+      "value": {
+        "min": null,
+        "max": 720.0,
+        "unit": "km",
+        "statistic": "maximum",
+        "currency": null
+      },
+      "canonical": {
+        "min": null,
+        "max": 720000.0,
+        "unit": "m"
+      },
+      "market": "EU",
+      "asOf": null,
+      "context": {},
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.15 basic parameters",
+      "notes": "Manufacturer maximum; configuration/procedure/usable energy not specified.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-810e01728f029cf0289e",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "charging_power",
+      "value": {
+        "min": null,
+        "max": 350.0,
+        "unit": "kW",
+        "statistic": "maximum",
+        "currency": null
+      },
+      "canonical": {
+        "min": null,
+        "max": 350000.0,
+        "unit": "W"
+      },
+      "market": "EU",
+      "asOf": null,
+      "context": {},
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.16 charging concept",
+      "notes": "Manufacturer maximum; configuration/procedure/usable energy not specified.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-91acd172d28e445bba86",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "charging_power",
+      "value": {
+        "min": null,
+        "max": 550.0,
+        "unit": "kW",
+        "statistic": "maximum",
+        "currency": null
+      },
+      "canonical": {
+        "min": null,
+        "max": 550000.0,
+        "unit": "W"
+      },
+      "market": "EU",
+      "asOf": null,
+      "context": {},
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.16 pantograph optional",
+      "notes": "Optional pantograph maximum; site grid and charging acceptance not supplied.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-c8e4c46159be17e29a4a",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "charging_time",
+      "value": {
+        "min": 1.0,
+        "max": 1.0,
+        "unit": "h",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 3600.0,
+        "max": 3600.0,
+        "unit": "s"
+      },
+      "market": "EU",
+      "asOf": null,
+      "context": {
+        "chargingSystem": "pantograph claim",
+        "socWindow": "0-100% narrative",
+        "strictUpperBound": false
+      },
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.12 charging claim pantograph claim",
+      "notes": "Keep divergent published charging claims separate; <10min is not established full-pack charge.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-0529ccd8a691fcd9545e",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "charging_time",
+      "value": {
+        "min": null,
+        "max": 3.0,
+        "unit": "h",
+        "statistic": "maximum",
+        "currency": null
+      },
+      "canonical": {
+        "min": null,
+        "max": 10800.0,
+        "unit": "s"
+      },
+      "market": "EU",
+      "asOf": null,
+      "context": {
+        "chargingSystem": "DC",
+        "socWindow": "SOC window unspecified",
+        "strictUpperBound": true
+      },
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.16 charging claim DC",
+      "notes": "Keep divergent published charging claims separate; <10min is not established full-pack charge.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-e41a85a2bbe7dbe7d466",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "charging_time",
+      "value": {
+        "min": null,
+        "max": 0.16666666666666666,
+        "unit": "h",
+        "statistic": "maximum",
+        "currency": null
+      },
+      "canonical": {
+        "min": null,
+        "max": 600.0,
+        "unit": "s"
+      },
+      "market": "EU",
+      "asOf": null,
+      "context": {
+        "chargingSystem": "pantograph",
+        "socWindow": "SOC window unspecified",
+        "strictUpperBound": true,
+        "originalValue": 10,
+        "originalUnit": "min",
+        "conversion": "minutes / 60 to hours"
+      },
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.16 charging claim pantograph",
+      "notes": "Keep divergent published charging claims separate; <10min is not established full-pack charge.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-bec3d2c2d8cde80560ad",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "battery_warranty_years",
+      "value": {
+        "min": 15.0,
+        "max": 15.0,
+        "unit": "year",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "EU",
+      "asOf": null,
+      "context": {},
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.7 Blade Battery",
+      "notes": "Marketing guarantee15years/80%SOH; mileage, exclusions and contract conditions not supplied.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-3d8c85077b941bea0666",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-byd-b12b-0929-bps-v3",
+        "prototypeId": "vp-byd-b12b-0929-bps-v3",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "battery_warranty_soh",
+      "value": {
+        "min": 80.0,
+        "max": 80.0,
+        "unit": "%",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 0.8,
+        "max": 0.8,
+        "unit": "1"
+      },
+      "market": "EU",
+      "asOf": null,
+      "context": {},
+      "sourceId": "byd-b12b",
+      "sourceFile": "Data/Vehicle/operations/sources/BYD-eBus-B12.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+      "locator": "PDF p.7 Blade Battery",
+      "notes": "Guarantee threshold, not a measured degradation curve or default battery life.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-942fd33fe5e4587e674a",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22112-undated6400",
+        "prototypeId": "vp-bogdan-a22112-undated6400",
+        "matchStatus": "compatible-configuration"
+      },
+      "metric": "vehicle_price",
+      "value": {
+        "min": 3800000.0,
+        "max": null,
+        "unit": "currency/bus",
+        "statistic": "minimum",
+        "currency": "UAH"
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "condition": "new",
+        "conversion": "as-published",
+        "priceBasis": "dealer-starting-price",
+        "priceDate": null,
+        "retrievedAt": "2026-10-08",
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "bogdan-dealer-price",
+      "sourceFile": "Data/Vehicle/operations/sources/dealer-a22112.html",
+      "sourceUrl": "https://truck-bus.in.ua/bogdan/avtobus-bogdan-a22112.html",
+      "sourceSha256": "8551b2388ba58fda6a5b650ebaa3c13cd327f892e653efb3f6e9177f2ebf3ed5",
+      "locator": "Price banner: from",
+      "notes": "Dealer starting/asking price, not a transaction. Model-year/VAT/delivery unclear. Alternate USD is seller display, not our FX conversion.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-04d05cd0a234b15391ae",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22112-undated6400",
+        "prototypeId": "vp-bogdan-a22112-undated6400",
+        "matchStatus": "compatible-configuration"
+      },
+      "metric": "vehicle_price",
+      "value": {
+        "min": 91127.0,
+        "max": null,
+        "unit": "currency/bus",
+        "statistic": "minimum",
+        "currency": "USD"
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "condition": "new",
+        "conversion": "as-published",
+        "priceBasis": "dealer-starting-price",
+        "priceDate": null,
+        "retrievedAt": "2026-10-08",
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "bogdan-dealer-price",
+      "sourceFile": "Data/Vehicle/operations/sources/dealer-a22112.html",
+      "sourceUrl": "https://truck-bus.in.ua/bogdan/avtobus-bogdan-a22112.html",
+      "sourceSha256": "8551b2388ba58fda6a5b650ebaa3c13cd327f892e653efb3f6e9177f2ebf3ed5",
+      "locator": "Price banner: from",
+      "notes": "Dealer starting/asking price, not a transaction. Model-year/VAT/delivery unclear. Alternate USD is seller display, not our FX conversion.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-5b28aeb7cc8883cb18eb",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22412-school-options",
+        "prototypeId": "vp-bogdan-a22412-school-options",
+        "matchStatus": "related-variant"
+      },
+      "metric": "vehicle_price",
+      "value": {
+        "min": 1930000.0,
+        "max": 1930000.0,
+        "unit": "currency/bus",
+        "statistic": "exact",
+        "currency": "UAH"
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": "2019-06-04",
+      "context": {
+        "condition": "new",
+        "priceBasis": "manufacturer-reported-tender-award",
+        "quantity": 20,
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "bogdan-school-price",
+      "sourceFile": "Data/Vehicle/operations/sources/bogdan-school-201906.html",
+      "sourceUrl": "https://bogdan.ua/novini/pershi-5-z-20-shkilnyh-avtobusiv-bogdan-a22412-vyrushyly-u-zhytomyrsku-oblast/",
+      "sourceSha256": "f33ca47ddc4915517fb93babf93f9e7ad256116a4946848a87c5870ed9e6a94b",
+      "locator": "2019-06-04 delivery news; tender price per bus",
+      "notes": "Historical2019 award for30passenger-seat school configuration; not a current quotation or every30/32-seat option.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-b20ba26f0d04abc7bcdb",
+      "subject": {
+        "kind": "procurement",
+        "id": "solaris-riga-2022-base35",
+        "prototypeId": "vp-3363f3",
+        "matchStatus": "related-variant"
+      },
+      "metric": "procurement_package_price",
+      "value": {
+        "min": 19000000.0,
+        "max": null,
+        "unit": "currency/lot",
+        "statistic": "minimum",
+        "currency": "EUR"
+      },
+      "canonical": null,
+      "market": "LV",
+      "asOf": "2022-12-01",
+      "context": {
+        "busOnlyPrice": null,
+        "priceBasis": "basic-contract-total",
+        "quantity": 35,
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "solaris-riga-price",
+      "sourceFile": "Data/Vehicle/operations/sources/solaris-riga-202212.pdf",
+      "sourceUrl": "https://www.solarisbus.com/en/press/pdf/1885",
+      "sourceSha256": "ead1f9b459f495d056833dda459c24a7f2637823d66e2deeb69577978e3d65ce",
+      "locator": "PDF p.1 basic35bus contract",
+      "notes": "Over19million EUR for35buses. Accessories/taxes uncertain; do not divide into an exact bus-only price.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-627e37efe074e99b01bd",
+      "subject": {
+        "kind": "procurement",
+        "id": "solaris-riga-2024-option17",
+        "prototypeId": "vp-3363f3",
+        "matchStatus": "related-variant"
+      },
+      "metric": "procurement_package_price",
+      "value": {
+        "min": 9900000.0,
+        "max": 9900000.0,
+        "unit": "currency/lot",
+        "statistic": "exact",
+        "currency": "EUR"
+      },
+      "canonical": null,
+      "market": "LV",
+      "asOf": "2024-07-02",
+      "context": {
+        "busOnlyPrice": null,
+        "priceBasis": "buses-plus-spares-contract-total",
+        "quantity": 17,
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "riga-202407",
+      "sourceFile": "Data/Vehicle/operations/sources/riga-202407-reviewed.json",
+      "sourceUrl": "https://www.rigassatiksme.lv/en/current%20information/rigas-satiksme-has-concluded-an-agreement-with-solaris-bus-coach-sp-z-o-o-for-the-procurement-of-17-more-electric-buses/",
+      "sourceSha256": "d21a8de507d385b67716471a02e923c71ac2fff7683d39a596b1f65577619f0e",
+      "locator": "2July2024 announcement: contract price for17electric buses and spare parts",
+      "notes": "Contract bundle includes spares; not a current Ukrainian bus-only quotation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-28d899c5a1b347ed9d14",
+      "subject": {
+        "kind": "class",
+        "id": "UA-passenger-cars-buses",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "service_to1_interval",
+      "value": {
+        "min": 5000.0,
+        "max": 5000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 5000000.0,
+        "max": 5000000.0,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": "1998-03-30",
+      "context": {
+        "applicabilitySelection": "explicit",
+        "historicalOrder": 102,
+        "priority": "manufacturer-documentation-first"
+      },
+      "sourceId": "ua-order102",
+      "sourceFile": "Data/Vehicle/operations/sources/ua-maintenance-order102.html",
+      "sourceUrl": "https://zakon.rada.gov.ua/laws/show/z0268-98/print",
+      "sourceSha256": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+      "locator": "Order102, section3.9/table1 and note",
+      "notes": "General service interval, not an oil-change interval. Manufacturer documentation prevails; class alone does not identify truck-based-bus applicability.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-7220525f3e1d3e0aced7",
+      "subject": {
+        "kind": "class",
+        "id": "UA-passenger-cars-buses",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "service_to2_interval",
+      "value": {
+        "min": 20000.0,
+        "max": 20000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 20000000.0,
+        "max": 20000000.0,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": "1998-03-30",
+      "context": {
+        "applicabilitySelection": "explicit",
+        "historicalOrder": 102,
+        "priority": "manufacturer-documentation-first"
+      },
+      "sourceId": "ua-order102",
+      "sourceFile": "Data/Vehicle/operations/sources/ua-maintenance-order102.html",
+      "sourceUrl": "https://zakon.rada.gov.ua/laws/show/z0268-98/print",
+      "sourceSha256": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+      "locator": "Order102, section3.9/table1 and note",
+      "notes": "General service interval, not an oil-change interval. Manufacturer documentation prevails; class alone does not identify truck-based-bus applicability.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-c328c1628b362d373e36",
+      "subject": {
+        "kind": "class",
+        "id": "UA-passenger-cars-buses",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "daily_inspection_interval",
+      "value": {
+        "min": 1.0,
+        "max": 1.0,
+        "unit": "working-day",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": "1998-03-30",
+      "context": {},
+      "sourceId": "ua-order102",
+      "sourceFile": "Data/Vehicle/operations/sources/ua-maintenance-order102.html",
+      "sourceUrl": "https://zakon.rada.gov.ua/laws/show/z0268-98/print",
+      "sourceSha256": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+      "locator": "Order102 table1 ЩО",
+      "notes": "Once per working day regardless of shifts; working-day basis not calendar-day conversion.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-a30ae38e7af956a2045e",
+      "subject": {
+        "kind": "class",
+        "id": "UA-trucks-truck-based-buses-4WD-trailers",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "service_to1_interval",
+      "value": {
+        "min": 4000.0,
+        "max": 4000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 4000000.0,
+        "max": 4000000.0,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": "1998-03-30",
+      "context": {
+        "applicabilitySelection": "explicit",
+        "historicalOrder": 102,
+        "priority": "manufacturer-documentation-first"
+      },
+      "sourceId": "ua-order102",
+      "sourceFile": "Data/Vehicle/operations/sources/ua-maintenance-order102.html",
+      "sourceUrl": "https://zakon.rada.gov.ua/laws/show/z0268-98/print",
+      "sourceSha256": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+      "locator": "Order102, section3.9/table1 and note",
+      "notes": "General service interval, not an oil-change interval. Manufacturer documentation prevails; class alone does not identify truck-based-bus applicability.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-967797cabde1630843c5",
+      "subject": {
+        "kind": "class",
+        "id": "UA-trucks-truck-based-buses-4WD-trailers",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "service_to2_interval",
+      "value": {
+        "min": 16000.0,
+        "max": 16000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 16000000.0,
+        "max": 16000000.0,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": "1998-03-30",
+      "context": {
+        "applicabilitySelection": "explicit",
+        "historicalOrder": 102,
+        "priority": "manufacturer-documentation-first"
+      },
+      "sourceId": "ua-order102",
+      "sourceFile": "Data/Vehicle/operations/sources/ua-maintenance-order102.html",
+      "sourceUrl": "https://zakon.rada.gov.ua/laws/show/z0268-98/print",
+      "sourceSha256": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+      "locator": "Order102, section3.9/table1 and note",
+      "notes": "General service interval, not an oil-change interval. Manufacturer documentation prevails; class alone does not identify truck-based-bus applicability.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-26523401bd6323105d95",
+      "subject": {
+        "kind": "class",
+        "id": "UA-trucks-truck-based-buses-4WD-trailers",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "daily_inspection_interval",
+      "value": {
+        "min": 1.0,
+        "max": 1.0,
+        "unit": "working-day",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": "1998-03-30",
+      "context": {},
+      "sourceId": "ua-order102",
+      "sourceFile": "Data/Vehicle/operations/sources/ua-maintenance-order102.html",
+      "sourceUrl": "https://zakon.rada.gov.ua/laws/show/z0268-98/print",
+      "sourceSha256": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+      "locator": "Order102 table1 ЩО",
+      "notes": "Once per working day regardless of shifts; working-day basis not calendar-day conversion.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-7371ee5b70fc98cfbc21",
+      "subject": {
+        "kind": "component",
+        "id": "Toyota-Ukraine-excluding-ProAce",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "service_interval",
+      "value": {
+        "min": 15000.0,
+        "max": 15000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 15000000.0,
+        "max": 15000000.0,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "calendarMonths": 12,
+        "distanceKm": 15000,
+        "modelScheduleRequired": true,
+        "triggerRule": "first-reached"
+      },
+      "sourceId": "toyota-ua",
+      "sourceFile": "Data/Vehicle/operations/sources/toyota-ua-maintenance.html",
+      "sourceUrl": "https://www.toyota.ua/owners/maintenance/tekhnichne-obslugovuvannya",
+      "sourceSha256": "6d59dcd763b1a544ad19372defb4fb722a742155c386b9c8a256608203ff1492",
+      "locator": "Ukraine maintenance periodicity section",
+      "notes": "Manufacturer service deadline, not a claim about every oil type or every Toyota engine. Specific manual/severe-duty schedule still required.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-0c21b08d30c1ec11cb22",
+      "subject": {
+        "kind": "component",
+        "id": "Toyota-ProAce-Ukraine",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "service_interval",
+      "value": {
+        "min": 20000.0,
+        "max": 20000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 20000000.0,
+        "max": 20000000.0,
+        "unit": "m"
+      },
+      "market": "UA",
+      "asOf": null,
+      "context": {
+        "calendarMonths": 12,
+        "distanceKm": 20000,
+        "modelScheduleRequired": true,
+        "triggerRule": "first-reached"
+      },
+      "sourceId": "toyota-ua",
+      "sourceFile": "Data/Vehicle/operations/sources/toyota-ua-maintenance.html",
+      "sourceUrl": "https://www.toyota.ua/owners/maintenance/tekhnichne-obslugovuvannya",
+      "sourceSha256": "6d59dcd763b1a544ad19372defb4fb722a742155c386b9c8a256608203ff1492",
+      "locator": "Ukraine maintenance periodicity section",
+      "notes": "Manufacturer service deadline, not a claim about every oil type or every Toyota engine. Specific manual/severe-duty schedule still required.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-83cead9bad1fc8bb891a",
+      "subject": {
+        "kind": "component",
+        "id": "Cummins-ISB6.7-EPA2010-school-bus",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "oil_filter_interval",
+      "value": {
+        "min": 24000.0,
+        "max": 24000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 24000000.0,
+        "max": 24000000.0,
+        "unit": "m"
+      },
+      "market": "US",
+      "asOf": null,
+      "context": {
+        "calendarMonths": 6,
+        "distanceKm": 24000,
+        "duty": "confirm in serial-specific manual",
+        "engineHours": 500,
+        "triggerRule": "first-reached"
+      },
+      "sourceId": "cummins-isb67",
+      "sourceFile": "Data/Vehicle/operations/sources/cummins-isb67-reviewed.json",
+      "sourceUrl": "https://selfscreening.cummins.com/en-na/engines/products/isb67-epa-2010?application=School+Bus&v=321",
+      "sourceSha256": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2",
+      "locator": "Maintenance table: oil_filter_interval",
+      "notes": "Component/application-specific published table; no transfer to Ashok Leyland/IVECO or allM3 buses. Preserve printed rounded kilometre values.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-26b586028657d9326b9a",
+      "subject": {
+        "kind": "component",
+        "id": "Cummins-ISB6.7-EPA2010-school-bus",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "fuel_filter_interval",
+      "value": {
+        "min": 24000.0,
+        "max": 24000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 24000000.0,
+        "max": 24000000.0,
+        "unit": "m"
+      },
+      "market": "US",
+      "asOf": null,
+      "context": {
+        "calendarMonths": 6,
+        "distanceKm": 24000,
+        "duty": "confirm in serial-specific manual",
+        "engineHours": 500,
+        "triggerRule": "first-reached"
+      },
+      "sourceId": "cummins-isb67",
+      "sourceFile": "Data/Vehicle/operations/sources/cummins-isb67-reviewed.json",
+      "sourceUrl": "https://selfscreening.cummins.com/en-na/engines/products/isb67-epa-2010?application=School+Bus&v=321",
+      "sourceSha256": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2",
+      "locator": "Maintenance table: fuel_filter_interval",
+      "notes": "Component/application-specific published table; no transfer to Ashok Leyland/IVECO or allM3 buses. Preserve printed rounded kilometre values.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-1a7f52e3a0a7f11b07a6",
+      "subject": {
+        "kind": "component",
+        "id": "Cummins-ISB6.7-EPA2010-school-bus",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "coolant_interval",
+      "value": {
+        "min": 96000.0,
+        "max": 96000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 96000000.0,
+        "max": 96000000.0,
+        "unit": "m"
+      },
+      "market": "US",
+      "asOf": null,
+      "context": {
+        "calendarMonths": 24,
+        "distanceKm": 96000,
+        "duty": "confirm in serial-specific manual",
+        "engineHours": 2000,
+        "triggerRule": "first-reached"
+      },
+      "sourceId": "cummins-isb67",
+      "sourceFile": "Data/Vehicle/operations/sources/cummins-isb67-reviewed.json",
+      "sourceUrl": "https://selfscreening.cummins.com/en-na/engines/products/isb67-epa-2010?application=School+Bus&v=321",
+      "sourceSha256": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2",
+      "locator": "Maintenance table: coolant_interval",
+      "notes": "Component/application-specific published table; no transfer to Ashok Leyland/IVECO or allM3 buses. Preserve printed rounded kilometre values.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-632343b3767166af3b0e",
+      "subject": {
+        "kind": "component",
+        "id": "Cummins-ISB6.7-EPA2010-school-bus",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "valve_adjustment_interval",
+      "value": {
+        "min": 241500.0,
+        "max": 241500.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 241500000.0,
+        "max": 241500000.0,
+        "unit": "m"
+      },
+      "market": "US",
+      "asOf": null,
+      "context": {
+        "calendarMonths": 48,
+        "distanceKm": 241500,
+        "duty": "confirm in serial-specific manual",
+        "engineHours": 5000,
+        "triggerRule": "first-reached"
+      },
+      "sourceId": "cummins-isb67",
+      "sourceFile": "Data/Vehicle/operations/sources/cummins-isb67-reviewed.json",
+      "sourceUrl": "https://selfscreening.cummins.com/en-na/engines/products/isb67-epa-2010?application=School+Bus&v=321",
+      "sourceSha256": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2",
+      "locator": "Maintenance table: valve_adjustment_interval",
+      "notes": "Component/application-specific published table; no transfer to Ashok Leyland/IVECO or allM3 buses. Preserve printed rounded kilometre values.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-3fdf5d1d4e0670d706f4",
+      "subject": {
+        "kind": "component",
+        "id": "Cummins-ISB6.7-EPA2010-school-bus",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "dpf_cleaning_interval",
+      "value": {
+        "min": 320000.0,
+        "max": 320000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 320000000.0,
+        "max": 320000000.0,
+        "unit": "m"
+      },
+      "market": "US",
+      "asOf": null,
+      "context": {
+        "distanceKm": 320000,
+        "triggerRule": "distance-only"
+      },
+      "sourceId": "cummins-isb67",
+      "sourceFile": "Data/Vehicle/operations/sources/cummins-isb67-reviewed.json",
+      "sourceUrl": "https://selfscreening.cummins.com/en-na/engines/products/isb67-epa-2010?application=School+Bus&v=321",
+      "sourceSha256": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2",
+      "locator": "Maintenance table: dpf_cleaning_interval",
+      "notes": "Published kilometre deadline; calendar/hour alternative not supplied for this row.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-0ef46e338b5cd2df4d29",
+      "subject": {
+        "kind": "component",
+        "id": "Cummins-ISB6.7-EPA2010-school-bus",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "def_filter_interval",
+      "value": {
+        "min": 320000.0,
+        "max": 320000.0,
+        "unit": "km",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 320000000.0,
+        "max": 320000000.0,
+        "unit": "m"
+      },
+      "market": "US",
+      "asOf": null,
+      "context": {
+        "distanceKm": 320000,
+        "triggerRule": "distance-only"
+      },
+      "sourceId": "cummins-isb67",
+      "sourceFile": "Data/Vehicle/operations/sources/cummins-isb67-reviewed.json",
+      "sourceUrl": "https://selfscreening.cummins.com/en-na/engines/products/isb67-epa-2010?application=School+Bus&v=321",
+      "sourceSha256": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2",
+      "locator": "Maintenance table: def_filter_interval",
+      "notes": "Published kilometre deadline; calendar/hour alternative not supplied for this row.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-db810e7e799e8d267b7f",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "tyre_replacement_count",
+      "value": {
+        "min": 83.0,
+        "max": 83.0,
+        "unit": "event",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 507619,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-c60d91fe3a6d18f63dfa",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "tyre_replacement_exposure",
+      "value": {
+        "min": 6116.0,
+        "max": 6116.0,
+        "unit": "mi/event",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 9842747.904000001,
+        "max": 9842747.904000001,
+        "unit": "m/event"
+      },
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 507619,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-15c161cc1af927d1f130",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "low_voltage_battery_changeouts",
+      "value": {
+        "min": 21.0,
+        "max": 21.0,
+        "unit": "event",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 507619,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-a432d93eca1fc03aa01b",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "availability",
+      "value": {
+        "min": 81.9,
+        "max": 81.9,
+        "unit": "%",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 0.8190000000000001,
+        "max": 0.8190000000000001,
+        "unit": "1"
+      },
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 507619,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.9 tableES-2",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-4440763178aaf76b7705",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "bus_roadcalls",
+      "value": {
+        "min": 22.0,
+        "max": 22.0,
+        "unit": "event",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 507619,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.70 (printed55) table24",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-e594ddc3088d221f1b1b",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "maintenance_cost_per_distance",
+      "value": {
+        "min": 0.364,
+        "max": 0.364,
+        "unit": "currency/mi",
+        "statistic": "exact",
+        "currency": "USD"
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "excludesWarrantyAndAccident": true,
+        "fleetDistanceMi": 507619,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "overlapGroup": "total-maintenance-includes-tyres",
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "priceBasis": "work-order-cost",
+        "scope": "historical-US-operator-fleet",
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.9 tableES-2; p.77 tyre costs",
+      "notes": "Historical work-order costs. Warranty/accident exclusions and normalized labour basis affect comparison; tyre component already belongs to total maintenance.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-b0f8d633c0605212e69f",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "tyre_cost_per_distance",
+      "value": {
+        "min": 0.06,
+        "max": 0.06,
+        "unit": "currency/mi",
+        "statistic": "exact",
+        "currency": "USD"
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "excludesWarrantyAndAccident": true,
+        "fleetDistanceMi": 507619,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "overlapGroup": "total-maintenance-includes-tyres",
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "priceBasis": "work-order-cost",
+        "scope": "historical-US-operator-fleet",
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.9 tableES-2; p.77 tyre costs",
+      "notes": "Historical work-order costs. Warranty/accident exclusions and normalized labour basis affect comparison; tyre component already belongs to total maintenance.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-3e33e0ba9543edfa4d34",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-NewFlyer-CNG-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "tyre_replacement_count",
+      "value": {
+        "min": 74.0,
+        "max": 74.0,
+        "unit": "event",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 787353,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-48956dea75e58ab0c2b3",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-NewFlyer-CNG-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "tyre_replacement_exposure",
+      "value": {
+        "min": 10640.0,
+        "max": 10640.0,
+        "unit": "mi/event",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 17123420.16,
+        "max": 17123420.16,
+        "unit": "m/event"
+      },
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 787353,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-e0c13b098b9f822c03dd",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-NewFlyer-CNG-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "low_voltage_battery_changeouts",
+      "value": {
+        "min": 11.0,
+        "max": 11.0,
+        "unit": "event",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 787353,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-4a3fae9be0a1312484e0",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-NewFlyer-CNG-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "availability",
+      "value": {
+        "min": 93.5,
+        "max": 93.5,
+        "unit": "%",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": {
+        "min": 0.935,
+        "max": 0.935,
+        "unit": "1"
+      },
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 787353,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.9 tableES-2",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-5b14e9bf03721023f302",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-NewFlyer-CNG-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "bus_roadcalls",
+      "value": {
+        "min": 32.0,
+        "max": 32.0,
+        "unit": "event",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "fleetDistanceMi": 787353,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "scope": "historical-US-operator-fleet"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.70 (printed55) table24",
+      "notes": "Measured fleet statistic; vehicle-distance per tyre replacement is not axle-specific tyre life or a periodic replacement recommendation.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-062f217904c71ad9663b",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-NewFlyer-CNG-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "maintenance_cost_per_distance",
+      "value": {
+        "min": 0.354,
+        "max": 0.354,
+        "unit": "currency/mi",
+        "statistic": "exact",
+        "currency": "USD"
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "excludesWarrantyAndAccident": true,
+        "fleetDistanceMi": 787353,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "overlapGroup": "total-maintenance-includes-tyres",
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "priceBasis": "work-order-cost",
+        "scope": "historical-US-operator-fleet",
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.9 tableES-2; p.77 tyre costs",
+      "notes": "Historical work-order costs. Warranty/accident exclusions and normalized labour basis affect comparison; tyre component already belongs to total maintenance.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-bc252f464492e686298c",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-NewFlyer-CNG-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "tyre_cost_per_distance",
+      "value": {
+        "min": 0.04,
+        "max": 0.04,
+        "unit": "currency/mi",
+        "statistic": "exact",
+        "currency": "USD"
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "excludesWarrantyAndAccident": true,
+        "fleetDistanceMi": 787353,
+        "fleetVehicles": 14,
+        "notUniversalDefault": true,
+        "overlapGroup": "total-maintenance-includes-tyres",
+        "periodEnd": "2020-12",
+        "periodStart": "2020-01",
+        "priceBasis": "work-order-cost",
+        "scope": "historical-US-operator-fleet",
+        "taxBasis": "unspecified"
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.9 tableES-2; p.77 tyre costs",
+      "notes": "Historical work-order costs. Warranty/accident exclusions and normalized labour basis affect comparison; tyre component already belongs to total maintenance.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-ca43d9fa9efaac54b93b",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "failure_case",
+      "value": {
+        "min": null,
+        "max": null,
+        "unit": "case",
+        "statistic": "narrative",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "componentLevel": "bus",
+        "downtimeHours": null,
+        "frequencyModel": null
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5 coolant pumps",
+      "notes": "Coolant-pump cracks/leaks, manufacturer warranty replacements; failure counts/downtime absent.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-3488bfc1e531e9d2c6a6",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "failure_case",
+      "value": {
+        "min": null,
+        "max": null,
+        "unit": "case",
+        "statistic": "narrative",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "componentLevel": "bus",
+        "downtimeHours": null,
+        "frequencyModel": null
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5 DC-DC",
+      "notes": "One bus DC-DC converter replaced under warranty; not a periodic replacement interval.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-241f04fcc49197183b7c",
+      "subject": {
+        "kind": "fleet",
+        "id": "Arcadia-Proterra-BEB40E2-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "failure_case",
+      "value": {
+        "min": null,
+        "max": null,
+        "unit": "case",
+        "statistic": "narrative",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "componentLevel": "bus",
+        "downtimeHours": null,
+        "frequencyModel": null
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.78 (printed63) section5.6.5 compressor",
+      "notes": "Several air compressors leaked and were replaced under warranty; exact count/downtime absent.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-84fc82867713f52da6af",
+      "subject": {
+        "kind": "infrastructure",
+        "id": "Pomona-overhead-chargers-2019-2020",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "failure_case",
+      "value": {
+        "min": null,
+        "max": null,
+        "unit": "case",
+        "statistic": "narrative",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "componentLevel": "infrastructure",
+        "downtimeHours": null,
+        "frequencyModel": null
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.53 section4.6.5; p.79-80 section6",
+      "notes": "Charging-contact thermal incidents caused shared-infrastructure downtime; twoPTC chargers unavailable forced fleet substitution.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-b9604a7f56c26b6f6bf9",
+      "subject": {
+        "kind": "fleet",
+        "id": "Pomona-Proterra-fast-charge-fleets",
+        "prototypeId": null,
+        "matchStatus": "not-prototype-specific"
+      },
+      "metric": "failure_case",
+      "value": {
+        "min": null,
+        "max": null,
+        "unit": "case",
+        "statistic": "narrative",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "US",
+      "asOf": "2020-12-31",
+      "context": {
+        "componentLevel": "bus",
+        "downtimeHours": null,
+        "frequencyModel": null
+      },
+      "sourceId": "nrel-80022",
+      "sourceFile": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "sourceUrl": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+      "sourceSha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+      "locator": "PDF p.52-53 (printed37-38) section4.6.5 low-voltage batteries",
+      "notes": "Accessory drain during parked periods contributed to low-voltage battery failures; distinguish from traction battery capacity.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-hp-603bdb3adc55d3e1e38a",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22212-suburban",
+        "prototypeId": "vp-bogdan-a22212-suburban",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "engine_power_unclassified_hp",
+      "value": {
+        "min": 167.0,
+        "max": 167.0,
+        "unit": "hp-unspecified",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "a22212",
+      "sourceFile": "Data/Vehicle/operations/sources/A22212_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "c3069c999aa23c3801dfd18da235e74f81da3646a19163fe344852b5854dd120",
+      "locator": "PDF p.2 engine power",
+      "notes": "Original printed HP/к.с.; mechanical-hp versus metric-PS basis unspecified. No kW conversion or automatic engine adoption.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-hp-2d346cce547ece2917f9",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22212-intercity",
+        "prototypeId": "vp-bogdan-a22212-intercity",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "engine_power_unclassified_hp",
+      "value": {
+        "min": 167.0,
+        "max": 167.0,
+        "unit": "hp-unspecified",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "a22212",
+      "sourceFile": "Data/Vehicle/operations/sources/A22212_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "c3069c999aa23c3801dfd18da235e74f81da3646a19163fe344852b5854dd120",
+      "locator": "PDF p.2 engine power",
+      "notes": "Original printed HP/к.с.; mechanical-hp versus metric-PS basis unspecified. No kW conversion or automatic engine adoption.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-hp-6d6fad7a49c60ed85bb0",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a22412-school-options",
+        "prototypeId": "vp-bogdan-a22412-school-options",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "engine_power_unclassified_hp",
+      "value": {
+        "min": 167.0,
+        "max": 167.0,
+        "unit": "hp-unspecified",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "a22412",
+      "sourceFile": "Data/Vehicle/operations/sources/A22412_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "207c712cdc25820838352153087a7ae7b0ff4df4a7e2b286d5bcb732a5e9860a",
+      "locator": "PDF p.2 engine power",
+      "notes": "Original printed HP/к.с.; mechanical-hp versus metric-PS basis unspecified. No kW conversion or automatic engine adoption.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-hp-b3c8afaa114e90cce27b",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14532-brochure2020",
+        "prototypeId": "vp-bogdan-a14532-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "engine_power_unclassified_hp",
+      "value": {
+        "min": 264.0,
+        "max": 264.0,
+        "unit": "hp-unspecified",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 engine power",
+      "notes": "Original printed HP/к.с.; mechanical-hp versus metric-PS basis unspecified. No kW conversion or automatic engine adoption.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-hp-83829692d25b37462619",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a14542-brochure2020",
+        "prototypeId": "vp-bogdan-a14542-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "engine_power_unclassified_hp",
+      "value": {
+        "min": 264.0,
+        "max": 264.0,
+        "unit": "hp-unspecified",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "a14532",
+      "sourceFile": "Data/Vehicle/operations/sources/A14532_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+      "locator": "PDF p.2 engine power",
+      "notes": "Original printed HP/к.с.; mechanical-hp versus metric-PS basis unspecified. No kW conversion or automatic engine adoption.",
+      "adoption": "explicit-scenario-only"
+    },
+    {
+      "schema": "technical-vehicle-operation-observation/1",
+      "id": "op-hp-1ce4342f5d4c78b95b53",
+      "subject": {
+        "kind": "prototype",
+        "id": "vp-bogdan-a70132-brochure2020",
+        "prototypeId": "vp-bogdan-a70132-brochure2020",
+        "matchStatus": "exact-source-variant"
+      },
+      "metric": "engine_power_unclassified_hp",
+      "value": {
+        "min": 264.0,
+        "max": 264.0,
+        "unit": "hp-unspecified",
+        "statistic": "exact",
+        "currency": null
+      },
+      "canonical": null,
+      "market": "UA",
+      "asOf": null,
+      "context": {},
+      "sourceId": "a70132",
+      "sourceFile": "Data/Vehicle/operations/sources/A70132_en_ua_2020.pdf",
+      "sourceUrl": null,
+      "sourceSha256": "476caa7af83b5cb68a18d5f38c86c53ca70d354c2d3b68f8af4ffb514443e2f6",
+      "locator": "PDF p.2 engine power",
+      "notes": "Original printed HP/к.с.; mechanical-hp versus metric-PS basis unspecified. No kW conversion or automatic engine adoption.",
+      "adoption": "explicit-scenario-only"
+    }
+  ]
+}

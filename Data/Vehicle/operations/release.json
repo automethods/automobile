@@ -1,0 +1,35 @@
+{
+  "schema": "technical-vehicle-operations-release/1",
+  "version": "0.1.2",
+  "datasetId": "dataset.vehicle.operations",
+  "files": {
+    "build.py": "1684f60251140b87154a14f3b8bb2454da6f5401dd3a626017e135dc410a8975",
+    "coverage.csv": "33bdb46953a77b9c6fdc4347397f329dd09ef39a3a6136d2cb27abac41c00deb",
+    "dataset.json": "f9702477e1136c6c54d63553dc7974449293fbec18335ac50e299968441bd2fa",
+    "observations.csv": "38c7fd14e5059cc9109cf9f33d2f5c406176eec0b3d0e1273c7c14649511e5d0",
+    "sources/A14532_en_ua_2020.pdf": "2092cd9bc45f27886be9f33e035df3e90ee4b960c513bded284cb99acafa5ae5",
+    "sources/A22112_en_ua_2020.pdf": "97af94d388c18f91a918ba61061b39df1a0c63e965ecefb352b3b8c81f6fdd9a",
+    "sources/A22212_en_ua_2020.pdf": "c3069c999aa23c3801dfd18da235e74f81da3646a19163fe344852b5854dd120",
+    "sources/A22412_en_ua_2020.pdf": "207c712cdc25820838352153087a7ae7b0ff4df4a7e2b286d5bcb732a5e9860a",
+    "sources/A70132_en_ua_2020.pdf": "476caa7af83b5cb68a18d5f38c86c53ca70d354c2d3b68f8af4ffb514443e2f6",
+    "sources/BYD-eBus-B12.pdf": "e2309b10a472bb69062f6dcbab7d96b6680d4035e5279e4757c2a3da10597240",
+    "sources/GTZ6129BEVR_en.pdf": "8efe2c5ae4caedee4a4afa99218a61c7ddd34f750bb05824fc6199fa26c6fb58",
+    "sources/Scania_bus_20MC225-sv.pdf": "dbdaf0021938898b0ee994858b4b00a5570672a08802419990551fca3a751ece",
+    "sources/Scania_bus_21MC013-sv.pdf": "afb030b41b0f7c7dc2a2f94c4250b5841bb5b1cc8be2f7c5b2e8c3ad5454658f",
+    "sources/Scania_bus_21MC014-sv.pdf": "f2b90cc3d5063cedc6c8a878ed2dae67a0e1f8f228ed792eabcbe3edac0e25e5",
+    "sources/bogdan-school-201906.html": "f33ca47ddc4915517fb93babf93f9e7ad256116a4946848a87c5870ed9e6a94b",
+    "sources/cummins-isb67-reviewed.json": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2",
+    "sources/dealer-a22112.html": "8551b2388ba58fda6a5b650ebaa3c13cd327f892e653efb3f6e9177f2ebf3ed5",
+    "sources/nrel-80022-reviewed.json": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a",
+    "sources/riga-202407-reviewed.json": "d21a8de507d385b67716471a02e923c71ac2fff7683d39a596b1f65577619f0e",
+    "sources/solaris-riga-202212.pdf": "ead1f9b459f495d056833dda459c24a7f2637823d66e2deeb69577978e3d65ce",
+    "sources/toyota-ua-maintenance.html": "6d59dcd763b1a544ad19372defb4fb722a742155c386b9c8a256608203ff1492",
+    "sources/ua-maintenance-order102.html": "9c862d28ef929f02ac88701b38760600e4da4e2e11921e616a2a789751c978aa",
+    "sources/\u041022112.pdf": "51dacce68c7f9ec1c1066792d38754cc79a4f0462b07beb7d177c1ff30f08fdb",
+    "sources.json": "1ba0790adfaf17901953853ba5fe1d3a1dc0cc52d8a460072216a668f2ff1409"
+  },
+  "prototypeRegistry": {
+    "path": "vehicles/vehicle_prototypes.csv",
+    "sha256": "ec8e872a20dc83c938e370acf35db6ab23b30bc873c2bdfb10fe79771b6f919a"
+  }
+}
