@@ -1,0 +1,212 @@
+{
+  "schema": "technical-data-pin/1",
+  "datasetId": "data.driving-cycles",
+  "version": "0.2.0",
+  "consumer": "automobile",
+  "origin": "My_books/vehickle_math_models/data/cycles",
+  "releaseSha256": "454cee789be2b616cfa4e5d364081dd5029bea8e3f05e50df833867fb5c7000b",
+  "generatorSha256": {
+    "build.mjs": "96dbd70ca4d2ce915d4f369247e5bf1bd10416f7953c00994475312423ec7cae",
+    "origin.json": "509d1620be0bed1c75906ce47e680254c5d64b161de2f6f205e5402eeef2c653",
+    "normalise.mjs": "add84d4047a13734228edc5a63ce95907ba12fd29c3405f81b7ec91fb39e61f9",
+    "consumer.mjs": "9b8b7b9d7793098a0a14d52b06f249b65681aee946b365f514c3879170548e9d",
+    "publish.mjs": "b523eb7671fed013293087d2604b220603bfc73e2e67ed45845b1300dd605628",
+    "../../modules/engine-component/maps.mjs": "3f0f0d5ec531149a07ca7ea64dc3636d511f19240b95422d45bd9b4802cf9f68"
+  },
+  "inputs": [
+    {
+      "path": "sources/automobile/Teaching_60_s.csv",
+      "sha256": "016ecb3861d552cc6ca29fa484aee6635ba23c9728de1046f8ca3fda8a2d06ec",
+      "originPath": "Automobile/new/Data/Vehicle/cycles/Teaching_60_s.csv",
+      "originSha256": "016ecb3861d552cc6ca29fa484aee6635ba23c9728de1046f8ca3fda8a2d06ec"
+    },
+    {
+      "path": "sources/automobile/JRC-WLTC/V_class1.txt",
+      "sha256": "f8db1c3b74937d6ca18bcf9b3d8d59806819f6a95d93428928f0fab056b6fd06",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/JRC-WLTC/V_class1.txt",
+      "originSha256": "f8db1c3b74937d6ca18bcf9b3d8d59806819f6a95d93428928f0fab056b6fd06"
+    },
+    {
+      "path": "sources/automobile/JRC-WLTC/V_class2.txt",
+      "sha256": "c3bfbb0ef5925e556f52bbc70072a8fffe9fe2aac159eda552c2953e056a8098",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/JRC-WLTC/V_class2.txt",
+      "originSha256": "c3bfbb0ef5925e556f52bbc70072a8fffe9fe2aac159eda552c2953e056a8098"
+    },
+    {
+      "path": "sources/automobile/JRC-WLTC/V_class3b.txt",
+      "sha256": "3df48abd608c5b01abf5c0d8c64a4e5c030f164b3bd98d4073361b46eb6fef67",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/JRC-WLTC/V_class3b.txt",
+      "originSha256": "3df48abd608c5b01abf5c0d8c64a4e5c030f164b3bd98d4073361b46eb6fef67"
+    },
+    {
+      "path": "sources/automobile/driving-cycles/WLTP_Europe/NEDC.csv",
+      "sha256": "817969c91df3bbac3abaa69246f2057c35059c0b8d71056ed71661380c020dd1",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/driving-cycles/WLTP_Europe/NEDC.csv",
+      "originSha256": "817969c91df3bbac3abaa69246f2057c35059c0b8d71056ed71661380c020dd1"
+    },
+    {
+      "path": "sources/automobile/driving-cycles/EPA/FTP75.csv",
+      "sha256": "4aa0d9c0225262c3785da536588e27c40417053785e1bbc2aa40b327a21d4d1a",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/driving-cycles/EPA/FTP75.csv",
+      "originSha256": "4aa0d9c0225262c3785da536588e27c40417053785e1bbc2aa40b327a21d4d1a"
+    },
+    {
+      "path": "sources/automobile/driving-cycles/EPA/HWFET.csv",
+      "sha256": "9e72aa3b8ba6fa2f2382044025b994148f9a2036d765ab3818897360c8fd9da2",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/driving-cycles/EPA/HWFET.csv",
+      "originSha256": "9e72aa3b8ba6fa2f2382044025b994148f9a2036d765ab3818897360c8fd9da2"
+    },
+    {
+      "path": "sources/automobile/driving-cycles/Artemis/Artemis_Urban.csv",
+      "sha256": "e05a79aee8dae0371976e636d995699687ad2e4b60afd278a3cf4b7285adae06",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_Urban.csv",
+      "originSha256": "e05a79aee8dae0371976e636d995699687ad2e4b60afd278a3cf4b7285adae06"
+    },
+    {
+      "path": "sources/automobile/driving-cycles/Artemis/Artemis_Rural.csv",
+      "sha256": "e639783c972eb1900b3fa4b9b041132b5b297e1e5eb2904968df28410946114a",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_Rural.csv",
+      "originSha256": "e639783c972eb1900b3fa4b9b041132b5b297e1e5eb2904968df28410946114a"
+    },
+    {
+      "path": "sources/automobile/driving-cycles/Artemis/Artemis_HW130.csv",
+      "sha256": "c1fa1354498f72a0ba948ae506fa020f5291f9be36b8a280a0d187d7bb0d6abb",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_HW130.csv",
+      "originSha256": "c1fa1354498f72a0ba948ae506fa020f5291f9be36b8a280a0d187d7bb0d6abb"
+    },
+    {
+      "path": "sources/automobile/driving-cycles/EPA/uddscol.csv",
+      "sha256": "87a833ebee80e994c3d7701d7e905e0231987049006372fa95527f2a0ddb7c3a",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/driving-cycles/EPA/uddscol.csv",
+      "originSha256": "87a833ebee80e994c3d7701d7e905e0231987049006372fa95527f2a0ddb7c3a"
+    },
+    {
+      "path": "sources/automobile/driving-cycles/EPA/US06.csv",
+      "sha256": "3c4495918c5a0ebc6af7caaf85996e90bc7bee7f25b1ed291814136b326c2846",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/driving-cycles/EPA/US06.csv",
+      "originSha256": "3c4495918c5a0ebc6af7caaf85996e90bc7bee7f25b1ed291814136b326c2846"
+    },
+    {
+      "path": "sources/automobile/JRC-WLTC/V_class3a.txt",
+      "sha256": "fdd62f5cfecdcc1c43c05b72a61d1702c8c61e7ebda54d1bbd9c8f921ec45fce",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/JRC-WLTC/V_class3a.txt",
+      "originSha256": "fdd62f5cfecdcc1c43c05b72a61d1702c8c61e7ebda54d1bbd9c8f921ec45fce"
+    },
+    {
+      "path": "sources/automobile/JRC-WLTC/SOURCE.json",
+      "sha256": "3f981335786ab37931e6acbc5d2751a1ae65ddd1de98819f6753314ea13b777e",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/JRC-WLTC/SOURCE.json",
+      "originSha256": "3f981335786ab37931e6acbc5d2751a1ae65ddd1de98819f6753314ea13b777e"
+    },
+    {
+      "path": "sources/automobile/JRC-WLTC/LICENSE.txt",
+      "sha256": "ee72a7de63b9390dea379ce1e560402097e083a3ab0b04b149d2c40aebbe666f",
+      "originPath": "Automobile/new/Data/Vehicle/external-data/JRC-WLTC/LICENSE.txt",
+      "originSha256": "ee72a7de63b9390dea379ce1e560402097e083a3ab0b04b149d2c40aebbe666f"
+    },
+    {
+      "path": "sources/ice/uddscol.csv",
+      "sha256": "87a833ebee80e994c3d7701d7e905e0231987049006372fa95527f2a0ddb7c3a",
+      "originPath": "Engine_motor/ICE/Data/EPA/raw/uddscol.csv",
+      "originSha256": "87a833ebee80e994c3d7701d7e905e0231987049006372fa95527f2a0ddb7c3a"
+    },
+    {
+      "path": "sources/ice/hwycol.csv",
+      "sha256": "906c7b3256882039e06b5f1ca8656a2ab9b3f5db5c39254a6dafefe0b8bc3b67",
+      "originPath": "Engine_motor/ICE/Data/EPA/raw/hwycol.csv",
+      "originSha256": "906c7b3256882039e06b5f1ca8656a2ab9b3f5db5c39254a6dafefe0b8bc3b67"
+    },
+    {
+      "path": "sources/ice/us06col.csv",
+      "sha256": "308f4f6fda090eeba6771811b331816df02aa5b836d5c424f9bad152a19b0b33",
+      "originPath": "Engine_motor/ICE/Data/EPA/raw/us06col.csv",
+      "originSha256": "308f4f6fda090eeba6771811b331816df02aa5b836d5c424f9bad152a19b0b33"
+    }
+  ],
+  "files": {
+    "Data/Vehicle/cycles/presets/teaching-60.csv": "0a5b58fbbf7cd8e44f7641dc6403dc5904f3c478ad00bf88e0663fa2b45f88b2",
+    "Data/Vehicle/cycles/presets/wltc1.csv": "16bb733a8e043741ffa3ec6783bbead7c6d29ccbf508405a5d4dbdb146e25bfb",
+    "Data/Vehicle/cycles/presets/wltc2.csv": "f9bd4c1573a8b3d0723d06e4c4001740f5d033f3f7b2b52574bf47857b216389",
+    "Data/Vehicle/cycles/presets/wltc3.csv": "98b6c3fbd7745f421ef5b34a18e7c906e1b3cf6649f6c913f0e96cc4e43af6f2",
+    "Data/Vehicle/cycles/presets/nedc.csv": "fa4eb542eae328524e12d054373345f2b27e90819d6c44974c8718924ca7ba77",
+    "Data/Vehicle/cycles/presets/ftp75.csv": "42fa2651eb6be24e8fda7c8e112a2cce738b0fea3f6d010af77e026bdbaacab4",
+    "Data/Vehicle/cycles/presets/hwfet.csv": "24d918cdacff45a75b598ef338895aca7f7bfbef1f0fe8cb5dd729983a12b4ae",
+    "Data/Vehicle/cycles/presets/artemis-urban.csv": "f5fc27e2cad6a7f8816683b47da699e73465be6d0d74f17deb6c3b4a191cad31",
+    "Data/Vehicle/cycles/presets/artemis-rural.csv": "3af61e2c17e6adc3a305ec9bc432520e7a99ea0a7b1472ecb4fb9f873ecaffb7",
+    "Data/Vehicle/cycles/presets/artemis-hw130.csv": "aee611a02c127c05a3e4a8c92a91093ed45a7bf81afd77486147d573e28fd618",
+    "Data/Vehicle/cycles/presets/udds.csv": "a06e0dc41119265a5db280dff9a55856d91f46d5ba7fb3037e6a88c477987bb1",
+    "Data/Vehicle/cycles/presets/us06.csv": "cfc053404ebd83d2a59ca9119c7761dd887b15d885dd689c9d3eaab2d97ddeee",
+    "Data/Vehicle/cycles/presets/wltc3a.csv": "88f20f58970b6fb81849e9e141ec317b94ed68902e2743c142ad914eada67ee8",
+    "Data/Vehicle/cycles/presets/manifest.json": "fd6c47e1905e2e52a4a16733cf910969041b50ee46fa8c15d6e6a93e91d9f46d",
+    "Vehickle_calculations_assets/wltc-cycle-data.js": "2d207a0c8918650ff0eee9ba11ffa66e3e7eff621137e820a3c9c2b07d625144",
+    "vendor/technical-data/cycles/normalise.mjs": "add84d4047a13734228edc5a63ce95907ba12fd29c3405f81b7ec91fb39e61f9",
+    "vendor/technical-data/cycles/consumer.mjs": "9b8b7b9d7793098a0a14d52b06f249b65681aee946b365f514c3879170548e9d"
+  },
+  "cycles": {
+    "teaching-60": {
+      "file": "Data/Vehicle/cycles/presets/teaching-60.csv",
+      "sha256": "0a5b58fbbf7cd8e44f7641dc6403dc5904f3c478ad00bf88e0663fa2b45f88b2",
+      "variant": "jrc-or-automobile-source"
+    },
+    "wltc1": {
+      "file": "Data/Vehicle/cycles/presets/wltc1.csv",
+      "sha256": "16bb733a8e043741ffa3ec6783bbead7c6d29ccbf508405a5d4dbdb146e25bfb",
+      "variant": "jrc-or-automobile-source"
+    },
+    "wltc2": {
+      "file": "Data/Vehicle/cycles/presets/wltc2.csv",
+      "sha256": "f9bd4c1573a8b3d0723d06e4c4001740f5d033f3f7b2b52574bf47857b216389",
+      "variant": "jrc-or-automobile-source"
+    },
+    "wltc3": {
+      "file": "Data/Vehicle/cycles/presets/wltc3.csv",
+      "sha256": "98b6c3fbd7745f421ef5b34a18e7c906e1b3cf6649f6c913f0e96cc4e43af6f2",
+      "variant": "jrc-or-automobile-source"
+    },
+    "nedc": {
+      "file": "Data/Vehicle/cycles/presets/nedc.csv",
+      "sha256": "fa4eb542eae328524e12d054373345f2b27e90819d6c44974c8718924ca7ba77",
+      "variant": "jrc-or-automobile-source"
+    },
+    "ftp75": {
+      "file": "Data/Vehicle/cycles/presets/ftp75.csv",
+      "sha256": "42fa2651eb6be24e8fda7c8e112a2cce738b0fea3f6d010af77e026bdbaacab4",
+      "variant": "jrc-or-automobile-source"
+    },
+    "hwfet": {
+      "file": "Data/Vehicle/cycles/presets/hwfet.csv",
+      "sha256": "24d918cdacff45a75b598ef338895aca7f7bfbef1f0fe8cb5dd729983a12b4ae",
+      "variant": "jrc-or-automobile-source"
+    },
+    "artemis-urban": {
+      "file": "Data/Vehicle/cycles/presets/artemis-urban.csv",
+      "sha256": "f5fc27e2cad6a7f8816683b47da699e73465be6d0d74f17deb6c3b4a191cad31",
+      "variant": "jrc-or-automobile-source"
+    },
+    "artemis-rural": {
+      "file": "Data/Vehicle/cycles/presets/artemis-rural.csv",
+      "sha256": "3af61e2c17e6adc3a305ec9bc432520e7a99ea0a7b1472ecb4fb9f873ecaffb7",
+      "variant": "jrc-or-automobile-source"
+    },
+    "artemis-hw130": {
+      "file": "Data/Vehicle/cycles/presets/artemis-hw130.csv",
+      "sha256": "aee611a02c127c05a3e4a8c92a91093ed45a7bf81afd77486147d573e28fd618",
+      "variant": "jrc-or-automobile-source"
+    },
+    "udds": {
+      "file": "Data/Vehicle/cycles/presets/udds.csv",
+      "sha256": "a06e0dc41119265a5db280dff9a55856d91f46d5ba7fb3037e6a88c477987bb1",
+      "variant": "jrc-or-automobile-source"
+    },
+    "us06": {
+      "file": "Data/Vehicle/cycles/presets/us06.csv",
+      "sha256": "cfc053404ebd83d2a59ca9119c7761dd887b15d885dd689c9d3eaab2d97ddeee",
+      "variant": "jrc-or-automobile-source"
+    },
+    "wltc3a": {
+      "file": "Data/Vehicle/cycles/presets/wltc3a.csv",
+      "sha256": "88f20f58970b6fb81849e9e141ec317b94ed68902e2743c142ad914eada67ee8",
+      "variant": "jrc-or-automobile-source"
+    }
+  }
+}
