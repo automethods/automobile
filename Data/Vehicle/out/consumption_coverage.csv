@@ -1,0 +1,739 @@
+prototype_id,make,model,year,observations,legacy_consumption_cells,procedures,source_types,remaining_gap
+vp-5707e1,Alfa Romeo,Giulia,2020.0,8,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-361605,Audi,e-tron Sportback,2020.0,3,1,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-941da3,Audi,e-tron Sportback,2020.0,3,1,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-53afb4,BMW,5 series,2020.0,2,1,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-6f90d7,BMW,5 series,2020.0,0,1,,,no reviewed source match
+vp-46a79e,Ferrari,F8 Spider,2020.0,0,1,,,no reviewed source match
+vp-696d02,Ferrari,SF90 Stradale,2020.0,0,1,,,no reviewed source match
+vp-a9d57a,Ford,Puma,2020.0,0,1,,,no reviewed source match
+vp-d40e97,Ford,Puma,2020.0,0,1,,,no reviewed source match
+vp-a33823,Honda,e,2020.0,0,1,,,no reviewed source match
+vp-05024e,Honda,e,2020.0,0,1,,,no reviewed source match
+vp-b44f4b,Hyundai,i20,2020.0,0,1,,,no reviewed source match
+vp-d0819c,Hyundai,i30,2020.0,0,1,,,no reviewed source match
+vp-fd26b5,Jaguar,E-Pace,2020.0,0,1,,,no reviewed source match
+vp-888713,Kia,Picanto,2020.0,0,1,,,no reviewed source match
+vp-0ba341,Kia,Picanto,2020.0,0,1,,,no reviewed source match
+vp-f48f34,Lamborghini,Aventador,2017.0,0,1,,,no reviewed source match
+vp-f50917,Lamborghini,Urus,2018.0,0,3,,,no reviewed source match
+vp-be0f4f,Land Rover,Range Rover Velar,2020.0,5,1,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-676e93,Lexus,RX,2019.0,0,1,,,no reviewed source match
+vp-d59965,Lexus,RX,2019.0,0,1,,,no reviewed source match
+vp-02597b,Mazda,MX-30,2020.0,1,2,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-c33f36,Mazda,MX-30,2020.0,1,2,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-c6971d,Mercedes,E-class,2020.0,0,1,,,no reviewed source match
+vp-26f825,Mercedes,E-class,2020.0,0,1,,,no reviewed source match
+vp-902fcc,Nissan,Juke,2019.0,0,1,,,no reviewed source match
+vp-e19136,Porsche,Panamera,2020.0,0,3,,,no reviewed source match
+vp-82aa25,Porsche,Panamera,2020.0,0,3,,,no reviewed source match
+vp-711639,Subaru,Forester,2019.0,0,1,,,no reviewed source match
+vp-c0d302,Tesla,Model Y,2021.0,0,1,,,no reviewed source match
+vp-cd6621,Tesla,Model Y,2021.0,0,1,,,no reviewed source match
+vp-6d4aa8,Toyota,C-HR,2020.0,0,3,,,no reviewed source match
+vp-12d960,Toyota,C-HR,2020.0,0,3,,,no reviewed source match
+vp-f491d1,Volkswagen,Golf,2020.0,0,3,,,no reviewed source match
+vp-01c77f,Volkswagen,Up,2020.0,0,1,,,no reviewed source match
+vp-30a1ef,Volvo,V90,2020.0,0,1,,,no reviewed source match
+vp-33e411,Volvo,V90,2020.0,0,1,,,no reviewed source match
+vp-4bfccd,Aprilia,RS-GP,2021.0,0,0,,,no reviewed source match
+vp-62131d,BMW,450 Sports Enduro,2008.0,0,0,,,no reviewed source match
+vp-5ca898,BMW,K1200R,2007.0,0,1,,,no reviewed source match
+vp-e03dc4,BMW,R 1200 Independent,2001.0,0,0,,,no reviewed source match
+vp-b80f4d,Ducati,Monster M750,1999.0,0,1,,,no reviewed source match
+vp-376a30,Ducati,Scrambler Tangerine Icon,2020.0,0,1,,,no reviewed source match
+vp-511aeb,Ducati,V21L,2023.0,0,0,,,no reviewed source match
+vp-624cb9,Harley-Davidson,Deluxe,,0,1,,,year missing; cannot match safely
+vp-f57699,Harley-Davidson,Superlow 120T,,0,1,,,year missing; cannot match safely
+vp-bf29d8,Honda,CB 550 SC,1983.0,0,1,,,no reviewed source match
+vp-f8ca65,Honda,CLR CityFly,2002.0,0,0,,,no reviewed source match
+vp-64d861,Honda,V30 Magna,1984.0,0,1,,,no reviewed source match
+vp-00a4fe,Indian,ME 100,1974.0,0,1,,,no reviewed source match
+vp-d82ef1,KTM,620 EGS,1998.0,0,0,,,no reviewed source match
+vp-bf8727,KTM,Prestige,2006.0,0,0,,,no reviewed source match
+vp-4fdd48,Kawasaki,KE-250,1977.0,0,0,,,no reviewed source match
+vp-c38fc3,Kawasaki,Pulsar 200NS,2017.0,0,0,,,no reviewed source match
+vp-c309c9,Kawasaki,VN 400 Classic,1996.0,0,1,,,no reviewed source match
+vp-a129dd,Lifan,Camel 125,,0,1,,,year missing; cannot match safely
+vp-5d3005,Lifan,Homas 150,,0,1,,,year missing; cannot match safely
+vp-43625a,Suzuki,GS150R,2014.0,0,0,,,no reviewed source match
+vp-792818,Suzuki,RM 400 C,1978.0,0,0,,,no reviewed source match
+vp-96f839,Triumph,New Tiger 800,2011.0,0,0,,,no reviewed source match
+vp-c9b384,Triumph,Rocket X,2015.0,0,1,,,no reviewed source match
+vp-80ac47,Triumph,Tiger,2000.0,0,0,,,no reviewed source match
+vp-0d36ff,Yamaha,GT80 B,1975.0,0,0,,,no reviewed source match
+vp-1d8e69,Yamaha,V-Max Hermes,2011.0,0,1,,,no reviewed source match
+vp-d6a560,Yamaha,YX 600 Radian,1986.0,0,1,,,no reviewed source match
+vp-d3de79,DAF,CF-series,,0,1,,,year missing; cannot match safely
+vp-6b8b2b,DAF,CF-series,,0,1,,,year missing; cannot match safely
+vp-a92407,DAF,CF85.430,,0,1,,,year missing; cannot match safely
+vp-396d03,Fiat,Doblo Cargo,,0,1,,,year missing; cannot match safely
+vp-1d9e7e,Fiat,Doblo Cargo,,0,1,,,year missing; cannot match safely
+vp-f3fec7,Fiat,Doblo Cargo,,0,1,,,year missing; cannot match safely
+vp-dcabfc,Ford,Tourneo Connect,,0,1,,,year missing; cannot match safely
+vp-9ce437,Ford,Transit Connect T200,,0,1,,,year missing; cannot match safely
+vp-072e3d,Ford,Transit Kombi SWB,,0,1,,,year missing; cannot match safely
+vp-df8a95,MAN,10,,0,1,,,year missing; cannot match safely
+vp-638364,MAN,10,,0,1,,,year missing; cannot match safely
+vp-36ce9e,MAN,19.440,,0,1,,,year missing; cannot match safely
+vp-0e6e0c,Mercedes-Benz,4x2,,0,1,,,year missing; cannot match safely
+vp-ca9371,Mercedes-Benz,Actros,,0,1,,,year missing; cannot match safely
+vp-04324a,Mercedes-Benz,Actros,,0,1,,,year missing; cannot match safely
+vp-f06ced,Renault,Master II Van,,0,1,,,year missing; cannot match safely
+vp-76fb6a,Renault,Rapid Van (F40),,0,1,,,year missing; cannot match safely
+vp-6c6027,Renault,Trafic Van (TXX),,0,1,,,year missing; cannot match safely
+vp-add9f4,Scania,New Griffin,,0,1,,,year missing; cannot match safely
+vp-5c5da3,Scania,T,,0,1,,,year missing; cannot match safely
+vp-7f1257,Scania,T,,0,1,,,year missing; cannot match safely
+vp-805801,Toyota,Lite Ace (2 rows of seats),,0,1,,,year missing; cannot match safely
+vp-b5d883,Toyota,Lite Ace (2 rows of seats),,0,1,,,year missing; cannot match safely
+vp-73b91f,Toyota,Lite Ace Van (3 rows of seats),,0,1,,,year missing; cannot match safely
+vp-e75f99,Volkswagen,LT III Van,,0,1,,,year missing; cannot match safely
+vp-a53d15,Volkswagen,LT III Van,,0,1,,,year missing; cannot match safely
+vp-f60e18,Volkswagen,LT III Van,,0,1,,,year missing; cannot match safely
+vp-afa499,Volvo,FH,,0,1,,,year missing; cannot match safely
+vp-fb880b,Volvo,FH,,0,1,,,year missing; cannot match safely
+vp-996a64,Volvo,FM,,0,1,,,year missing; cannot match safely
+vp-934445,Mazda,3 i-Stop,2010,0,0,,,no reviewed source match
+vp-356d1e,Ford,Focus,2012,18,3,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-59b78c,Ford,Fusion,2012,18,3,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-0c7bd3,Audi,A3 4cyl 2WD,2016,0,0,,,no reviewed source match
+vp-50b814,BMW,328d 4cyl 2WD,2016,5,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-262cad,BMW,i3 REx PHEV,2016,0,0,,,no reviewed source match
+vp-22a8b5,Chevrolet,Malibu 4cyl 2WD,2016,10,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-118a2d,Chevrolet,Spark EV,2016,9,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-283497,Chevrolet,Volt,2016,78,3,ANL-dynamometer;EPA;NRCan,independent-test;regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-89314d,Ford,C-MAX (PHEV),2016,8,0,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-4ebdad,Ford,C-MAX HEV,2016,5,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-9e0e18,Ford,Escape 4cyl 2WD,2016,15,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-931fbc,Ford,Explorer 4cyl 2WD,2016,10,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-5a9f76,Hyundai,Elantra 4cyl 2WD,2016,20,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-648f3f,Hyundai,Sonata PHEV,2016,8,0,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-b5fcc9,Hyundai,Tucson Fuel Cell,2016,5,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-24b2fe,Kia,Optima Hybrid,2016,8,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-5c56cb,Leaf,24 kWh,2016,3,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-9837d6,Mitsubishi,i-MiEV,2016,6,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-c9f0f7,Nissan,Leaf 30 kWh,2016,8,3,EPA;NRCan;owner-use;road-test,independent-test;owner-report;regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-9fe796,Tesla,Model S60 2WD,2016,3,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-4ccb6a,Toyota,Camry 4cyl 2WD,2016,10,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-4478b5,Toyota,Corolla 4cyl 2WD,2016,20,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-da4b78,Toyota,Highlander Hybrid,2016,0,0,,,no reviewed source match
+vp-026c10,Toyota,Prius Two FWD,2016,5,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-141613,Chevrolet,Bolt,2017,6,0,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-8f8201,Maruti,Dzire VDI,2017,0,0,,,no reviewed source match
+vp-719c4c,Prius,Prime,2017,8,0,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-f6d72d,Toyota,Highlander 3.5 L,2017,10,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-6a5159,Chevrolet,Colorado 2WD Diesel,2020,5,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-a1cbec,Hero,Splendor+ 100cc,2020,0,0,,,no reviewed source match
+vp-4cdd22,VW,Golf 1.5TSI,2020,0,0,,,no reviewed source match
+vp-7b2a2e,VW,Golf 2.0TDI,2020,0,0,,,no reviewed source match
+vp-df71be,BMW,iX xDrive40,2021,1,0,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-cbeffa,Cupra,Born,2021,0,0,,,no reviewed source match
+vp-76cf5c,Fiat,Panda Mild Hybrid,2021,0,0,,,no reviewed source match
+vp-b2ea93,Honda,N-Box G,2021,0,0,,,no reviewed source match
+vp-7cc062,Peugot,3008,2021,0,0,,,no reviewed source match
+vp-c23578,Ford,F-150 Lightning 4WD,2022,3,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-1e7c52,Mini,Cooper SE Hardtop 2 door,2022,5,0,EPA;NEDC;WLTP,manufacturer;regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-fc6e18,Renault,Megane E-Tech,2022,0,0,,,no reviewed source match
+vp-35fe17,Renault,Zoe ZE50 R135,2022,2,0,ADAC-Ecotest;road-test,independent-test;owner-report,test mass/wheels/cycle trace/battery balance before fitting
+vp-662c7e,Tesla,Model 3 RWD,2022,9,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-ef0d12,Tesla,Model Y RWD,2022,3,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-1b12e8,Toyota,RAV4 Hybrid LE,2022,5,0,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-1607a0,Toyota,Yaris Hybrid Mid,2022,0,0,,,no reviewed source match
+vp-3b2367,Volvo,XC40 Recharge twin,2022,9,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-427487,Mitsubishi,Pajero Sport,2023,0,0,,,no reviewed source match
+vp-ad3e77,Polestar,2 Long range Dual motor,2023,6,0,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-4b8ae9,Volvo,C40 Recharge,2023,3,0,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-d16b2b,BYD,Dolphin Active,2024,1,1,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-44bbae,Toyota,Vios 1.5 G,2024,0,0,,,no reviewed source match
+vp-1c9c27,VinFast,VF e34,2024,0,0,,,no reviewed source match
+vp-f39d81,Volkswagen,Polo 1.0 MPI,2024,0,0,,,no reviewed source match
+vp-777972,BYD,ATTO 3,2023.0,1,1,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-750f81,Bajaj,Boxer 150,,0,0,,,year missing; cannot match safely
+vp-5c258e,Maruti,Swift 4cyl 2WD,2023.0,0,0,,,no reviewed source match
+vp-7717a5,Nissan,Navara,2016.0,0,0,,,no reviewed source match
+vp-33d67e,Renault,Clio IV diesel,2020.0,0,0,,,no reviewed source match
+vp-91346f,Renault,Megane 1.5 dCi Authentique,2020.0,0,0,,,no reviewed source match
+vp-9402d9,Toyota,Corolla Cross Hybrid,2022.0,0,0,,,no reviewed source match
+vp-307890,Toyota,Etios Liva diesel,2020.0,0,0,,,no reviewed source match
+vp-2b190f,Toyota,Hilux Double Cab 4WD,2021.0,0,0,,,no reviewed source match
+vp-76fd4e,Toyota,Mirai,,0,0,,,year missing; cannot match safely
+vp-d43a98,Chevy,Volt,2017.0,0,0,,,no reviewed source match
+vp-6b9a29,Tesla,Model 3,2022.0,6,0,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-fca624,Tesla,Model 3,2022.0,6,0,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-816088,Tesla,Model S,2022.0,12,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-e0a618,Tesla,ModelS,2022.0,3,0,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-a70ec4,Tesla,ModelX,2022.0,3,0,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-d09390,Tesla,ModelX,2022.0,6,0,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-9deca4,Tesla,ModelY,2022.0,3,0,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-aeb7d4,Tesla,ModelY,2022.0,3,0,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-0da141,Audi,e-tron 55 quattro,2021.0,3,3,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-0b1be0,Porsche,Taycan,2020.0,0,0,,,no reviewed source match
+vp-3d66be,Porsche,Taycan,2020.0,0,0,,,no reviewed source match
+vp-e6709a,ВАЗ,ВАЗ-2329,,0,0,,,year missing; cannot match safely
+vp-26e573,ВАЗ,ВАЗ-2329. 2130,,0,0,,,year missing; cannot match safely
+vp-30f418,ВАЗинтерсервис,2346,,0,0,,,year missing; cannot match safely
+vp-85b2b6,ВАЗинтерсервис,2345,,0,0,,,year missing; cannot match safely
+vp-0db096,ВАЗ,ВАЗ-2329 (Лада-Тул),,0,0,,,year missing; cannot match safely
+vp-d0539b,ВАЗ,ВАЗ-1706,,0,0,,,year missing; cannot match safely
+vp-71a9d9,ГАЗ,"ГАЗ-3302. 2707, 2310, 2752",,0,0,,,year missing; cannot match safely
+vp-7dbe97,Арзамасский машиностроительный завод,33022,,0,0,,,year missing; cannot match safely
+vp-00abcc,ГАЗ,ГАЗ 33022. 33028. 2779,,0,0,,,year missing; cannot match safely
+vp-f38fb0,Автомеханический завод,2766,,0,0,,,year missing; cannot match safely
+vp-c3417b,Автосалон Юр Авто,2782,,0,0,,,year missing; cannot match safely
+vp-240359,Багем,27851,,0,0,,,year missing; cannot match safely
+vp-808545,Спектр-Авто,2790,,0,0,,,year missing; cannot match safely
+vp-16d9cb,Спектор-Моторс,3796,,0,0,,,year missing; cannot match safely
+vp-324276,Рустехпрограмм,2797,,0,0,,,year missing; cannot match safely
+vp-2e0b41,Тонар,27551,,0,0,,,year missing; cannot match safely
+vp-d4399e,ИЖ,ИЖ-2717,,0,0,,,year missing; cannot match safely
+vp-e36e62,ИЖ,ИЖ-2717 (мод. 2717-220),,0,0,,,year missing; cannot match safely
+vp-c9dda7,УАЗ,"УАЗ 3303, 3741.3909",,0,0,,,year missing; cannot match safely
+vp-7a4688,Citroen,Citroen Berlingo,,0,0,,,year missing; cannot match safely
+vp-d9af9e,Ford,Ford Transit,,0,0,,,year missing; cannot match safely
+vp-e1af08,Fiat,Fiat Риса1о,,0,0,,,year missing; cannot match safely
+vp-747cae,Fiat,Fiat Зсиао Уап,,0,0,,,year missing; cannot match safely
+vp-defc48,Hyundai,Hyundai Н-1,,0,0,,,year missing; cannot match safely
+vp-a364ae,Iveco,Iveco Daily,,0,0,,,year missing; cannot match safely
+vp-33dc0f,Mazda,Mazda В2500,,0,0,,,year missing; cannot match safely
+vp-8824df,Mercedes,Mercedes-Benz ТО - У,,0,0,,,year missing; cannot match safely
+vp-8a9528,Mercedes,"Mercedes-Benz Т1N ""8рпп!ег""",,0,0,,,year missing; cannot match safely
+vp-917b94,Peugeot,Peugeot Boxer,,0,0,,,year missing; cannot match safely
+vp-2d5b2a,Peugeot,Peugeot Partner,,0,0,,,year missing; cannot match safely
+vp-a0dbef,Renault,Renault Kangoo Express,,0,0,,,year missing; cannot match safely
+vp-5c8a89,Volkswagen,Volkswagen Caddy,,0,0,,,year missing; cannot match safely
+vp-14d185,Volkswagen,"Volkswagen LT28, LT35",,0,0,,,year missing; cannot match safely
+vp-02e680,ЗИЛ,ЗИЛ-4331. 4333. 4421,,0,0,,,year missing; cannot match safely
+vp-9723c6,ЗИЛ,ЗИЛ-5301 (двигатель Са1егрМ1аг),,0,0,,,year missing; cannot match safely
+vp-c58d61,ЗИЛ,ЗИЛ-5301 (двигатель ММЗ),,0,0,,,year missing; cannot match safely
+vp-fdf8b7,КамАЗ,КамАЗ-43114-02. 43116. 43118-02. 44108-02,,0,0,,,year missing; cannot match safely
+vp-ff2c6c,КамАЗ,КамАЗ-53215. 54115. 55111-02,,0,0,,,year missing; cannot match safely
+vp-094670,КамАЗ,"КамАЗ-43114-13. 43116-13, 43118-13, 44108-13",,0,0,,,year missing; cannot match safely
+vp-7068cc,КамАЗ,КамАЗ-4326,,0,0,,,year missing; cannot match safely
+vp-f1424e,КамАЗ,"КамАЗ-53215-13. 54115-13, 55111-13",,0,0,,,year missing; cannot match safely
+vp-880642,МАЗ,МАЗ-6422. 6430. 6301. 6303. 5516 (Евро-2),,0,0,,,year missing; cannot match safely
+vp-780a28,МАЗ,"МАЗ-5336. 5337. 5432, 5433. 5440. 555102 (Евро-2)",,0,0,,,year missing; cannot match safely
+vp-1fc873,МАЗ,"МАЗ-6422, 6425, 6303, 5516 (Евро-0, Евро-1)",,0,0,,,year missing; cannot match safely
+vp-05a2da,МАЗ,"МАЗ-5432. 5433. 5336. 5337, 5551 (Евро-0. Евро-1)",,0,0,,,year missing; cannot match safely
+vp-58e375,МАЗ,МАЗ-Купава-5731 (Евро-0. Евро-1),,0,0,,,year missing; cannot match safely
+vp-48e71c,МАЗ,МАЗ-Купава-5731 (Евро-2),,0,0,,,year missing; cannot match safely
+vp-c65853,МАЗ,МАЗ-Купава-4788,,0,0,,,year missing; cannot match safely
+vp-aae0a5,КамАЗ,КамАЗ-Купава-5741,,0,0,,,year missing; cannot match safely
+vp-c56614,ЗИЛ,ЗИЛ-Купава-3729,,0,0,,,year missing; cannot match safely
+vp-2f1932,ЗИЛ,ЗИЛ-Купава-3729 (Купава-Сервис),,0,0,,,year missing; cannot match safely
+vp-7aa5e8,ЗИЛ,ЗИЛ-Купава~4729,,0,0,,,year missing; cannot match safely
+vp-a93ae9,ГАЗ,ГАЗ-Купава-4738,,0,0,,,year missing; cannot match safely
+vp-15f52b,НЕФАЗ,НЕФАЗ-4208,,0,0,,,year missing; cannot match safely
+vp-27a1af,КамАЗ,КамАЗ-55111,,0,0,,,year missing; cannot match safely
+vp-013b7b,НЕФАЗ,НЕФАЗ-6606,,0,0,,,year missing; cannot match safely
+vp-f20ed8,Автомеханический завод,4753,,0,0,,,year missing; cannot match safely
+vp-a0a9c0,111 Военный завод,4789,,0,0,,,year missing; cannot match safely
+vp-c992fd,Техноспас-НН,3325,,0,0,,,year missing; cannot match safely
+vp-cc781f,ГАЗ,ГАЗ 3307. 3309,,0,0,,,year missing; cannot match safely
+vp-98f5b3,Арзамасский машиностроительный завод,27791,,0,0,,,year missing; cannot match safely
+vp-39414f,Арзамасский машиностроительный завод,4748,,0,0,,,year missing; cannot match safely
+vp-01602c,Сельхозпромлес,4795,,0,0,,,year missing; cannot match safely
+vp-75ca9f,ГАЗ,ГАЗ-САЗ-3507,,0,0,,,year missing; cannot match safely
+vp-779c9f,Тонар,2948,,0,0,,,year missing; cannot match safely
+vp-bf984c,Меткомплекс,27951,,0,0,,,year missing; cannot match safely
+vp-11c8dc,Урал,Урал 4320 (двигатель ЯМЗ-236М2),,0,0,,,year missing; cannot match safely
+vp-791097,Урал,Урал 4320 (двигатель ЯМЗ-238М2),,0,0,,,year missing; cannot match safely
+vp-6027b4,Урал,Урал 44202,,0,0,,,year missing; cannot match safely
+vp-3ec9ff,Iveco,Iveco Daily 50,,0,0,,,year missing; cannot match safely
+vp-3f16a0,Iveco,Iveco Daily 65,,0,0,,,year missing; cannot match safely
+vp-e217f1,MAN,MAN Р2000 / Е2000,,0,0,,,year missing; cannot match safely
+vp-05d787,Mercedes,"Mercedes-Benz Т1N ""Зргт1ег""",,0,0,,,year missing; cannot match safely
+vp-48431b,Mercedes,Mercedes-Benz 1-КМ Atego,,0,0,,,year missing; cannot match safely
+vp-659248,Mercedes,Mercedes-Benz 8КМ Ас!гоз/А!едо 8 (2-осные),,0,0,,,year missing; cannot match safely
+vp-82d525,Mercedes,Mercedes-Benz 8КМ Actros/ АТЕСО 3 (3-осные),,0,0,,,year missing; cannot match safely
+vp-738396,Mercedes,"Mercedes-Benz ЗКМ Ас*гоз (4140. 4148, 4157)",,0,0,,,year missing; cannot match safely
+vp-c613f8,Mercedes,Mercedes-Benz 8КМ Actros 48538,,0,0,,,year missing; cannot match safely
+vp-c0ee91,Mercedes,Mercedes-Benz Axor,,0,0,,,year missing; cannot match safely
+vp-d6e3a7,Mercedes,Mercedes-Benz Atego,,0,0,,,year missing; cannot match safely
+vp-4a6856,Mercedes,Mercedes-Benz 5КЗ,,0,0,,,year missing; cannot match safely
+vp-e1b3fc,Scania,Scania 94.114.124.164,,0,0,,,year missing; cannot match safely
+vp-72742f,Scania,Scania 114. 124. 164,,0,0,,,year missing; cannot match safely
+vp-860e1c,Scania,Scania 114. 124. 164 (cont.),,0,0,,,year missing; cannot match safely
+vp-e1ea02,Tatra,Tatra Т815,,0,0,,,year missing; cannot match safely
+vp-8ae5df,Tatra,Tatra Т163,,0,0,,,year missing; cannot match safely
+vp-6e0b40,Tatra,Tatra Т815 (мод. 25А801),,0,0,,,year missing; cannot match safely
+vp-21957b,Tatra,Tatra Т163 (мод. 36А8К4),,0,0,,,year missing; cannot match safely
+vp-3c84f6,Mitsubishi,Outlander PHEV,2014.0,755,2,NEDC;owner-use,local-log;manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-96b4c6,ГАЗ,ГАЗ-3259-0000010,,0,0,,,year missing; cannot match safely
+vp-69b64b,ГАЗ,ГАЗ-3259-0000010-01,,0,0,,,year missing; cannot match safely
+vp-123b7a,ГАЗ,ГАЗ-322132,,0,0,,,year missing; cannot match safely
+vp-a84fd3,ГАЗ,ГАЗ-322130,,0,0,,,year missing; cannot match safely
+vp-b75e4e,ГАЗ,ГАЗ-322100,,0,0,,,year missing; cannot match safely
+vp-a80d4f,ГАЗ,ГАЗ-3269-0000010,,0,0,,,year missing; cannot match safely
+vp-b07252,ГАЗ,ГАЗ-3269-0000010-02,,0,0,,,year missing; cannot match safely
+vp-06d121,ПАЗ,ПАЗ-3205-110,,0,0,,,year missing; cannot match safely
+vp-85cdee,ПАЗ,ПАЗ-32051-110,,0,0,,,year missing; cannot match safely
+vp-92b243,ПАЗ,ПАЗ-3205-110-50,,0,0,,,year missing; cannot match safely
+vp-77b4e8,ПАЗ,ПАЗ-32051-110-50,,0,0,,,year missing; cannot match safely
+vp-d39498,ПАЗ,ПАЗ-3205-110-60,,0,0,,,year missing; cannot match safely
+vp-99d001,ПАЗ,ПАЗ-32051-110-60,,0,0,,,year missing; cannot match safely
+vp-012023,ПАЗ,ПАЗ-320507-110,,0,0,,,year missing; cannot match safely
+vp-9cdf81,ПАЗ,ПАЗ-320517-110,,0,0,,,year missing; cannot match safely
+vp-79cc80,ПАЗ,ПАЗ-3205-110-20,,0,0,,,year missing; cannot match safely
+vp-e9659c,ПАЗ,ПАЗ-3205-110-21,,0,0,,,year missing; cannot match safely
+vp-b36ec6,ПАЗ,ПАЗ-3205-110-22,,0,0,,,year missing; cannot match safely
+vp-1ffb60,ПАЗ,ПАЗ-3205-110-80,,0,0,,,year missing; cannot match safely
+vp-f0ebfe,Volkswagen,Beetle (Type 1),1974.0,0,0,,,no reviewed source match
+vp-d8ce2d,Volkswagen,Golf,1974.0,0,0,,,no reviewed source match
+vp-4ae922,Lada (VAZ),2101 Zhiguli,1970.0,0,0,,,no reviewed source match
+vp-795fec,Fiat,126,1972.0,0,0,,,no reviewed source match
+vp-09a7e4,Citroen,2CV,1970.0,0,0,,,no reviewed source match
+vp-b100e8,Ford,Escort,1968.0,0,0,,,no reviewed source match
+vp-179447,Renault,4,1984.0,0,0,,,no reviewed source match
+vp-ee2b5d,Renault,5,1972.0,0,0,,,no reviewed source match
+vp-f73037,Austin/Morris,Mini,1978.0,0,0,,,no reviewed source match
+vp-d1b9e0,Trabant,601,1964.0,0,0,,,no reviewed source match
+vp-86dbde,Toyota,Corolla,1979.0,0,0,,,no reviewed source match
+vp-d25ace,Datsun/Nissan,Sunny,1977.0,0,0,,,no reviewed source match
+vp-1620b0,Honda,Civic,1972.0,0,1,,,no reviewed source match
+vp-ee27ff,Opel,Kadett,1973.0,0,1,,,no reviewed source match
+vp-534f66,Chevrolet,Chevette,1976.0,0,0,,,no reviewed source match
+vp-9fae94,Toyota,RAV4,2022.0,13,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-c8872f,Toyota,Camry Hybrid,2021.0,0,1,,,no reviewed source match
+vp-0166fb,Honda,Civic,2023.0,0,1,,,no reviewed source match
+vp-265046,Honda,CR-V,2023.0,3,3,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-1f02fe,Honda,Accord,2023.0,8,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-81336c,Ford,F-150,2021.0,0,3,,,no reviewed source match
+vp-ae64b8,Ford,Ranger,2019.0,0,0,,,no reviewed source match
+vp-30d053,Chevrolet,Silverado 1500,2019.0,0,0,,,no reviewed source match
+vp-cda378,Nissan,Sentra,2020.0,8,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-490c61,Hyundai,Tucson,2022.0,3,3,NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-d4eaa2,Hyundai,Santa Fe,2024.0,0,1,,,no reviewed source match
+vp-f1ac50,Kia,Sportage,2024.0,0,3,,,no reviewed source match
+vp-37ede4,Volkswagen,Golf,2019.0,16,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-6cb0c8,Volkswagen,Tiguan,2019.0,0,3,,,no reviewed source match
+vp-b65958,Skoda,Octavia,2020.0,0,1,,,no reviewed source match
+vp-195eec,Toyota,Hilux,2019.0,0,0,,,no reviewed source match
+vp-c1ab7e,Renault,Clio,2021.0,0,1,,,no reviewed source match
+vp-ff0452,Peugeot,208,2019.0,0,1,,,no reviewed source match
+vp-5bbd64,Dacia,Sandero,2022.0,0,0,,,no reviewed source match
+vp-3ce82c,Toyota,Land Cruiser 300,2021.0,0,0,,,no reviewed source match
+vp-3363f3,Solaris,Urbino 12 electric,2023.0,0,0,,,no reviewed source match
+vp-eaba4e,Škoda,32Tr SOR,2018.0,0,0,,,no reviewed source match
+vp-d62ca0,Mercedes-Benz,eActros,2021.0,0,0,,,no reviewed source match
+vp-3f2855,BMW,i3 REx,2015.0,11,4,EPA;NEDC;NRCan,manufacturer;regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-ac277c,BMW,i3 REx,2017.0,9,1,EPA;NEDC,manufacturer;regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-8dd857,Opel,Ampera,2012.0,0,1,,,no reviewed source match
+vp-ef25ec,Mazda,MX-30 R-EV,2023.0,2,2,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-2bf8a6,LEVC,TX,2018.0,0,0,,,no reviewed source match
+vp-53491b,Mercedes-Benz,Sprinter Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-11b2e1,MAN,TGE Intercity,2020.0,0,0,,,no reviewed source match
+vp-fd36ad,Volkswagen,Multivan,2025.0,0,0,,,no reviewed source match
+vp-adb830,Vauxhall,Vivaro,2025.0,0,1,,,no reviewed source match
+vp-babada,Mercedes-Benz,Vito Crew Van,2022.0,0,1,,,no reviewed source match
+vp-f0edd1,Fiat,Palio 1.7 TD Weekend 70,,0,2,,,year missing; cannot match safely
+vp-a43515,Volkswagen,Gol 1.0,,0,2,,,year missing; cannot match safely
+vp-8ec118,Audi,A3 1.6,,0,2,,,year missing; cannot match safely
+vp-a66a2e,Audi,A3 1.9 TDi,,0,2,,,year missing; cannot match safely
+vp-def712,Audi,TT 1.8,,0,2,,,year missing; cannot match safely
+vp-3ca573,Audi,A4 Avant 2.4,,0,2,,,year missing; cannot match safely
+vp-1b397b,Audi,S4 Avant 2.7 Biturbo,,0,2,,,year missing; cannot match safely
+vp-071619,Audi,A6 1.9 TDi,,0,2,,,year missing; cannot match safely
+vp-e64cbf,Audi,A6 4.2,,0,2,,,year missing; cannot match safely
+vp-3e15f7,Audi,A8 3.7,,0,2,,,year missing; cannot match safely
+vp-730c19,Audi,A8 2.5 TDi,,0,2,,,year missing; cannot match safely
+vp-ed6c6f,BMW,Z3 1.9,,0,2,,,year missing; cannot match safely
+vp-688080,BMW,Z3 3.2,,0,2,,,year missing; cannot match safely
+vp-d66fe6,BMW,316i Compact,,0,2,,,year missing; cannot match safely
+vp-4153fd,BMW,318tds Compact,,0,2,,,year missing; cannot match safely
+vp-693bb7,BMW,320d,,0,2,,,year missing; cannot match safely
+vp-ed7ebe,BMW,323i Touring,,0,2,,,year missing; cannot match safely
+vp-07c75b,BMW,328i,,0,2,,,year missing; cannot match safely
+vp-bc87a8,BMW,530d,,0,2,,,year missing; cannot match safely
+vp-75b2df,BMW,740d,,0,2,,,year missing; cannot match safely
+vp-33a5ba,BMW,840Ci,,0,2,,,year missing; cannot match safely
+vp-0bb2d3,Ford,Ka 1.3,,0,2,,,year missing; cannot match safely
+vp-93b42f,Ford,Puma 1.4,,0,2,,,year missing; cannot match safely
+vp-b26f56,Ford,Fiesta 1.8D,,0,2,,,year missing; cannot match safely
+vp-7ad87d,Ford,Escort 1.6,,0,2,,,year missing; cannot match safely
+vp-72edb9,Ford,Focus 1.6,,0,2,,,year missing; cannot match safely
+vp-d8c8af,Ford,Focus 1.8TD Sedan,,0,2,,,year missing; cannot match safely
+vp-3ff955,Ford,Mondeo 2.0,,0,2,,,year missing; cannot match safely
+vp-d632c2,Ford,Cougar 2.5i,,0,2,,,year missing; cannot match safely
+vp-beef11,Ford,Galaxy 1.9 TDI,,0,2,,,year missing; cannot match safely
+vp-fec1fa,Mercedes-Benz,A 140,,0,2,,,year missing; cannot match safely
+vp-d28427,Mercedes-Benz,A 160 CDI,,0,2,,,year missing; cannot match safely
+vp-7daa9b,Mercedes-Benz,SLK 200,,0,2,,,year missing; cannot match safely
+vp-f51c4a,Mercedes-Benz,SLK 230 Kompressor,,0,2,,,year missing; cannot match safely
+vp-bea30f,Mercedes-Benz,C-240 T,,0,2,,,year missing; cannot match safely
+vp-b7802c,Mercedes-Benz,C 220 CDI,,0,2,,,year missing; cannot match safely
+vp-de887f,Mercedes-Benz,CL 500,,0,0,,,year missing; cannot match safely
+vp-122e1d,Mercedes-Benz,E 280 T 4matic,,0,2,,,year missing; cannot match safely
+vp-6deffe,Mercedes-Benz,E 430,,0,2,,,year missing; cannot match safely
+vp-8f565a,Mercedes-Benz,CLK 200 Kompressor,,0,2,,,year missing; cannot match safely
+vp-c9e643,Mercedes-Benz,S 320,,0,2,,,year missing; cannot match safely
+vp-7c3277,Mercedes-Benz,SL 600,,0,2,,,year missing; cannot match safely
+vp-a9e9cd,Mercedes-Benz,ML 230,,0,2,,,year missing; cannot match safely
+vp-ecbbf5,Opel,Corsa 1.0i,,0,2,,,year missing; cannot match safely
+vp-32e0c1,Opel,Corsa 1.6i,,0,2,,,year missing; cannot match safely
+vp-6b624b,Opel,Astra 1.2i,,0,2,,,year missing; cannot match safely
+vp-49347a,Opel,Astra 2.0i,,0,2,,,year missing; cannot match safely
+vp-80f187,Opel,Zafira 1.8i,,0,2,,,year missing; cannot match safely
+vp-dce491,Opel,Vectra 2.5i,,0,2,,,year missing; cannot match safely
+vp-9aa9b8,Opel,Omega 2.5 TD,,0,2,,,year missing; cannot match safely
+vp-1771d5,Opel,Sintra 2.2i,,0,2,,,year missing; cannot match safely
+vp-5aeaa8,Opel,Frontera 3.2i,,0,2,,,year missing; cannot match safely
+vp-74fb77,Opel,Monterey 3.0 TD,,0,2,,,year missing; cannot match safely
+vp-8a555c,Porsche,Boxster 2.5i,,0,2,,,year missing; cannot match safely
+vp-9ec825,Porsche,911 Carrera 3.4,,0,2,,,year missing; cannot match safely
+vp-a38d06,Porsche,911 GT3 3.6,,0,2,,,year missing; cannot match safely
+vp-52b34c,Volkswagen,Lupo 1.0,,0,2,,,year missing; cannot match safely
+vp-49dc77,Volkswagen,Lupo 1.2 TDI,,0,2,,,year missing; cannot match safely
+vp-7b21ea,Volkswagen,Polo 1.4,,0,2,,,year missing; cannot match safely
+vp-41d3bc,Volkswagen,Polo Variant 1.9 TDI,,0,2,,,year missing; cannot match safely
+vp-511888,Volkswagen,New Beetle 2.0,,0,2,,,year missing; cannot match safely
+vp-f9aa89,Volkswagen,Golf IV 2.3 VR5,,0,2,,,year missing; cannot match safely
+vp-451ffc,Volkswagen,Bora 1.6,,0,2,,,year missing; cannot match safely
+vp-1dc453,Volkswagen,Passat Variant 2.8 Syncro VR6,,0,2,,,year missing; cannot match safely
+vp-d708aa,Volkswagen,Passat 1.9 TDI,,0,2,,,year missing; cannot match safely
+vp-ed5f5c,Volkswagen,Sharan 1.8,,0,2,,,year missing; cannot match safely
+vp-cca33b,Citroën,Saxo 1.0i,,0,2,,,year missing; cannot match safely
+vp-fd07d3,Citroën,Saxo 1.6i,,0,2,,,year missing; cannot match safely
+vp-2f722e,Citroën,Berlingo 1.4i,,0,2,,,year missing; cannot match safely
+vp-acacd7,Citroën,Berlingo 1.9D,,0,2,,,year missing; cannot match safely
+vp-0d9c43,Citroën,Xsara 1.6i,,0,2,,,year missing; cannot match safely
+vp-7feee2,Citroën,Xsara 1.9TD,,0,2,,,year missing; cannot match safely
+vp-9c24d4,Citroën,Xsara Picasso 2.0 TDi,,0,2,,,year missing; cannot match safely
+vp-85f14d,Citroën,Xantia 2.9i,,0,2,,,year missing; cannot match safely
+vp-1b7f11,Citroën,XM 2.5TD,,0,2,,,year missing; cannot match safely
+vp-1592fa,Citroën,Evasion 1.9TD,,0,2,,,year missing; cannot match safely
+vp-d84b48,Smart,0.6,,0,2,,,year missing; cannot match safely
+vp-9751a6,Smart,0.8 TD,,0,2,,,year missing; cannot match safely
+vp-ba7689,Peugeot,106 1.4i,,0,2,,,year missing; cannot match safely
+vp-a378c8,Peugeot,206 2.0i,,0,2,,,year missing; cannot match safely
+vp-ccb2cc,Peugeot,306 1.8i,,0,2,,,year missing; cannot match safely
+vp-dc09f8,Peugeot,306 Break 2.0 TDI,,0,2,,,year missing; cannot match safely
+vp-7bd767,Peugeot,Partner 1.8i,,0,2,,,year missing; cannot match safely
+vp-f4ba3e,Peugeot,406 Break 2.9i,,0,2,,,year missing; cannot match safely
+vp-89fb55,Peugeot,406 2.0 TDi,,0,2,,,year missing; cannot match safely
+vp-643d82,Peugeot,605 2.0i Turbo,,0,2,,,year missing; cannot match safely
+vp-2fc939,Peugeot,806 2.1 TD,,0,2,,,year missing; cannot match safely
+vp-e317dd,Renault,Kangoo 1.1i,,0,2,,,year missing; cannot match safely
+vp-5725ed,Renault,Clio 1.6i,,0,2,,,year missing; cannot match safely
+vp-98995d,Renault,Clio 1.9 D,,0,2,,,year missing; cannot match safely
+vp-7f070a,Renault,Sport Spider,,0,3,,,year missing; cannot match safely
+vp-5aa55e,Renault,Mégane 1.4i,,0,2,,,year missing; cannot match safely
+vp-931760,Renault,Mégane Break 1.9 DTi,,0,2,,,year missing; cannot match safely
+vp-9b90f4,Renault,Mégane Scenic 2.0i,,0,2,,,year missing; cannot match safely
+vp-3fbfd5,Renault,Mégane Cabriolet 2.0i,,0,2,,,year missing; cannot match safely
+vp-1563aa,Renault,Laguna Break 1.8i,,0,2,,,year missing; cannot match safely
+vp-24960a,Renault,Safrane 2.9i,,0,2,,,year missing; cannot match safely
+vp-4e4cd2,Renault,Espace 2.2 TD,,0,2,,,year missing; cannot match safely
+vp-7b9ad7,AC,Ace 4.6i,,0,2,,,year missing; cannot match safely
+vp-52bb8e,Aston Martin,V8 Volante 5.3i Convertible,,0,2,,,year missing; cannot match safely
+vp-957481,Bentley,Arnage 4.4 TI,,0,2,,,year missing; cannot match safely
+vp-ce4796,Bentley,Azure 6.8 TI,,0,2,,,year missing; cannot match safely
+vp-69f0b1,Daimler,V8 4.0i,,0,2,,,year missing; cannot match safely
+vp-930edb,Jaguar,S-Type 3.0i,,0,2,,,year missing; cannot match safely
+vp-e5c101,Jaguar,XKR 4.0i Supercharged,,0,2,,,year missing; cannot match safely
+vp-bb67f0,MG,MGF 1.8i,,0,2,,,year missing; cannot match safely
+vp-f25e72,Rolls-Royce,Silver Seraph 5.4i,,0,2,,,year missing; cannot match safely
+vp-dda7b8,Rover,214 1.4i,,0,2,,,year missing; cannot match safely
+vp-bdfad1,Rover,420 2.0 TD,,0,2,,,year missing; cannot match safely
+vp-5990f7,Rover,75 2.0i,,0,2,,,year missing; cannot match safely
+vp-6f6862,Rover,75 2.0 TDi,,0,2,,,year missing; cannot match safely
+vp-dd2370,Alfa Romeo,145 1.6i T.S.,,0,2,,,year missing; cannot match safely
+vp-26da36,Alfa Romeo,146 1.9 JTD,,0,2,,,year missing; cannot match safely
+vp-07ceb7,Alfa Romeo,156 2.5i,,0,0,,,year missing; cannot match safely
+vp-4781c2,Alfa Romeo,166 2.4 JTD,,0,0,,,year missing; cannot match safely
+vp-354361,Alfa Romeo,GTV 3.0i Spider,,0,0,,,year missing; cannot match safely
+vp-f4d1c5,Ferrari,456 GT 5.5i,,0,0,,,year missing; cannot match safely
+vp-4648a2,Fiat,Seicento 0.9i,,0,0,,,year missing; cannot match safely
+vp-132c02,Fiat,Punto 1.4i.e. Turbo,,0,0,,,year missing; cannot match safely
+vp-6c5a73,Fiat,Coupé 2.0i Turbo,,0,0,,,year missing; cannot match safely
+vp-32a88e,Fiat,Barchetta 1.7i,,0,2,,,year missing; cannot match safely
+vp-14dda0,Fiat,Bravo 1.8i,,0,2,,,year missing; cannot match safely
+vp-ef1254,Fiat,Brava 1.9 JTD,,0,2,,,year missing; cannot match safely
+vp-e88cd8,Fiat,Marea 2.4 TDI,,0,2,,,year missing; cannot match safely
+vp-2d5494,Fiat,Multipla 1.6i Bipower,,0,2,,,year missing; cannot match safely
+vp-94c564,Lamborghini,Diablo SV 5.7i,,0,2,,,year missing; cannot match safely
+vp-165679,Lancia,Y 1.2 i.e.,,0,2,,,year missing; cannot match safely
+vp-693059,Lancia,Delta 2.0 i.e. Turbo HPE,,0,2,,,year missing; cannot match safely
+vp-3e4ee2,Lancia,Dedra 1.9 TD,,0,2,,,year missing; cannot match safely
+vp-a15973,Lancia,Kappa 2.4 JTD,,0,2,,,year missing; cannot match safely
+vp-f6199c,Lancia,Z 2.0 i.e.,,0,2,,,year missing; cannot match safely
+vp-51cbf9,Fiat,Ulysse 2.1 TD,,0,2,,,year missing; cannot match safely
+vp-6521b9,Maserati,3200 GT BiTurbo,,0,2,,,year missing; cannot match safely
+vp-b71a15,Daihatsu,Charade 1.3i,,0,2,,,year missing; cannot match safely
+vp-987751,Honda,Z 0.7 Ti,,0,2,,,year missing; cannot match safely
+vp-a85273,Honda,Logo 1.3i,,0,2,,,year missing; cannot match safely
+vp-e58a72,Honda,Civic Aerodeck 1.5i,,0,2,,,year missing; cannot match safely
+vp-dbcb24,Honda,Accord Coupe 2.0i,,0,2,,,year missing; cannot match safely
+vp-2b0863,Honda,Capa 1.5i,,0,2,,,year missing; cannot match safely
+vp-4ad1f3,Honda,Odyssey 3.5i,,0,2,,,year missing; cannot match safely
+vp-3d5f41,Honda,HR-V 1.6i,,0,2,,,year missing; cannot match safely
+vp-733644,Lexus,IS 200 2.0i,,0,2,,,year missing; cannot match safely
+vp-2186f1,Lexus,GS 300 3.0i,,0,2,,,year missing; cannot match safely
+vp-cc695f,Mazda,AZ Wagon 0.7 Ti,,0,2,,,year missing; cannot match safely
+vp-acc33b,Mazda,Demio 1.3i,,0,2,,,year missing; cannot match safely
+vp-e0ed9b,Mazda,323P 1.5i,,0,2,,,year missing; cannot match safely
+vp-3f75af,Mazda,626 Wagon 2.0i,,0,2,,,year missing; cannot match safely
+vp-4ebd1a,Mitsubishi,Colt 1.6i,,0,2,,,year missing; cannot match safely
+vp-54c2d1,Mitsubishi,Carisma 1.8 GDI,,0,2,,,year missing; cannot match safely
+vp-bab4e8,Mitsubishi,Space Star 1.3i,,0,2,,,year missing; cannot match safely
+vp-7f7650,Nissan,Almera 1.4i,,0,2,,,year missing; cannot match safely
+vp-23cb81,Nissan,Terrano II 2.4i,,0,2,,,year missing; cannot match safely
+vp-19e87e,Subaru,Legacy 2.0i,,0,2,,,year missing; cannot match safely
+vp-008c3a,Suzuki,Wagon R 1.0i,,0,2,,,year missing; cannot match safely
+vp-a86c17,Suzuki,X-90 1.6i,,0,2,,,year missing; cannot match safely
+vp-58eee3,Toyota,Yaris 1.0i,,0,2,,,year missing; cannot match safely
+vp-b0a620,Toyota,Avensis 2.0 TD-CR,,0,2,,,year missing; cannot match safely
+vp-d8a902,Toyota,Picnic 2.0i,,0,2,,,year missing; cannot match safely
+vp-cfb2b2,Daewoo,Matiz 0.8i,,0,2,,,year missing; cannot match safely
+vp-a8b4f4,Daewoo,Lanos 1.3i,,0,2,,,year missing; cannot match safely
+vp-b89d22,Daewoo,Nubira 2.0i,,0,2,,,year missing; cannot match safely
+vp-bf80fe,Hyundai,Atos 1.0i,,0,2,,,year missing; cannot match safely
+vp-b98fff,Hyundai,Coupé 2.0i,,0,2,,,year missing; cannot match safely
+vp-839ebe,Kia,Carnival 2.5i,,0,2,,,year missing; cannot match safely
+vp-060c6f,Saab,9-3 2.0i,,0,2,,,year missing; cannot match safely
+vp-0366f6,Saab,9-3 2.2 TD,,0,2,,,year missing; cannot match safely
+vp-a80ff4,Saab,9-5 2.0i Turbo,,0,2,,,year missing; cannot match safely
+vp-ca9da6,Saab,9-5 3.0i Turbo,,0,2,,,year missing; cannot match safely
+vp-ebf29a,Volvo,S40 1.8i,,0,2,,,year missing; cannot match safely
+vp-4c6e3e,Volvo,V40 1.9 TDI,,0,2,,,year missing; cannot match safely
+vp-ea2369,Volvo,S70 2.0i,,0,2,,,year missing; cannot match safely
+vp-e9c7c5,Volvo,V70 2.4i,,0,2,,,year missing; cannot match safely
+vp-dace4d,Volvo,S80 2.8 T6,,0,2,,,year missing; cannot match safely
+vp-230738,Volvo,C70 2.3i,,0,2,,,year missing; cannot match safely
+vp-278700,SEAT,Arosa 1.0i,,0,2,,,year missing; cannot match safely
+vp-735481,SEAT,Arosa 1.7 SDI,,0,2,,,year missing; cannot match safely
+vp-9ab727,SEAT,Ibiza 1.9 TDI,,0,2,,,year missing; cannot match safely
+vp-4a1fc5,SEAT,Cordoba 2.0i,,0,2,,,year missing; cannot match safely
+vp-ff132f,Škoda,Octavia 1.8 T,,0,2,,,year missing; cannot match safely
+vp-6ce5e3,Buick,Le Sabre 3.8i,,0,2,,,year missing; cannot match safely
+vp-e54d89,Cadillac,Catera 3.0i,,0,2,,,year missing; cannot match safely
+vp-da9ae1,Chevrolet,Impala 3.4i,,0,2,,,year missing; cannot match safely
+vp-1047c4,Chrysler,Stratus 2.5i,,0,2,,,year missing; cannot match safely
+vp-235154,Chrysler,Sebring 2.0i,,0,2,,,year missing; cannot match safely
+vp-4d1f51,Chrysler,300 M 2.7i,,0,2,,,year missing; cannot match safely
+vp-98e74a,Dodge,Caravan 2.4i,,0,2,,,year missing; cannot match safely
+vp-742382,Ford,Windstar 3.8i,,0,2,,,year missing; cannot match safely
+vp-801326,Lincoln,Continental 4.6i,,0,2,,,year missing; cannot match safely
+vp-784064,Mercury,Cougar 2.5i,,0,2,,,year missing; cannot match safely
+vp-cb1c29,Oldsmobile,Alero 2.4i,,0,2,,,year missing; cannot match safely
+vp-81cfba,Plymouth,Voyager 3.0i,,0,2,,,year missing; cannot match safely
+vp-6a45a2,Pontiac,Sunfire 2.2i,,0,2,,,year missing; cannot match safely
+vp-d90cf2,Citroen,2 CV,1949,0,1,,,no reviewed source match
+vp-09b7c0,Moskvich,400,1946,0,1,,,no reviewed source match
+vp-b8a9e9,Volkswagen,Beetle,,0,3,,,year missing; cannot match safely
+vp-f0ba8b,Citroen,2 CV,1958,0,0,,,no reviewed source match
+vp-80a81f,Lotus,Elite,1957,0,0,,,no reviewed source match
+vp-7fbc12,Chevrolet,Suburban,1955,0,0,,,no reviewed source match
+vp-5d1bd9,Volkswagen,Transporter,1950,0,3,,,no reviewed source match
+vp-7f9393,Chevrolet,El Camino,1959,0,0,,,no reviewed source match
+vp-0287fa,GAZ,21 Volga,1956,0,3,,,no reviewed source match
+vp-47b69d,GAZ,21 Volga,1956,0,3,,,no reviewed source match
+vp-b43e4b,Moskvich,423,1959,0,3,,,no reviewed source match
+vp-628ffe,Alfa Romeo,Giulia,1962,0,1,,,no reviewed source match
+vp-810a69,Alfa Romeo,Giulia,1962,0,1,,,no reviewed source match
+vp-1f9522,Chevrolet,Suburban,1960,0,0,,,no reviewed source match
+vp-9f5b16,Chevrolet,Van,1965,0,0,,,no reviewed source match
+vp-d8fa61,Chevrolet,El Camino,1960,0,0,,,no reviewed source match
+vp-d3b775,Alfa Romeo,Giulia,1962,0,1,,,no reviewed source match
+vp-5113ea,Porsche,914,1969,0,1,,,no reviewed source match
+vp-19cbda,Nissan,Bluebird,1964,0,1,,,no reviewed source match
+vp-0168ba,Citroen,2 CV,1975,0,1,,,no reviewed source match
+vp-b8ea41,Aston Martin,Vantage,1977,0,1,,,no reviewed source match
+vp-b5a237,Chevrolet,Suburban,1971,0,0,,,no reviewed source match
+vp-6351b0,Nissan,Bluebird,1971,0,3,,,no reviewed source match
+vp-e9c526,Fiat,126,1972,0,0,,,no reviewed source match
+vp-b5164c,Nissan,Cherry,1970,0,3,,,no reviewed source match
+vp-5f2df9,GAZ,14 Chaika,1977,0,3,,,no reviewed source match
+vp-65ba73,Chevrolet,Van,1978,0,0,,,no reviewed source match
+vp-b36248,IZH,2715,1972,0,0,,,no reviewed source match
+vp-0987d7,Audi,100,1976,0,1,,,no reviewed source match
+vp-df282e,Opel,Kadett,1973,0,0,,,no reviewed source match
+vp-d1785e,Audi,80,1978,0,3,,,no reviewed source match
+vp-c92379,Opel,Kadett,1973,0,0,,,no reviewed source match
+vp-ccb235,Alfa Romeo,S.Z./R.Z.,1988,0,3,,,no reviewed source match
+vp-51d210,Audi,Coupe,1980,0,1,,,no reviewed source match
+vp-28542f,Aro,10,1984,0,0,,,no reviewed source match
+vp-3d2533,Lancia,Gamma,1980,0,0,,,no reviewed source match
+vp-cb2a8f,Nissan,Bluebird,1983,0,1,,,no reviewed source match
+vp-0b2a7c,Chevrolet,Kadett,1989,0,1,,,no reviewed source match
+vp-1f56c9,Peugeot,205 GTi,1983,0,3,,,no reviewed source match
+vp-311f68,Daihatsu,Applause,1989,0,1,,,no reviewed source match
+vp-c93fd4,ZIL,4104,1985,0,3,,,no reviewed source match
+vp-7701e0,Chevrolet,Astro,1985,0,0,,,no reviewed source match
+vp-30f115,Chevrolet,S-10,1982,0,3,,,no reviewed source match
+vp-8bee85,BMW,Z1,1988,0,3,,,no reviewed source match
+vp-ae02bc,Alfa Romeo,164,1987,0,3,,,no reviewed source match
+vp-422231,Nissan,Fairlady Z,1989,0,0,,,no reviewed source match
+vp-64cb5d,Audi,200,1983,0,3,,,no reviewed source match
+vp-1b1d7b,Audi,100,1982,0,0,,,no reviewed source match
+vp-bd7d75,Acura,NSX,1990,0,1,,,no reviewed source match
+vp-86624d,Acura,Integra,1991,5,3,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-c5c91d,Acura,SLX,1996,5,1,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-4328bf,Nissan,Cedric,1991,0,3,,,no reviewed source match
+vp-1d33d6,Alfa Romeo,145,1994,0,3,,,no reviewed source match
+vp-74f034,Alfa Romeo,146,1994,0,3,,,no reviewed source match
+vp-add209,Chevrolet,Astro,1995,0,0,,,no reviewed source match
+vp-0e0d10,Chevrolet,D20,1993,0,0,,,no reviewed source match
+vp-af49a8,AC,Cobra,1990,0,3,,,no reviewed source match
+vp-7477cb,Acura,Integra,1991,5,3,EPA,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-6723d9,Porsche,911,1993,0,3,,,no reviewed source match
+vp-2a9557,Aston Martin,V8 Vantage,1993,0,2,,,no reviewed source match
+vp-37081d,Alfa Romeo,156,1997,0,3,,,no reviewed source match
+vp-6f334d,Alpina,B3,2006,0,3,,,no reviewed source match
+vp-4cfee4,Acura,NSX,2002,0,3,,,no reviewed source match
+vp-f812d8,Acura,MDX,2001,11,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-efa9c2,Citroen,C6,2004,0,3,,,no reviewed source match
+vp-e93114,Alfa Romeo,147,2000,0,3,,,no reviewed source match
+vp-0440ae,Audi,A5,2007,0,3,,,no reviewed source match
+vp-a0bc40,Chevrolet,Express,2003,0,3,,,no reviewed source match
+vp-27f34e,Cadillac,Escalade,2002,0,3,,,no reviewed source match
+vp-d9efe8,Alpina,Roadster S,2003,0,2,,,no reviewed source match
+vp-b13fea,Acura,EL,2001,0,2,,,no reviewed source match
+vp-ac0646,Opel,Speedster,2000,0,3,,,no reviewed source match
+vp-8fe183,Aston Martin,V8 Vantage,2005,0,3,,,no reviewed source match
+vp-c2deba,Alfa Romeo,156,2002,0,3,,,no reviewed source match
+vp-933b12,Alpina,B6,2011,0,3,,,no reviewed source match
+vp-93fcd0,Alfa Romeo,4C,2013,0,3,,,no reviewed source match
+vp-7c5f6d,Acura,MDX,2013,0,3,,,no reviewed source match
+vp-b8a255,TagAZ,Aquila,2012,0,0,,,no reviewed source match
+vp-c2f479,Alfa Romeo,Giulietta,2010,0,3,,,no reviewed source match
+vp-08c869,Audi,A7,2010,0,3,,,no reviewed source match
+vp-e06e83,Hyundai,Equus,2013,11,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-65e0cb,BMW,2 Series Active Tourer,2014,0,3,,,no reviewed source match
+vp-231b08,Chevrolet,Montana,2010,0,0,,,no reviewed source match
+vp-3c6873,Audi,R8,2015,16,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-907466,Alfa Romeo,Giulia,2016,0,3,,,no reviewed source match
+vp-8eea6c,Alfa Romeo,MiTo,2016,0,3,,,no reviewed source match
+vp-3db960,Alpina,D3,2013,0,3,,,no reviewed source match
+vp-5c21b7,Audi,A3,2020,0,3,,,no reviewed source match
+vp-915fbf,GAZ,M-20 Pobeda,1948,0,1,,,no reviewed source match
+vp-4c07e7,Volkswagen,Beetle,,0,3,,,year missing; cannot match safely
+vp-419398,Chevrolet,Suburban,1955,0,0,,,no reviewed source match
+vp-1b4622,Volkswagen,Transporter,1950,0,3,,,no reviewed source match
+vp-7fa6c6,Chevrolet,El Camino,1959,0,0,,,no reviewed source match
+vp-dd509a,GAZ,21 Volga,1958,0,1,,,no reviewed source match
+vp-e89e64,GAZ,21 Volga,1956,0,3,,,no reviewed source match
+vp-37a345,Alfa Romeo,Giulia,1962,0,1,,,no reviewed source match
+vp-1ad335,Alfa Romeo,Giulia,1962,0,0,,,no reviewed source match
+vp-af87f3,Chevrolet,Suburban,1960,0,0,,,no reviewed source match
+vp-682816,Chevrolet,Van,1965,0,0,,,no reviewed source match
+vp-d244d2,Chevrolet,El Camino,1960,0,0,,,no reviewed source match
+vp-c4afd9,Alfa Romeo,Giulia,1962,0,1,,,no reviewed source match
+vp-6cb8e2,Porsche,914,1969,0,0,,,no reviewed source match
+vp-f6459c,Nissan,Bluebird,1964,0,1,,,no reviewed source match
+vp-76c662,Citroen,2 CV,1975,0,1,,,no reviewed source match
+vp-93b2e0,BMW,6 Series,1976,0,3,,,no reviewed source match
+vp-41a69c,Chevrolet,Suburban,1971,0,0,,,no reviewed source match
+vp-ad922c,Nissan,Bluebird,1971,0,1,,,no reviewed source match
+vp-2a763b,Ford,Fiesta,1976,0,3,,,no reviewed source match
+vp-c4cfc6,Chevrolet,Van,1978,0,0,,,no reviewed source match
+vp-63c736,Audi,100,1976,0,1,,,no reviewed source match
+vp-66712f,Opel,Kadett,1973,0,0,,,no reviewed source match
+vp-6b5f6f,Audi,80,1978,0,3,,,no reviewed source match
+vp-6700de,Opel,Kadett,1977,0,0,,,no reviewed source match
+vp-c8e98c,Bentley,Continental,1984,0,3,,,no reviewed source match
+vp-5de17c,Audi,Coupe,1980,0,1,,,no reviewed source match
+vp-05412b,Aro,10,1984,0,2,,,no reviewed source match
+vp-59a2fc,Lancia,Gamma,1980,0,0,,,no reviewed source match
+vp-abaaf8,Nissan,Bluebird,1983,0,1,,,no reviewed source match
+vp-1128aa,Chevrolet,Kadett,1989,0,1,,,no reviewed source match
+vp-761b89,Peugeot,205 GTi,1983,0,3,,,no reviewed source match
+vp-4ea0e9,Daihatsu,Applause,1989,0,1,,,no reviewed source match
+vp-351119,ZIL,4104,1985,0,1,,,no reviewed source match
+vp-42b428,Chevrolet,Astro,1985,0,0,,,no reviewed source match
+vp-7c6691,Chevrolet,S-10,1982,0,3,,,no reviewed source match
+vp-c0e12d,Mercedes-Benz,SL-Class,1989,0,3,,,no reviewed source match
+vp-d59892,Alfa Romeo,164,1987,0,3,,,no reviewed source match
+vp-5ab833,Porsche,911,1989,0,0,,,no reviewed source match
+vp-e03abb,Audi,200,1983,0,2,,,no reviewed source match
+vp-5a8791,Audi,100,1982,0,1,,,no reviewed source match
+vp-1d679e,Alpina,B3,1993,0,1,,,no reviewed source match
+vp-f8a6d9,Alfa Romeo,GTV,1995,0,2,,,no reviewed source match
+vp-e5750e,Acura,SLX,1996,0,1,,,no reviewed source match
+vp-9940da,Nissan,Cedric,1991,0,1,,,no reviewed source match
+vp-8784b8,Alfa Romeo,145,1994,0,3,,,no reviewed source match
+vp-0d8906,Alfa Romeo,146,1994,0,1,,,no reviewed source match
+vp-697e1e,Chevrolet,Astro,1995,0,0,,,no reviewed source match
+vp-5bbbc4,Chevrolet,D20,1993,0,0,,,no reviewed source match
+vp-d32702,AC,Cobra,1990,0,0,,,no reviewed source match
+vp-9da661,Acura,RL,1999,0,2,,,no reviewed source match
+vp-fb2d68,Suzuki,Cappuccino,1991,0,3,,,no reviewed source match
+vp-23bb16,Audi,100,1990,0,3,,,no reviewed source match
+vp-0f8bc5,Audi,100,1990,0,1,,,no reviewed source match
+vp-de9b97,Alpina,B6,2007,0,3,,,no reviewed source match
+vp-65298b,Acura,NSX,2002,11,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-c1d838,Acura,MDX,2001,11,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-5e7e3a,Citroen,C6,2004,0,3,,,no reviewed source match
+vp-8b6203,Alfa Romeo,147,2000,0,3,,,no reviewed source match
+vp-e82370,BMW,5 Series,2009,0,3,,,no reviewed source match
+vp-741f2b,Chevrolet,Express,2003,0,3,,,no reviewed source match
+vp-584626,ChangFeng,Flying,2005,0,1,,,no reviewed source match
+vp-8a0f67,Alpina,Roadster V8,2002,0,3,,,no reviewed source match
+vp-061dc3,Acura,EL,2001,0,2,,,no reviewed source match
+vp-f55fe3,Opel,Speedster,2000,0,3,,,no reviewed source match
+vp-d1b8a7,Aston Martin,V8 Vantage,2005,0,3,,,no reviewed source match
+vp-037c6f,Alpina,B3,2006,0,3,,,no reviewed source match
+vp-a6917e,Audi,A3,2012,0,3,,,no reviewed source match
+vp-c37180,Alpina,B4,2013,0,3,,,no reviewed source match
+vp-04ab13,Acura,RDX,2012,0,3,,,no reviewed source match
+vp-6e77b1,Alfa Romeo,Giulietta,2010,0,1,,,no reviewed source match
+vp-0bcd11,Audi,A7,2010,0,3,,,no reviewed source match
+vp-90734d,BMW,2 Series Active Tourer,2014,0,3,,,no reviewed source match
+vp-d6edc8,Chevrolet,Montana,2010,0,0,,,no reviewed source match
+vp-d5a80f,Audi,R8,2015,16,3,EPA;NRCan,regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-93e24e,Alfa Romeo,Giulia,2016,0,3,,,no reviewed source match
+vp-1596d3,Alfa Romeo,MiTo,2016,0,3,,,no reviewed source match
+vp-d9cf9d,Audi,A4,2011,0,3,,,no reviewed source match
+vp-deab07,Audi,A3,2020,0,3,,,no reviewed source match
+vp-e348be,Volkswagen,Beetle,,0,3,,,year missing; cannot match safely
+vp-f3093f,Chevrolet,Suburban,1955,0,0,,,no reviewed source match
+vp-2a9ccc,Volkswagen,Transporter,1950,0,1,,,no reviewed source match
+vp-0ad162,Chevrolet,El Camino,1959,0,0,,,no reviewed source match
+vp-afdb14,Moskvich,401,1954,0,1,,,no reviewed source match
+vp-4e9dfc,GAZ,21 Volga,1956,0,1,,,no reviewed source match
+vp-f36dfe,Chevrolet,Chevelle,1964,0,3,,,no reviewed source match
+vp-8bb6b5,Alfa Romeo,Giulia,1962,0,1,,,no reviewed source match
+vp-d31c20,Chevrolet,Suburban,1960,0,0,,,no reviewed source match
+vp-d2b760,Chevrolet,Van,1965,0,0,,,no reviewed source match
+vp-da6e96,Chevrolet,El Camino,1960,0,0,,,no reviewed source match
+vp-a31a9b,Alfa Romeo,Giulia,1962,0,0,,,no reviewed source match
+vp-15fe85,Renault,4,1962,0,2,,,no reviewed source match
+vp-08f29b,Volvo,XC60,2027.0,0,0,,,no reviewed source match
+vp-0d9082,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-36ba82,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-540d01,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-78ca54,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-ac398a,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-c628f3,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-cdf3c7,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-d9f681,Volvo,XC90,2025.0,0,0,,,no reviewed source match
+vp-f26977,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-f7e7fd,Ford,Transit Passenger Van,2025.0,0,0,,,no reviewed source match
+vp-c7ea35,Fiat,500,2022.0,0,1,,,no reviewed source match
+vp-7bb5ad,Toyota,Aygo X,2022.0,0,0,,,no reviewed source match
+vp-5beedd,BMW,3 Series,2026.0,0,0,,,no reviewed source match
+vp-da7737,Volkswagen,T-Roc,2026.0,0,0,,,no reviewed source match
+vp-dfac45,Peugeot,2008,2022.0,0,0,,,no reviewed source match
+vp-a59e0f,Renault,Captur,2026.0,0,0,,,no reviewed source match
+vp-f5d8f1,Dacia,Duster,2026.0,0,0,,,no reviewed source match
+vp-889d38,Nissan,Qashqai,2025.0,0,0,,,no reviewed source match
+vp-dff77f,Nissan,Navara,2026.0,0,1,,,no reviewed source match
+vp-1c2f77,Nissan,Navara,2026.0,0,1,,,no reviewed source match
+vp-5d2b72,Nissan,Navara,2026.0,0,1,,,no reviewed source match
+vp-c306d4,Nissan,Navara,2026.0,0,1,,,no reviewed source match
+vp-3c2152,Nissan,Patrol,2026.0,0,3,,,no reviewed source match
+vp-19e181,Nissan,Patrol,2026.0,0,3,,,no reviewed source match
+vp-bmw-i3-94ah-201607-bev,BMW,i3,2016.0,5,0,NEDC;NRCan,manufacturer;regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-bmw-i3-94ah-201607-rex,BMW,i3 REx,2016.0,7,1,NEDC;NRCan,manufacturer;regulatory,test mass/wheels/cycle trace/battery balance before fitting
+vp-bmw-m2-202406-auto,BMW,M2,2024.0,1,0,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-bmw-m2-202406-manual,BMW,M2,2024.0,1,0,WLTP,manufacturer,test mass/wheels/cycle trace/battery balance before fitting
+vp-bogdan-a22112-brochure2020,Bogdan,A22112,,0,0,,,year missing; cannot match safely
+vp-bogdan-a22112-undated6400,Bogdan,A22112,,0,0,,,year missing; cannot match safely
+vp-bogdan-a22212-suburban,Bogdan,A22212,,0,0,,,year missing; cannot match safely
+vp-bogdan-a22212-intercity,Bogdan,A22212,,0,0,,,year missing; cannot match safely
+vp-bogdan-a22412-school-options,Bogdan,A22412,,0,0,,,year missing; cannot match safely
+vp-bogdan-a14532-brochure2020,Bogdan,A14532,,0,0,,,year missing; cannot match safely
+vp-bogdan-a14542-brochure2020,Bogdan,A14542,,0,0,,,year missing; cannot match safely
+vp-bogdan-a70132-brochure2020,Bogdan,A70132,,0,0,,,year missing; cannot match safely
+vp-granton-gtz6129bevr-brochure,Granton,GTZ6129BEVR,,0,0,,,year missing; cannot match safely
+vp-byd-b12b-0929-bps-v3,BYD,B12.b,,0,0,,,year missing; cannot match safely

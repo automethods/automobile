@@ -1,0 +1,883 @@
+{
+  "schema": "battery-calibration-report/1",
+  "version": "1.0.0",
+  "applicationVersion": "0.4.37",
+  "status": "provisional-same-campaign-validation",
+  "autoApply": false,
+  "dataset": {
+    "path": "Data/Vehicle/sources/anl_volt_calibration_features.json",
+    "sha256": "6a4f7c059e38e25df472288909fa77db43ccd07a50dd86accbd334bbc08e9a00",
+    "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+    "prototypeCrosslink": {
+      "prototypeId": "vp-283497",
+      "matchStatus": "compatible-configuration",
+      "limitation": "Prototype trim/wheels are not proven; coefficients belong to the tested vehicle."
+    }
+  },
+  "module": {
+    "id": "module.vehicle.battery-consumption",
+    "version": "0.1.0",
+    "modelId": "effective-battery-energy/1",
+    "implementationSha256": "2aa0da8c47bad30ba9c265dfd88bfda1d9182f0f3dc17333b3c5b2b9ec94e8c0"
+  },
+  "sourceReferences": {
+    "archive": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip",
+    "archiveSha256": "d21ec76c41cd067b73c87f05ef73b6bc188620358937c6b05601defe1e0329eb",
+    "nestedMember": "2016 Chevrolet Volt/All_Data-2016_Chevrolet_Volt.zip",
+    "nestedSha256": "daecfa9c8b158c89ce585367ddb12ac973c6ff6c4b1e609aedcdf1e3aff0ba00",
+    "summaryMember": "2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+    "summarySha256": "3295a20009c2f7e5a105cd70b5205fe668cc63a34d3009e69401fdea3d528afc",
+    "summaryLocator": "page 1 Vehicle Setup Information; charge-depleting rows by test ID and repetition",
+    "descriptionMember": "2016 Chevrolet Volt/Vehicle Description- 2016 Chevrolet Volt.docx",
+    "descriptionSha256": "589539d571e7a48af43a5bb0371bee0cc13e32ca20d063b8935de64a463822db",
+    "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+    "attribution": "Downloadable Dynamometer Database; Advanced Powertrain Research Facility; Argonne National Laboratory; US Department of Energy",
+    "methodologyUrl": "https://publications.anl.gov/anlpubs/2021/08/167512.pdf",
+    "methodologyLocator": "ANL-21/36 section 4.2, printed pages 23-24 (PDF pages 26-27)"
+  },
+  "bounds": {
+    "tractionEnergyMultiplier": [
+      1,
+      2.5
+    ],
+    "regenerationFraction": [
+      0,
+      1
+    ],
+    "auxiliaryPowerW": [
+      0,
+      3000
+    ]
+  },
+  "objective": "Unweighted phase-energy least squares in kWh; bounded effective parameters; no source averaging",
+  "split": {
+    "trainingTestIds": [
+      "61607018",
+      "61607019",
+      "61607020"
+    ],
+    "holdoutTestIds": [
+      "61607021"
+    ],
+    "basis": "Exploratory split after initial data inspection; whole test IDs; holdout UDDS continues the same depletion campaign, not independent external validation"
+  },
+  "fit": {
+    "status": "ok",
+    "moduleId": "module.vehicle.battery-consumption",
+    "moduleVersion": "0.1.0",
+    "parameters": {
+      "tractionEnergyMultiplier": 1.1569939866042083,
+      "regenerationFraction": 0.6754736293524778,
+      "auxiliaryPowerW": 165.17942490673937
+    },
+    "sampleCount": 19,
+    "rmseJ": 199601.5929089359,
+    "normalizedNormalMatrixPivotRatio": 6.1712828806418845,
+    "activeBounds": [],
+    "diagnostics": []
+  },
+  "effectiveTractionEfficiency": 0.8643087272519129,
+  "validation": {
+    "training": {
+      "sampleCount": 19,
+      "rmseJ": 199601.5929089363,
+      "meanAbsolutePercent": 2.1895698864293194,
+      "maxAbsolutePercent": 9.16680385751619
+    },
+    "holdout": {
+      "sampleCount": 2,
+      "rmseJ": 65991.33090021793,
+      "meanAbsolutePercent": 1.320010925031256,
+      "maxAbsolutePercent": 1.666712335196522
+    }
+  },
+  "residuals": [
+    {
+      "id": "anl-volt2016-61607018-phase-1",
+      "testId": "61607018",
+      "cycle": "HWFET",
+      "partition": "training",
+      "observationIds": [
+        "obs-23b4d904a92c9332efdf"
+      ],
+      "measuredBatteryEnergyJ": 7857097.475074151,
+      "predictedBatteryEnergyJ": 7377654.914057072,
+      "residualJ": -479442.56101707835,
+      "residualPercent": -6.102031475847939,
+      "measuredKwhPer100Km": 13.242330674729725,
+      "predictedKwhPer100Km": 12.43427948882185
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-2",
+      "testId": "61607018",
+      "cycle": "HWFET",
+      "partition": "training",
+      "observationIds": [
+        "obs-e889f1ab815db9055e14"
+      ],
+      "measuredBatteryEnergyJ": 7341342.946354903,
+      "predictedBatteryEnergyJ": 7378637.078634494,
+      "residualJ": 37294.1322795907,
+      "residualPercent": 0.5080014998905323,
+      "measuredKwhPer100Km": 12.370580315742686,
+      "predictedKwhPer100Km": 12.433423049291822
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-3",
+      "testId": "61607018",
+      "cycle": "HWFET",
+      "partition": "training",
+      "observationIds": [
+        "obs-128dc69863802fe5da35"
+      ],
+      "measuredBatteryEnergyJ": 7317398.863412003,
+      "predictedBatteryEnergyJ": 7406864.216142533,
+      "residualJ": 89465.35273053031,
+      "residualPercent": 1.2226387327041763,
+      "measuredKwhPer100Km": 12.305114184847811,
+      "predictedKwhPer100Km": 12.455561276975237
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-4",
+      "testId": "61607018",
+      "cycle": "HWFET",
+      "partition": "training",
+      "observationIds": [
+        "obs-b024488c4fecb87e903b"
+      ],
+      "measuredBatteryEnergyJ": 7315031.533127671,
+      "predictedBatteryEnergyJ": 7417683.801051262,
+      "residualJ": 102652.26792359073,
+      "residualPercent": 1.4033058840376582,
+      "measuredKwhPer100Km": 12.278446529884372,
+      "predictedKwhPer100Km": 12.450750692506658
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-5",
+      "testId": "61607018",
+      "cycle": "HWFET",
+      "partition": "training",
+      "observationIds": [
+        "obs-bc91b199a5cad521834a"
+      ],
+      "measuredBatteryEnergyJ": 7216842.844423324,
+      "predictedBatteryEnergyJ": 7346199.63527834,
+      "residualJ": 129356.79085501656,
+      "residualPercent": 1.7924290946002035,
+      "measuredKwhPer100Km": 12.180032001237533,
+      "predictedKwhPer100Km": 12.39835043855933
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-6",
+      "testId": "61607018",
+      "cycle": "HWFET",
+      "partition": "training",
+      "observationIds": [
+        "obs-050912547d2c7dc46655"
+      ],
+      "measuredBatteryEnergyJ": 7254572.182289344,
+      "predictedBatteryEnergyJ": 7355724.65488224,
+      "residualJ": 101152.47259289585,
+      "residualPercent": 1.3943271918892797,
+      "measuredKwhPer100Km": 12.22613365442316,
+      "predictedKwhPer100Km": 12.396605960483509
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-1",
+      "testId": "61607019",
+      "cycle": "US06",
+      "partition": "training",
+      "observationIds": [
+        "obs-7e24bbdcea0c86af2772"
+      ],
+      "measuredBatteryEnergyJ": 8731230.771570073,
+      "predictedBatteryEnergyJ": 8350942.7227328755,
+      "residualJ": -380288.04883719794,
+      "residualPercent": -4.355491897837142,
+      "measuredKwhPer100Km": 18.79760830134289,
+      "predictedKwhPer100Km": 17.97887999479074
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-2",
+      "testId": "61607019",
+      "cycle": "US06",
+      "partition": "training",
+      "observationIds": [
+        "obs-7f43aa7fc70ea78519d3"
+      ],
+      "measuredBatteryEnergyJ": 8146123.11706735,
+      "predictedBatteryEnergyJ": 8294260.199327896,
+      "residualJ": 148137.08226054627,
+      "residualPercent": 1.8184979545690496,
+      "measuredKwhPer100Km": 17.550324232646663,
+      "predictedKwhPer100Km": 17.869476519837576
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-3",
+      "testId": "61607019",
+      "cycle": "US06",
+      "partition": "training",
+      "observationIds": [
+        "obs-d2ba907b05f66524dd52"
+      ],
+      "measuredBatteryEnergyJ": 8193574.689994069,
+      "predictedBatteryEnergyJ": 8297823.7667532265,
+      "residualJ": 104249.0767591577,
+      "residualPercent": 1.2723271673652512,
+      "measuredKwhPer100Km": 17.59909147684565,
+      "predictedKwhPer100Km": 17.82300949891502
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-4",
+      "testId": "61607019",
+      "cycle": "US06",
+      "partition": "training",
+      "observationIds": [
+        "obs-1479687ef69700feaa62"
+      ],
+      "measuredBatteryEnergyJ": 8232365.894746194,
+      "predictedBatteryEnergyJ": 8291231.600789663,
+      "residualJ": 58865.70604346972,
+      "residualPercent": 0.7150521101234965,
+      "measuredKwhPer100Km": 17.688957432894153,
+      "predictedKwhPer100Km": 17.81544269627691
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-5",
+      "testId": "61607019",
+      "cycle": "US06",
+      "partition": "training",
+      "observationIds": [
+        "obs-b3ee50a7a501e0b81f9d"
+      ],
+      "measuredBatteryEnergyJ": 8242585.497131292,
+      "predictedBatteryEnergyJ": 8327598.4697747,
+      "residualJ": 85012.972643408,
+      "residualPercent": 1.0313872106391313,
+      "measuredKwhPer100Km": 17.756843047390664,
+      "predictedKwhPer100Km": 17.939984855594716
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-1",
+      "testId": "61607020",
+      "cycle": "UDDS",
+      "partition": "training",
+      "observationIds": [
+        "obs-dc28df18d1163561674c"
+      ],
+      "measuredBatteryEnergyJ": 5356697.486203313,
+      "predictedBatteryEnergyJ": 4865659.534402555,
+      "residualJ": -491037.951800758,
+      "residualPercent": -9.16680385751619,
+      "measuredKwhPer100Km": 12.402708125204425,
+      "predictedKwhPer100Km": 11.26577619834671
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-2",
+      "testId": "61607020",
+      "cycle": "UDDS",
+      "partition": "training",
+      "observationIds": [
+        "obs-1fdd5f12a6f1a782e2f4"
+      ],
+      "measuredBatteryEnergyJ": 4894155.681411698,
+      "predictedBatteryEnergyJ": 4882964.83893501,
+      "residualJ": -11190.842476688325,
+      "residualPercent": -0.2286572639932936,
+      "measuredKwhPer100Km": 11.330625023091141,
+      "predictedKwhPer100Km": 11.30471672592
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-3",
+      "testId": "61607020",
+      "cycle": "UDDS",
+      "partition": "training",
+      "observationIds": [
+        "obs-7bb58ecf721218e8621a"
+      ],
+      "measuredBatteryEnergyJ": 4883391.058918505,
+      "predictedBatteryEnergyJ": 4899834.179656669,
+      "residualJ": 16443.12073816359,
+      "residualPercent": 0.33671521571334384,
+      "measuredKwhPer100Km": 11.256914547417203,
+      "predictedKwhPer100Km": 11.294818291518206
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-4",
+      "testId": "61607020",
+      "cycle": "UDDS",
+      "partition": "training",
+      "observationIds": [
+        "obs-19ea933b63aeff6f094e"
+      ],
+      "measuredBatteryEnergyJ": 4836857.091471777,
+      "predictedBatteryEnergyJ": 4898998.904768117,
+      "residualJ": 62141.813296339475,
+      "residualPercent": 1.2847560331254428,
+      "measuredKwhPer100Km": 11.189814665000522,
+      "predictedKwhPer100Km": 11.333576484004674
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-5",
+      "testId": "61607020",
+      "cycle": "UDDS",
+      "partition": "training",
+      "observationIds": [
+        "obs-1357893ee3e99ea420d0"
+      ],
+      "measuredBatteryEnergyJ": 4814640.55365259,
+      "predictedBatteryEnergyJ": 4904918.634507597,
+      "residualJ": 90278.08085500728,
+      "residualPercent": 1.8750741586829056,
+      "measuredKwhPer100Km": 11.079066864798344,
+      "predictedKwhPer100Km": 11.286807584603379
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-6",
+      "testId": "61607020",
+      "cycle": "UDDS",
+      "partition": "training",
+      "observationIds": [
+        "obs-7ea4ae075f7756165520"
+      ],
+      "measuredBatteryEnergyJ": 4795291.803564806,
+      "predictedBatteryEnergyJ": 4892239.9767300915,
+      "residualJ": 96948.17316528596,
+      "residualPercent": 2.021736677071768,
+      "measuredKwhPer100Km": 11.060455252384628,
+      "predictedKwhPer100Km": 11.2840685328732
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-7",
+      "testId": "61607020",
+      "cycle": "UDDS",
+      "partition": "training",
+      "observationIds": [
+        "obs-1bff895a396f5313aebd"
+      ],
+      "measuredBatteryEnergyJ": 4746810.436618924,
+      "predictedBatteryEnergyJ": 4857276.60818878,
+      "residualJ": 110466.17156985588,
+      "residualPercent": 2.3271662739609873,
+      "measuredKwhPer100Km": 11.002793952631265,
+      "predictedKwhPer100Km": 11.258847262690319
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-8",
+      "testId": "61607020",
+      "cycle": "UDDS",
+      "partition": "training",
+      "observationIds": [
+        "obs-2b184cb4c6dbba8290cb"
+      ],
+      "measuredBatteryEnergyJ": 4743735.609396868,
+      "predictedBatteryEnergyJ": 4873971.461827279,
+      "residualJ": 130235.85243041068,
+      "residualPercent": 2.7454281425892795,
+      "measuredKwhPer100Km": 10.986511613202856,
+      "predictedKwhPer100Km": 11.288138394920566
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-1",
+      "testId": "61607021",
+      "cycle": "UDDS",
+      "partition": "holdout",
+      "observationIds": [
+        "obs-071ca3e33df1c250ba78"
+      ],
+      "measuredBatteryEnergyJ": 4854976.744275113,
+      "predictedBatteryEnergyJ": 4902230.694871673,
+      "residualJ": 47253.950596560724,
+      "residualPercent": 0.9733095148659897,
+      "measuredKwhPer100Km": 11.154637289974003,
+      "predictedKwhPer100Km": 11.26320643606611
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-2",
+      "testId": "61607021",
+      "cycle": "UDDS",
+      "partition": "holdout",
+      "observationIds": [
+        "obs-ea222b037a63dbb4c7e8"
+      ],
+      "measuredBatteryEnergyJ": 4828572.733388045,
+      "predictedBatteryEnergyJ": 4909051.150749359,
+      "residualJ": 80478.41736131441,
+      "residualPercent": 1.666712335196522,
+      "measuredKwhPer100Km": 11.10650830835672,
+      "predictedKwhPer100Km": 11.291621852341727
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "anl-volt2016-61607018-phase-7",
+      "testId": "61607018",
+      "reasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen"
+      ],
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 47123,
+        "lastDataLine": 54771,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": [
+        "obs-4616b49fd83c1d2d97fb"
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-8",
+      "testId": "61607018",
+      "reasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 54913,
+        "lastDataLine": 62561,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": []
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-9",
+      "testId": "61607018",
+      "reasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 62723,
+        "lastDataLine": 70371,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": []
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-6",
+      "testId": "61607019",
+      "reasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen"
+      ],
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 30313,
+        "lastDataLine": 36311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": [
+        "obs-f42ae7a8d92db702aa11"
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-7",
+      "testId": "61607019",
+      "reasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 36313,
+        "lastDataLine": 42311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": []
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-8",
+      "testId": "61607019",
+      "reasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 42313,
+        "lastDataLine": 48311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": []
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-9",
+      "testId": "61607019",
+      "reasons": [
+        "stationary-tail-or-incomplete-cycle",
+        "fuel-channel-above-0.01-g-per-s-screen"
+      ],
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 48313,
+        "lastDataLine": 48618,
+        "intervalCount": 305,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": []
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-3",
+      "testId": "61607021",
+      "reasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen"
+      ],
+      "source": {
+        "member": "61607021 Test Data.txt",
+        "sha256": "9a51688209db8537d3201ad863c044adfdbed6d0b28067bd23efc51563535560",
+        "firstDataLine": 27773,
+        "lastDataLine": 41501,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 5,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": [
+        "obs-e670e02f6402b2853d46"
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-4",
+      "testId": "61607021",
+      "reasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "source": {
+        "member": "61607021 Test Data.txt",
+        "sha256": "9a51688209db8537d3201ad863c044adfdbed6d0b28067bd23efc51563535560",
+        "firstDataLine": 41503,
+        "lastDataLine": 55221,
+        "intervalCount": 13718,
+        "fractionalPhaseSamplesExcluded": 5,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": []
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-5",
+      "testId": "61607021",
+      "reasons": [
+        "stationary-tail-or-incomplete-cycle"
+      ],
+      "source": {
+        "member": "61607021 Test Data.txt",
+        "sha256": "9a51688209db8537d3201ad863c044adfdbed6d0b28067bd23efc51563535560",
+        "firstDataLine": 55223,
+        "lastDataLine": 55568,
+        "intervalCount": 345,
+        "fractionalPhaseSamplesExcluded": 5,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "observationIds": []
+    }
+  ],
+  "uncertainty": {
+    "basis": "Leave-one-training-test-out sensitivity; descriptive stress range, not a confidence interval",
+    "runs": [
+      {
+        "omittedTestId": "61607018",
+        "fit": {
+          "status": "ok",
+          "moduleId": "module.vehicle.battery-consumption",
+          "moduleVersion": "0.1.0",
+          "parameters": {
+            "tractionEnergyMultiplier": 1.09882211876586,
+            "regenerationFraction": 0.47117277747683284,
+            "auxiliaryPowerW": 0
+          },
+          "sampleCount": 13,
+          "rmseJ": 190333.98785175412,
+          "normalizedNormalMatrixPivotRatio": 1860.0055173902515,
+          "activeBounds": [
+            "auxiliaryPowerW"
+          ],
+          "diagnostics": [
+            "auxiliaryPowerW: optimum on parameter bound"
+          ]
+        },
+        "holdout": {
+          "sampleCount": 2,
+          "rmseJ": 66532.31956933171,
+          "meanAbsolutePercent": 1.3236944774292096,
+          "maxAbsolutePercent": 1.699839232892595
+        },
+        "omittedCycle": {
+          "sampleCount": 6,
+          "rmseJ": 411211.2402816922,
+          "meanAbsolutePercent": 4.6838554904967085,
+          "maxAbsolutePercent": 10.501132227644131
+        }
+      },
+      {
+        "omittedTestId": "61607019",
+        "fit": {
+          "status": "ok",
+          "moduleId": "module.vehicle.battery-consumption",
+          "moduleVersion": "0.1.0",
+          "parameters": {
+            "tractionEnergyMultiplier": 1.0973379181653307,
+            "regenerationFraction": 1,
+            "auxiliaryPowerW": 1052.105010932426
+          },
+          "sampleCount": 14,
+          "rmseJ": 201396.1230279205,
+          "normalizedNormalMatrixPivotRatio": 19730.866976062087,
+          "activeBounds": [
+            "regenerationFraction"
+          ],
+          "diagnostics": [
+            "regenerationFraction: optimum on parameter bound"
+          ]
+        },
+        "holdout": {
+          "sampleCount": 2,
+          "rmseJ": 66451.04958498481,
+          "meanAbsolutePercent": 1.3463979435128026,
+          "maxAbsolutePercent": 1.6199692363109321
+        },
+        "omittedCycle": {
+          "sampleCount": 5,
+          "rmseJ": 979529.5373192675,
+          "meanAbsolutePercent": 11.453507078313148,
+          "maxAbsolutePercent": 15.754972991654009
+        }
+      },
+      {
+        "omittedTestId": "61607020",
+        "fit": {
+          "status": "ok",
+          "moduleId": "module.vehicle.battery-consumption",
+          "moduleVersion": "0.1.0",
+          "parameters": {
+            "tractionEnergyMultiplier": 1,
+            "regenerationFraction": 0.4356739592329826,
+            "auxiliaryPowerW": 1290.4956579267089
+          },
+          "sampleCount": 11,
+          "rmseJ": 203120.52408697095,
+          "normalizedNormalMatrixPivotRatio": 14752.676136297363,
+          "activeBounds": [
+            "tractionEnergyMultiplier"
+          ],
+          "diagnostics": [
+            "tractionEnergyMultiplier: optimum on parameter bound"
+          ]
+        },
+        "holdout": {
+          "sampleCount": 2,
+          "rmseJ": 1375884.063601016,
+          "meanAbsolutePercent": 28.415827114865593,
+          "maxAbsolutePercent": 28.855517854856778
+        },
+        "omittedCycle": {
+          "sampleCount": 8,
+          "rmseJ": 1329885.8602951372,
+          "meanAbsolutePercent": 27.12196498527398,
+          "maxAbsolutePercent": 30.503038018211665
+        }
+      }
+    ],
+    "parameterRanges": {
+      "tractionEnergyMultiplier": {
+        "min": 1,
+        "max": 1.1569939866042083
+      },
+      "regenerationFraction": {
+        "min": 0.4356739592329826,
+        "max": 1
+      },
+      "auxiliaryPowerW": {
+        "min": 0,
+        "max": 1290.4956579267089
+      }
+    }
+  },
+  "rejectedExperiments": [
+    {
+      "id": "raw-dyno-effort-as-total-wheel-energy",
+      "status": "rejected-unresolved-force-basis",
+      "trainingTestIds": [
+        "61607019",
+        "61607020"
+      ],
+      "holdoutTestIds": [
+        "61607018",
+        "61607021"
+      ],
+      "fit": {
+        "status": "ok",
+        "moduleId": "module.vehicle.battery-consumption",
+        "moduleVersion": "0.1.0",
+        "parameters": {
+          "tractionEnergyMultiplier": 1.7243429833881827,
+          "regenerationFraction": 1,
+          "auxiliaryPowerW": 637.8823055767325
+        },
+        "sampleCount": 13,
+        "rmseJ": 179938.86218398722,
+        "normalizedNormalMatrixPivotRatio": 2306.986684192323,
+        "activeBounds": [
+          "regenerationFraction"
+        ],
+        "diagnostics": [
+          "regenerationFraction: optimum on parameter bound"
+        ]
+      },
+      "validation": {
+        "sampleCount": 8,
+        "rmseJ": 1275820.7581289415,
+        "meanAbsolutePercent": 15.169414529492892,
+        "maxAbsolutePercent": 20.460270839316934
+      },
+      "reason": "Raw effort does not reproduce declared target resistance; dynamometer vehicle-loss/set-coefficient contribution is unresolved. Held-out highway prediction also misses about 20%. No guessed force correction is applied."
+    }
+  ],
+  "limitations": [
+    "Holdout repeats are from the same UDDS depletion campaign; external generalization is unverified",
+    "Only three training test IDs; leave-one-test-out stress exposes limited parameter identifiability",
+    "Wheel energy is reconstructed from declared target road load and delta=1, not measured axle energy",
+    "Raw dynamometer effort is retained but its vehicle-loss/set-coefficient basis is unresolved",
+    "Battery IV integral and published summary energy remain distinct; neither is plug-side consumption",
+    "Unknown wheels/payload and compatible prototype crosslink prevent adoption as prototype properties",
+    "No fuel, thermal/SOC, battery ageing, WLTP or WLTC subclass calibration"
+  ]
+}

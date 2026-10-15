@@ -1,0 +1,33 @@
+{
+  "title": "Cummins ISB6.7 EPA2010 School Bus maintenance table",
+  "url": "https://selfscreening.cummins.com/en-na/engines/products/isb67-epa-2010?application=School+Bus&v=321",
+  "reviewedAt": "2026-10-08",
+  "facts": {
+    "oilFilter": {
+      "km": 24000,
+      "mi": 15000,
+      "h": 500,
+      "months": 6
+    },
+    "fuelFilters": {
+      "km": 24000,
+      "h": 500,
+      "months": 6
+    },
+    "valveAdjustment": {
+      "km": 241500,
+      "h": 5000,
+      "months": 48
+    },
+    "coolant": {
+      "km": 96000,
+      "h": 2000,
+      "months": 24
+    },
+    "defFilterKm": 320000,
+    "dpfCleaningKm": 320000
+  },
+  "artifactType": "reviewed-web-extraction",
+  "originalPdfSha256": null,
+  "note": "Manufacturer web table reviewed. Direct HTML retrieval failed; artifact hash identifies this review, not original HTML. Confirm engine serial/duty/manual before adoption."
+}
