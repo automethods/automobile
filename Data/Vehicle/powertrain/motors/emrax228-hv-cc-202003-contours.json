@@ -1,0 +1,4461 @@
+{
+  "format": "powertrain-component-package/1",
+  "componentType": "motor",
+  "component": {
+    "id": "emrax228-hv-cc-202003-contours",
+    "name": "EMRAX 228 HV CC — 2020 contour bands",
+    "maxRpm": 5500,
+    "peakNm": 230,
+    "continuousNm": 96,
+    "peakKW": 109,
+    "continuousKW": 62,
+    "peakPhaseArms": 240,
+    "continuousPhaseArms": 115,
+    "torqueConstantNmArms": 1.1,
+    "voltageRequired": 680,
+    "peakDutySeconds": 1,
+    "massKg": 12.3,
+    "phaseResistanceOhm25": 0.0167,
+    "voltageEnvelope": {
+      "maximumTerminalVoltageV": 680,
+      "maxLoadRpmPerV": 8,
+      "noLoadRpmPerV": 9.8,
+      "policy": "conservative-max-load"
+    },
+    "ratingProvenance": {
+      "sourceUrl": "https://emrax.com/wp-content/uploads/2020/03/emrax_228_technical_data_table_graphs_5.4.pdf",
+      "sourcePdfSha256": "2f9432c2c5d652e210c5b77977098a92e5d2b950cff500a9e658010e2b2c7897",
+      "locator": "PDF p.1 HV/CC table; p.2 continuous torque graph and p.3 cooling notes",
+      "catalogueContinuousTorqueNm": 120,
+      "adoptedContinuousTorqueNm": 96,
+      "continuousTorqueBasis": "Conservative minimum of published CC continuous-torque curve, rather than assuming 120 Nm at every speed.",
+      "peakDutyBasis": "1 second explicitly adopted conservatively; source says few seconds for peak torque and 2 minutes for peak current. Not a manufacturer-guaranteed peak-torque duration.",
+      "limitingSpeedBasis": "5500 rpm sustained limit; optional 6500 rpm field weakening is excluded."
+    },
+    "source": "EMRAX 228 HV / combined cooled; 2020-03-05 manual 5.4, PDF pp.1–3",
+    "sourceClass": "processed-model-map",
+    "boundary": "motor-only",
+    "lossModel": "numeric-map",
+    "map": {
+      "format": "powertrain-grid/1",
+      "id": "emrax228-hv-cc-202003-contours",
+      "componentId": "emrax228-hv-cc-202003-contours",
+      "quantity": "loss_w",
+      "boundary": "motor-only",
+      "evidence": "processed-model-map",
+      "source": "EMRAX 228 HV / combined cooled; 2020-03-05 manual 5.4, PDF pp.1–3",
+      "sourceVersion": "2020-03-05/manual-5.4",
+      "rpm": [
+        250,
+        500,
+        750,
+        1000,
+        1250,
+        1500,
+        1750,
+        2000,
+        2250,
+        2500,
+        2750,
+        3000,
+        3250,
+        3500,
+        3750,
+        4000,
+        4250,
+        4500,
+        4750,
+        5000,
+        5250,
+        5500
+      ],
+      "torqueNm": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200,
+        210,
+        220,
+        230
+      ],
+      "values": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          340.9480399244738,
+          426.1850499055922,
+          511.4220598867107,
+          596.6590698678291,
+          681.8960798489476,
+          767.1330898300661,
+          852.3700998111844,
+          937.6071097923029,
+          1022.8441197734214,
+          1108.08112975454,
+          1193.3181397356582,
+          1278.5551497167767,
+          1363.7921596978952,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          383.56654491503303,
+          511.42205988671077,
+          639.2775748583884,
+          767.1330898300661,
+          894.9886048017439,
+          698.1317007977322,
+          785.3981633974487,
+          872.6646259971652,
+          959.9310885968818,
+          1047.1975511965982,
+          1134.4640137963147,
+          1221.7304763960312,
+          1917.8327245751652,
+          2045.688239546843,
+          2173.5437545185205,
+          2301.3992694901985,
+          2429.254784461876,
+          2557.110299433554,
+          2684.965814405231,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          511.4220598867107,
+          681.8960798489476,
+          852.3700998111844,
+          698.131700797732,
+          814.4869842640207,
+          930.8422677303095,
+          1047.1975511965982,
+          1163.5528346628869,
+          1279.9081181291754,
+          1396.263401595464,
+          1512.6186850617528,
+          1628.9739685280415,
+          1745.3292519943302,
+          1861.684535460619,
+          1978.0398189269076,
+          2094.3951023931963,
+          2210.750385859485,
+          3409.480399244738,
+          3579.9544192069748,
+          3750.4284391692117,
+          3920.9024591314487
+        ],
+        [
+          null,
+          null,
+          426.1850499055922,
+          639.2775748583884,
+          852.3700998111844,
+          727.2205216643043,
+          872.6646259971652,
+          584.8709727427805,
+          668.423968848892,
+          751.9769649550035,
+          835.529961061115,
+          919.0829571672264,
+          1002.6359532733379,
+          1086.1889493794495,
+          1169.741945485561,
+          1253.2949415916723,
+          1336.847937697784,
+          1420.4009338038954,
+          2617.9938779914955,
+          2763.437982324356,
+          2908.8820866572173,
+          3054.326190990078,
+          3199.7702953229386,
+          4901.128073914311
+        ],
+        [
+          null,
+          null,
+          511.42205988671077,
+          767.1330898300661,
+          1022.8441197734215,
+          872.6646259971652,
+          1047.1975511965982,
+          701.8451672913367,
+          802.1087626186704,
+          902.3723579460042,
+          1002.6359532733379,
+          909.4083997233603,
+          992.081890607302,
+          1074.755381491244,
+          1157.4288723751858,
+          1240.1023632591275,
+          1322.7758541430694,
+          1704.4811205646745,
+          1804.7447158920083,
+          3316.125578789228,
+          3490.658503988661,
+          3665.1914291880935,
+          3839.724354387527,
+          4014.2572795869596
+        ],
+        [
+          null,
+          null,
+          596.6590698678291,
+          894.9886048017437,
+          1193.3181397356582,
+          1018.1087303300259,
+          701.8451672913366,
+          818.8193618398925,
+          935.7935563884487,
+          868.0716542813892,
+          964.5240603126546,
+          839.9397025222725,
+          916.2978572970246,
+          1253.881278406451,
+          1350.3336844377163,
+          1446.786090468982,
+          1543.2384965002475,
+          1988.5613073254533,
+          2105.5355018740097,
+          2222.5096964225654,
+          4072.4349213201035,
+          4276.056667386109,
+          4479.678413452114,
+          4683.3001595181195
+        ],
+        [
+          null,
+          null,
+          681.8960798489476,
+          1022.8441197734214,
+          1363.7921596978952,
+          1163.5528346628869,
+          802.1087626186703,
+          935.7935563884487,
+          881.8505694287129,
+          785.3981633974497,
+          872.6646259971662,
+          959.9310885968829,
+          1047.1975511965995,
+          1433.0071753216582,
+          1543.2384965002475,
+          1653.4698176788365,
+          1763.7011388574258,
+          2272.641494086233,
+          2406.326287856011,
+          2540.0110816257893,
+          4654.2113386515475,
+          4886.921905584125,
+          5119.6324725167015,
+          5352.343039449279
+        ],
+        [
+          null,
+          null,
+          767.1330898300662,
+          1150.6996347450993,
+          1534.2661796601324,
+          1308.996938995748,
+          902.3723579460042,
+          868.0716542813894,
+          785.3981633974498,
+          883.5729338221311,
+          981.7477042468123,
+          1079.9224746714933,
+          1178.0972450961747,
+          1612.133072236866,
+          1736.1433085627789,
+          1860.1535448886914,
+          1984.1637812146043,
+          2556.721680847012,
+          2707.117073838013,
+          2857.512466829013,
+          3007.9078598200144,
+          5497.787143782141,
+          5759.58653158129,
+          6021.38591938044
+        ],
+        [
+          null,
+          null,
+          852.3700998111844,
+          1278.555149716777,
+          1704.740199622369,
+          1454.4410433286087,
+          1002.6359532733379,
+          964.5240603126548,
+          872.6646259971662,
+          981.7477042468121,
+          1090.830782496458,
+          1199.9138607461036,
+          1308.9969389957496,
+          1791.2589691520732,
+          1929.0481206253096,
+          2066.837272098546,
+          2204.626423571782,
+          2342.4155750450186,
+          3007.907859820014,
+          3175.013852032237,
+          3342.11984424446,
+          6108.652381980156,
+          6399.540590645877,
+          6690.4287993115995
+        ],
+        [
+          null,
+          null,
+          937.6071097923028,
+          1406.4106646884543,
+          1875.2142195846056,
+          1599.885147661469,
+          1102.8995486006716,
+          1060.97646634392,
+          959.9310885968828,
+          1079.922474671493,
+          1199.9138607461034,
+          1319.9052468207137,
+          1439.8966328953243,
+          1970.38486606728,
+          2121.95293268784,
+          2273.5209993084,
+          2425.08906592896,
+          2576.6571325495197,
+          3308.6986458020147,
+          3492.51523723546,
+          3676.331828668905,
+          6719.517620178171,
+          7039.494649710464,
+          7359.471679242758
+        ],
+        [
+          null,
+          null,
+          1022.8441197734215,
+          1534.2661796601321,
+          2045.688239546843,
+          1745.3292519943304,
+          1203.1631439280054,
+          1157.4288723751858,
+          1047.1975511965998,
+          1178.0972450961747,
+          1308.9969389957496,
+          1439.8966328953245,
+          1570.7963267948994,
+          2149.510762982488,
+          2314.8577447503717,
+          2480.204726518255,
+          2645.551708286139,
+          3408.962241129349,
+          3609.4894317840167,
+          3810.0166224386844,
+          4010.5438130933517,
+          7330.382858376187,
+          7679.448708775054,
+          8028.514559173919
+        ],
+        [
+          null,
+          null,
+          1108.08112975454,
+          1662.12169463181,
+          2216.16225950908,
+          1890.7733563271913,
+          1303.4267392553395,
+          1520.6645291312293,
+          1433.0071753216585,
+          1276.2720155208558,
+          1418.0800172453953,
+          1559.8880189699348,
+          1701.6960206944743,
+          2328.636659897695,
+          2507.7625568129024,
+          2686.8884537281097,
+          2866.014350643317,
+          3693.0424278901282,
+          3910.2802177660183,
+          4127.518007641908,
+          4344.755797517798,
+          7941.248096574203,
+          8319.402767839641,
+          8697.55743910508
+        ],
+        [
+          null,
+          null,
+          null,
+          1789.9772096034874,
+          2386.6362794713164,
+          2036.2174606600518,
+          1403.6903345826731,
+          1637.638723679785,
+          1543.2384965002475,
+          1374.446785945537,
+          1527.1630954950408,
+          1679.879405044545,
+          1832.5957145940492,
+          2507.762556812902,
+          2700.6673688754327,
+          2893.572180937964,
+          3086.476993000495,
+          3977.1226146509066,
+          4211.071003748019,
+          4445.019392845131,
+          4678.967781942243,
+          8552.113334772219,
+          8959.356826904228,
+          9366.600319036239
+        ],
+        [
+          null,
+          null,
+          null,
+          1917.8327245751652,
+          2557.110299433554,
+          2181.661564992913,
+          1503.953929910007,
+          1754.6129182283416,
+          2005.2719065466758,
+          1860.1535448886914,
+          1636.246173744687,
+          1799.8707911191557,
+          2480.204726518255,
+          2686.8884537281097,
+          2893.5721809379643,
+          3100.255908147819,
+          3306.9396353576735,
+          4261.202801411687,
+          4511.861789730021,
+          4762.520778048355,
+          5013.17976636669,
+          9162.978572970234,
+          9599.310885968818,
+          10035.6431989674
+        ],
+        [
+          null,
+          null,
+          null,
+          2045.6882395468429,
+          2727.5843193957903,
+          2327.1056693257738,
+          2792.526803190928,
+          1871.5871127768974,
+          2138.9567003164543,
+          1984.163781214604,
+          2204.626423571782,
+          2425.0890659289603,
+          2645.5517082861384,
+          2866.0143506433164,
+          3086.476993000495,
+          3306.939635357673,
+          3527.4022777148516,
+          4545.282988172466,
+          4812.652575712022,
+          5080.022163251579,
+          5347.391750791136,
+          9773.84381116825,
+          10239.264945033403,
+          10704.686078898558
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          2898.0583393580273,
+          3622.572924197534,
+          2967.0597283903617,
+          1988.5613073254535,
+          2272.641494086233,
+          2556.7216808470116,
+          2342.4155750450186,
+          2576.65713254952,
+          2810.898690054022,
+          3045.140247558524,
+          3279.381805063026,
+          3513.6233625675277,
+          4545.282988172466,
+          4829.363174933244,
+          5113.443361694023,
+          5397.523548454802,
+          5681.603735215582,
+          10384.709049366265,
+          10879.219004097991,
+          11373.728958829719
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          3068.5323593202647,
+          3835.665449150331,
+          3141.5926535897947,
+          3665.1914291880944,
+          2406.3262878560113,
+          2707.117073838013,
+          3007.9078598200144,
+          2728.2251991700805,
+          2976.245671821906,
+          3224.266144473732,
+          3472.2866171255578,
+          3720.3070897773828,
+          4812.652575712023,
+          5113.443361694024,
+          5414.234147676026,
+          5715.024933658026,
+          6015.815719640029,
+          10995.574287564283,
+          11519.17306316258,
+          12042.77183876088
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          4858.509568923751,
+          3868.813175254099,
+          4421.50077171897,
+          2857.5124668290127,
+          3175.013852032237,
+          3492.5152372354605,
+          3810.016622438684,
+          4127.518007641907,
+          4445.019392845132,
+          4762.520778048355,
+          5080.022163251579,
+          5397.523548454802,
+          5715.0249336580255,
+          6032.526318861251,
+          6350.027704064474,
+          11606.439525762296,
+          12159.127122227168,
+          12711.81471869204
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          5966.590698678292,
+          6818.960798489476,
+          5235.987755982991,
+          5817.764173314435,
+          3676.3318286689055,
+          4010.5438130933517,
+          4344.755797517798,
+          4678.967781942244,
+          5013.179766366689,
+          5347.391750791136,
+          5681.603735215582,
+          6015.815719640028,
+          6350.027704064474,
+          11635.52834662887,
+          12217.304763960312,
+          12799.081181291755,
+          13380.857598623199
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          8054.897443215694,
+          6108.652381980156,
+          6719.5176201781715,
+          7330.382858376187,
+          4561.9935873936865,
+          4912.9161710393555,
+          5263.838754685024,
+          5614.7613383306925,
+          5965.68392197636,
+          6316.606505622029,
+          6667.529089267697,
+          12217.304763960312,
+          12828.170002158326,
+          13439.035240356343,
+          14049.900478554357
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          10313.678207715331,
+          11251.285317507634,
+          8319.40276783964,
+          13126.499537092239,
+          14064.106646884542,
+          15001.713756676845,
+          15939.320866469146,
+          16876.927976261453,
+          17814.535086053755,
+          18752.142195846056,
+          19689.74930563836,
+          20627.356415430662,
+          21564.963525222964
+        ]
+      ],
+      "validityMask": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      ],
+      "operatingEnvelope": {
+        "rpm": [
+          0,
+          4500,
+          5500
+        ],
+        "maxTorqueNm": [
+          230,
+          230,
+          214
+        ],
+        "minTorqueNm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "testConditions": {
+        "cooling": "combined: 20 m/s air, 25 C ambient; 8 L/min coolant at 50 C",
+        "voltageV": 680,
+        "temperature": "Winding and magnet absolute limit 120 C; actual map test temperature unreported"
+      },
+      "provenance": {
+        "sourceUrl": "https://emrax.com/wp-content/uploads/2020/03/emrax_228_technical_data_table_graphs_5.4.pdf",
+        "sourcePdfSha256": "2f9432c2c5d652e210c5b77977098a92e5d2b950cff500a9e658010e2b2c7897",
+        "sourceImageSha256": "8e34cfd0e18f4aebd60cbcc71b51dd4b71147e74632c5d5bae44b940289e7833",
+        "contourSha256": "bf7be413625c78f14d45e2c0b4c97d52d10a95c34d082c2677674fd4504c32a8",
+        "locator": "2020-03-05 edition 5.4, PDF page 2, lower EMRAX 228 CC motor efficiency chart; embedded Image20",
+        "method": "Lower efficiency bound of the containing published contour band; loss = shaft power * (1 / lower_bound - 1). Strictly inside contour, two-pixel margin. Bilinear interpolation is derived and may cross contour bands; it is not a measured loss table.",
+        "uncertainty": {
+          "pixelMargin": 2,
+          "rpmAnchorPixels": 1,
+          "torqueAnchorPixels": 1,
+          "efficiencyBounds": [
+            {
+              "rpm": 250,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 30,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 40,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 50,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 60,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 70,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 80,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 90,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 100,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 110,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 120,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 130,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 140,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 150,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 160,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 170,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 180,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 190,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 200,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 210,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 220,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 250,
+              "torqueNm": 230,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 30,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 170,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 180,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 190,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 200,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 210,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 220,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 500,
+              "torqueNm": 230,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 220,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 750,
+              "torqueNm": 230,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1000,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1250,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1500,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 1750,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2000,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2250,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2500,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 2750,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3000,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 20,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3250,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3500,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.96,
+              "efficiencyUpperBound": 0.98
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 3750,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 30,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4000,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 30,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4250,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 30,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 40,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 50,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.95,
+              "efficiencyUpperBound": 0.96
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4500,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 30,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 40,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 50,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 60,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 4750,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 30,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 40,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 50,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 60,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 70,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 80,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5000,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 30,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 40,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 50,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 60,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 70,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 80,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 90,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 100,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.94,
+              "efficiencyUpperBound": 0.95
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5250,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 0,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 10,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 20,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 30,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 40,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 50,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 60,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 70,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 80,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 90,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 100,
+              "efficiencyLowerBound": null,
+              "efficiencyUpperBound": null
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 110,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 120,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 130,
+              "efficiencyLowerBound": 0.9,
+              "efficiencyUpperBound": 0.94
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 140,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 150,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 160,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 170,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 180,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 190,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 200,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 210,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 220,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            },
+            {
+              "rpm": 5500,
+              "torqueNm": 230,
+              "efficiencyLowerBound": 0.86,
+              "efficiencyUpperBound": 0.9
+            }
+          ]
+        },
+        "regenPolicy": "No negative-torque data; regeneration not supported, never reflected.",
+        "standbyPolicy": "Zero torque and zero speed not mapped; no standby/copper-loss assumption fabricated.",
+        "limitations": [
+          "Historical 2020 winding/cooling, not interchangeable with v1.7 ratings.",
+          "Conservative contour bands, not point measurements; no independent experimental validation.",
+          "No map voltage/temperature variation; inverter efficiency must be declared separately."
+        ]
+      }
+    }
+  },
+  "sha256": "2f1280043e646734515bbe7a7f2b1656bb173eddb834af4790e3fc9701f45613"
+}

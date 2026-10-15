@@ -1,0 +1,262 @@
+{
+  "schema": "battery-external-validation-report/1",
+  "version": "1.0.0",
+  "applicationVersion": "0.4.41",
+  "status": "independent-different-day-operating-regime",
+  "autoApply": false,
+  "refitted": false,
+  "frozenFit": {
+    "path": "Data/Vehicle/out/consumption_calibration/anl_volt_fit.json",
+    "sha256": "610ad520efb9d78eec724a1f0d9ca9a0e0be169f420c727b6a670183673cfb8e",
+    "parameters": {
+      "tractionEnergyMultiplier": 1.1569939866042083,
+      "regenerationFraction": 0.6754736293524778,
+      "auxiliaryPowerW": 165.17942490673937
+    },
+    "split": {
+      "trainingTestIds": [
+        "61607018",
+        "61607019",
+        "61607020"
+      ],
+      "holdoutTestIds": [
+        "61607021"
+      ],
+      "basis": "Exploratory split after initial data inspection; whole test IDs; holdout UDDS continues the same depletion campaign, not independent external validation"
+    }
+  },
+  "source": {
+    "archive": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip",
+    "archiveSha256": "d21ec76c41cd067b73c87f05ef73b6bc188620358937c6b05601defe1e0329eb",
+    "nestedMember": "2016 Chevrolet Volt/All_Data-2016_Chevrolet_Volt.zip",
+    "nestedSha256": "daecfa9c8b158c89ce585367ddb12ac973c6ff6c4b1e609aedcdf1e3aff0ba00",
+    "testId": "61607011",
+    "traceSha256": "916304e2cb214713345f07252f63eec47d2994ff41565576070b371b4c4d0249"
+  },
+  "setup": {
+    "operatingMassKg": 1748.14499398,
+    "coastdownF0N": 139.8520875837901,
+    "coastdownF1NsPerM": 1.9064944109786857,
+    "coastdownF2KgPerM": 0.3412210398510814,
+    "rotatingMassFactor": 1,
+    "gradeRatio": 0
+  },
+  "validation": {
+    "sampleCount": 2,
+    "meanAbsolutePercent": 1.402400933987824,
+    "maxAbsolutePercent": 2.6632771502779096,
+    "rmseJ": 100273.93879234791
+  },
+  "derivation": {
+    "builderSha256": "91c82c827e887d2ee7aaf6ff0635d4da16ca363d12b1b80813b8890473da2573",
+    "featureBuilderSha256": "2f95994019fc3a6007d15e0b1249b9695f738c2b37e6e68f7a17e5ba4d03b6ea",
+    "wheelModuleSha256": "9c83d7c2b57933c241face29b9230b95816577d7952996692ab0366b34f5d673",
+    "batteryBasis": "Integral of measured HV current times voltage; battery terminal, not plug energy"
+  },
+  "limitations": [
+    "A different-day test of the same vehicle and laboratory, not a different vehicle or independent laboratory.",
+    "Steady-speed test before fitting runs; coefficients are frozen and no external data is used to refit.",
+    "Phases 1 and 2 have explicitly zero grade; phase 3 has 6% grade and its flat-road feature approximation is excluded. Passing maneuvers with 0/3/6% grade are excluded.",
+    "Phases under 1 km, fractional phase boundaries and engine/fuel activity retain the original screening rules.",
+    "Thermal/HVAC generalization and trim/wheel identity remain unverified."
+  ],
+  "records": [
+    {
+      "id": "anl-volt2016-61607011-phase-1",
+      "testId": "61607011",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "steady-speed-zero-grade",
+      "phase": 1,
+      "summaryRepetition": 1,
+      "inputs": {
+        "wheelTractionEnergyJ": 4840965.350406638,
+        "wheelBrakingEnergyJ": 759180.5535084213,
+        "durationS": 530.799
+      },
+      "batteryNetEnergyJ": 5317457.048065707,
+      "distanceM": 10028.3788891,
+      "dynoSignalNetEnergyJ": 1893382.71650607,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 2858977.649027192,
+        "wheelBrakingEnergyJ": 965594.9325211222,
+        "durationS": 530.799
+      },
+      "conditions": {
+        "temperatureMinC": 22.448,
+        "temperatureMaxC": 29.229,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.0,
+        "batterySocStart": 0.89376,
+        "batterySocEnd": 0.8231999999999999,
+        "testDate": "2016-07-22",
+        "hvac": "OFF",
+        "gradeRatio": 0,
+        "fan": "speed-matched",
+        "hood": "closed",
+        "windows": "closed"
+      },
+      "source": {
+        "member": "61607011 Test Data.txt",
+        "sha256": "916304e2cb214713345f07252f63eec47d2994ff41565576070b371b4c4d0249",
+        "firstDataLine": 353,
+        "lastDataLine": 5661,
+        "intervalCount": 5308,
+        "fractionalPhaseSamplesExcluded": 6,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ],
+        "summaryMember": "2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+        "summarySha256": "3295a20009c2f7e5a105cd70b5205fe668cc63a34d3009e69401fdea3d528afc",
+        "locator": "PDF page 1, test 61607011, SSS 0% grade CD ph1; July 22, 2016",
+        "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing"
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "partition": "external-validation",
+      "predictionEnergyJ": 5175838.429528731,
+      "residualEnergyJ": -141618.61853697617,
+      "residualPercent": -2.6632771502779096
+    },
+    {
+      "id": "anl-volt2016-61607011-phase-2",
+      "testId": "61607011",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "steady-speed-zero-grade",
+      "phase": 2,
+      "summaryRepetition": 2,
+      "inputs": {
+        "wheelTractionEnergyJ": 4854871.096195445,
+        "wheelBrakingEnergyJ": 777068.3645656353,
+        "durationS": 530.7999999999998
+      },
+      "batteryNetEnergyJ": 5187185.864460198,
+      "distanceM": 10027.2251068,
+      "dynoSignalNetEnergyJ": 1891032.7970829054,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 2873145.208270639,
+        "wheelBrakingEnergyJ": 982112.4111877336,
+        "durationS": 530.7999999999998
+      },
+      "conditions": {
+        "temperatureMinC": 20.561,
+        "temperatureMaxC": 27.092,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.0,
+        "batterySocStart": 0.8231999999999999,
+        "batterySocEnd": 0.75264,
+        "testDate": "2016-07-22",
+        "hvac": "OFF",
+        "gradeRatio": 0,
+        "fan": "speed-matched",
+        "hood": "closed",
+        "windows": "closed"
+      },
+      "source": {
+        "member": "61607011 Test Data.txt",
+        "sha256": "916304e2cb214713345f07252f63eec47d2994ff41565576070b371b4c4d0249",
+        "firstDataLine": 5763,
+        "lastDataLine": 11071,
+        "intervalCount": 5308,
+        "fractionalPhaseSamplesExcluded": 6,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ],
+        "summaryMember": "2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+        "summarySha256": "3295a20009c2f7e5a105cd70b5205fe668cc63a34d3009e69401fdea3d528afc",
+        "locator": "PDF page 1, test 61607011, SSS 0% grade CD ph2; July 22, 2016",
+        "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing"
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "partition": "external-validation",
+      "predictionEnergyJ": 5179844.714309064,
+      "residualEnergyJ": -7341.150151134469,
+      "residualPercent": -0.14152471769773856
+    },
+    {
+      "id": "anl-volt2016-61607011-phase-3",
+      "testId": "61607011",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "steady-speed-zero-grade",
+      "phase": 3,
+      "summaryRepetition": 3,
+      "inputs": {
+        "wheelTractionEnergyJ": 4888380.139457979,
+        "wheelBrakingEnergyJ": 823511.4700225781,
+        "durationS": 530.799
+      },
+      "batteryNetEnergyJ": 16656162.370081447,
+      "distanceM": 10011.06795890608,
+      "dynoSignalNetEnergyJ": 12155154.362465927,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 12393097.492942542,
+        "wheelBrakingEnergyJ": 237943.13047661554,
+        "durationS": 530.799
+      },
+      "conditions": {
+        "temperatureMinC": 19.218,
+        "temperatureMaxC": 26.852,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.0,
+        "batterySocStart": 0.75264,
+        "batterySocEnd": 0.52136,
+        "testDate": "2016-07-22",
+        "hvac": "OFF",
+        "gradeRatio": 0.06,
+        "fan": "speed-matched",
+        "hood": "closed",
+        "windows": "closed"
+      },
+      "source": {
+        "member": "61607011 Test Data.txt",
+        "sha256": "916304e2cb214713345f07252f63eec47d2994ff41565576070b371b4c4d0249",
+        "firstDataLine": 11173,
+        "lastDataLine": 16481,
+        "intervalCount": 5308,
+        "fractionalPhaseSamplesExcluded": 6,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ],
+        "summaryMember": "2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+        "summarySha256": "3295a20009c2f7e5a105cd70b5205fe668cc63a34d3009e69401fdea3d528afc",
+        "locator": "PDF page 1, test 61607011, SSS 6% grade CD ph3; July 22, 2016",
+        "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing"
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "nonzero-grade-outside-zero-grade-validation-setup"
+      ],
+      "partition": "external-validation",
+      "predictionEnergyJ": null,
+      "residualEnergyJ": null,
+      "residualPercent": null
+    }
+  ]
+}

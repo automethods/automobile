@@ -1,0 +1,29 @@
+{
+  "schema": "consumption-intake/1",
+  "version": "0.4.41",
+  "date": "2026-10-07",
+  "observations": 1444,
+  "added": 1266,
+  "prototypes_with_consumption": 76,
+  "sources": {
+    "manufacturer": 100,
+    "regulatory": 520,
+    "independent-test": 70,
+    "owner-report": 2,
+    "local-log": 752
+  },
+  "local_trip_exclusions": {
+    "zero_distance_or_nonfinite_consumption": 11
+  },
+  "input_sha256": {
+    "Data/Data sources/open_canada_ca/original-my1995-2014-fuel-consumption-ratings-2-cycle.csv": "bae77ed2d26bf4a3fe9b6eb30b085549b65adaf8c5b234c6a840a001dd5e1b79",
+    "Data/Data sources/open_canada_ca/my1995-2014-fuel-consumption-ratings-5-cycle.csv": "a99334ab5e08f32ad8cb5c378eb6a9620b7a202853259f89ffa655dcf11e0f5a",
+    "Data/Data sources/open_canada_ca/my2015-2024-fuel-consumption-ratings.csv": "2f496687b9a612adb3d83aaf4ee4356a0e47dcee9de1706aab157bf96d9aaa94",
+    "Data/Data sources/open_canada_ca/open_canada_ca_data_en_dataset.csv": "ee6e420c3a946199a1b706c8c0fc792017249de12dec6f176a1307033ed1cdec",
+    "Data/Data sources/open_canada_ca/my2012-2026-battery-electric-vehicles.csv": "38094ec5f3f82ef15eb630d70b0828d4ba6cec93f1e1dcf70919088c67e7a490",
+    "Data/Data sources/open_canada_ca/my2012-2026-plug-in-hybrid-electric-vehicles.csv": "72fcb98e82c4b977e00abb10941eca861c7e0fc6cf8fe2449e144da93b299c77",
+    "Data/Vehicle/sources/epa_consumption_snapshot.csv": "fead191c854478ed80afdfe7d133a34c132296f918ed83c6229c373e21aff77a",
+    "Data/Vehicle/sources/outlander_obd_consumption_snapshot.csv": "32cac27aabc1cc65952b3d61911bd3e46f9e5be4c123cb1593e2a0fea9d065c4",
+    "Data/Vehicle/sources/consumption_intake.json": "ec5af0ea4aea0112ee8ad9bbb0d519cdf0709fe01ac53c8201449f074f13e897"
+  }
+}

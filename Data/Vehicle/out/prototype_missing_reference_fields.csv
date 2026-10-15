@@ -1,0 +1,481 @@
+prototype_id,make,model,variant_trim,year,market,data_tier,missing_fields
+vp-5707e1,Alfa Romeo,Giulia,2.0T 280hp Veloce,2020.0,EU,enrichment,tyre_code
+vp-6f90d7,BMW,5 series,M550i XDrive,2020.0,EU,enrichment,tyre_code
+vp-46a79e,Ferrari,F8 Spider,specs,2020.0,EU,enrichment,tyre_code
+vp-696d02,Ferrari,SF90 Stradale,specs,2020.0,EU,enrichment,tyre_code
+vp-d40e97,Ford,Puma,1.0 EcoBoost 125hp Titanium X,2020.0,EU,enrichment,tyre_code
+vp-a33823,Honda,e,Advance,2020.0,EU,enrichment,tyre_code
+vp-05024e,Honda,e,specs,2020.0,EU,enrichment,tyre_code
+vp-f48f34,Lamborghini,Aventador,S,2017.0,EU,enrichment,tyre_code
+vp-f50917,Lamborghini,Urus,specs,2018.0,EU,enrichment,tyre_code
+vp-be0f4f,Land Rover,Range Rover Velar,P400 SE,2020.0,EU,enrichment,tyre_code
+vp-e19136,Porsche,Panamera,GTS,2020.0,EU,enrichment,tyre_code
+vp-82aa25,Porsche,Panamera,Turbo S,2020.0,EU,enrichment,tyre_code
+vp-d3de79,DAF,CF-series,FAG 9.2TD (310 Hp),,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-6b8b2b,DAF,CF-series,FAG 9.2TD (360 Hp),,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-a92407,DAF,CF85.430,FTT 12.6TD (430 Hp),,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-396d03,Fiat,Doblo Cargo,1.2 MTJ (85 Hp),,EU,enrichment,track_width_mm
+vp-1d9e7e,Fiat,Doblo Cargo,1.3 JTD MultiJet (70 Hp),,EU,enrichment,track_width_mm
+vp-f3fec7,Fiat,Doblo Cargo,1.4 8V (77 Hp),,EU,enrichment,tyre_code;track_width_mm;powertrain
+vp-dcabfc,Ford,Tourneo Connect,1.8 TDCi (75Hp),,EU,enrichment,track_width_mm
+vp-9ce437,Ford,Transit Connect T200,1.8TDi (75 Hp),,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-072e3d,Ford,Transit Kombi SWB,2.4L DTCi (140 Hp),,EU,enrichment,tyre_code;track_width_mm
+vp-df8a95,MAN,10,10.153 LC,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-638364,MAN,10,10.153 LK,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-36ce9e,MAN,19.440,L 19.440 BB,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-0e6e0c,Mercedes-Benz,4x2,OM 457LA,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-ca9371,Mercedes-Benz,Actros,4141 K,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-04324a,Mercedes-Benz,Actros,Actros 1841,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-f06ced,Renault,Master II Van,L3H2 2.5 dCi 115,,EU,enrichment,track_width_mm
+vp-76fb6a,Renault,Rapid Van (F40),1.6 D (F404) (55 Hp),,EU,enrichment,tyre_code;track_width_mm
+vp-6c6027,Renault,Trafic Van (TXX),1.6 (65 Hp),,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-add9f4,Scania,New Griffin,P340 LA4X2HNA,,EU,enrichment,track_width_mm;drive_layout
+vp-5c5da3,Scania,T,T114CB6x4NZ 380,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-7f1257,Scania,T,T124 CB6X4NZ,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-805801,Toyota,Lite Ace (2 rows of seats),2.0D (73Hp),,EU,enrichment,tyre_code;track_width_mm
+vp-b5d883,Toyota,Lite Ace (2 rows of seats),2.0DT (85Hp) 4WD,,EU,enrichment,tyre_code;track_width_mm
+vp-73b91f,Toyota,Lite Ace Van (3 rows of seats),1.5i (97Hp) 4WD,,EU,enrichment,tyre_code;track_width_mm
+vp-e75f99,Volkswagen,LT III Van,"LT 28 2,5 TDI 109Hp average base",,EU,enrichment,track_width_mm
+vp-a53d15,Volkswagen,LT III Van,"LT 28 2,5 TDI 109Hp short base",,EU,enrichment,track_width_mm
+vp-f60e18,Volkswagen,LT III Van,"LT 28 2,5 TDI 83Hp average base",,EU,enrichment,track_width_mm
+vp-afa499,Volvo,FH,D12D420,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-fb880b,Volvo,FH,D13B500,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-996a64,Volvo,FM,D12C3406x2,,EU,enrichment,tyre_code;track_width_mm;drive_layout
+vp-934445,Mazda,3 i-Stop,,2010,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-356d1e,Ford,Focus,,2012,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-59b78c,Ford,Fusion,,2012,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-0c7bd3,Audi,A3 4cyl 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-50b814,BMW,328d 4cyl 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-262cad,BMW,i3 REx PHEV,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-22a8b5,Chevrolet,Malibu 4cyl 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-118a2d,Chevrolet,Spark EV,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-283497,Chevrolet,Volt,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-89314d,Ford,C-MAX (PHEV),,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-4ebdad,Ford,C-MAX HEV,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-9e0e18,Ford,Escape 4cyl 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-931fbc,Ford,Explorer 4cyl 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-5a9f76,Hyundai,Elantra 4cyl 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-648f3f,Hyundai,Sonata PHEV,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-b5fcc9,Hyundai,Tucson Fuel Cell,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-24b2fe,Kia,Optima Hybrid,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-5c56cb,Leaf,24 kWh,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-9837d6,Mitsubishi,i-MiEV,,2016,US/EU (FASTSim),fastsim,tyre_code
+vp-c9f0f7,Nissan,Leaf 30 kWh,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-9fe796,Tesla,Model S60 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-4ccb6a,Toyota,Camry 4cyl 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-4478b5,Toyota,Corolla 4cyl 2WD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-da4b78,Toyota,Highlander Hybrid,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-026c10,Toyota,Prius Two FWD,,2016,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-141613,Chevrolet,Bolt,,2017,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-8f8201,Maruti,Dzire VDI,,2017,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-719c4c,Prius,Prime,,2017,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-f6d72d,Toyota,Highlander 3.5 L,,2017,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-6a5159,Chevrolet,Colorado 2WD Diesel,,2020,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-4cdd22,VW,Golf 1.5TSI,,2020,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-7b2a2e,VW,Golf 2.0TDI,,2020,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-df71be,BMW,iX xDrive40,,2021,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-cbeffa,Cupra,Born,,2021,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-76cf5c,Fiat,Panda Mild Hybrid,,2021,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-b2ea93,Honda,N-Box G,,2021,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-7cc062,Peugot,3008,,2021,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-c23578,Ford,F-150 Lightning 4WD,,2022,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-1e7c52,Mini,Cooper SE Hardtop 2 door,,2022,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-fc6e18,Renault,Megane E-Tech,,2022,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-35fe17,Renault,Zoe ZE50 R135,,2022,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-662c7e,Tesla,Model 3 RWD,,2022,US/EU (FASTSim),fastsim,length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-ef0d12,Tesla,Model Y RWD,,2022,US/EU (FASTSim),fastsim,length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-1b12e8,Toyota,RAV4 Hybrid LE,,2022,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-1607a0,Toyota,Yaris Hybrid Mid,,2022,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-3b2367,Volvo,XC40 Recharge twin,,2022,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-427487,Mitsubishi,Pajero Sport,,2023,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-ad3e77,Polestar,2 Long range Dual motor,,2023,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-4b8ae9,Volvo,C40 Recharge,,2023,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-d16b2b,BYD,Dolphin Active,,2024,US/EU (FASTSim),fastsim,length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-44bbae,Toyota,Vios 1.5 G,,2024,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-1c9c27,VinFast,VF e34,,2024,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-f39d81,Volkswagen,Polo 1.0 MPI,,2024,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-777972,BYD,ATTO 3,,2023.0,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-5c258e,Maruti,Swift 4cyl 2WD,,2023.0,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-7717a5,Nissan,Navara,,2016.0,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-33d67e,Renault,Clio IV diesel,,2020.0,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-91346f,Renault,Megane 1.5 dCi Authentique,,2020.0,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-9402d9,Toyota,Corolla Cross Hybrid,,2022.0,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-307890,Toyota,Etios Liva diesel,,2020.0,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-2b190f,Toyota,Hilux Double Cab 4WD,,2021.0,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-76fd4e,Toyota,Mirai,,,US/EU (FASTSim),fastsim,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout
+vp-d43a98,Chevy,Volt,Unknown,2017.0,US,ev_sim,tyre_code;length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-6b9a29,Tesla,Model 3,Long Range AWD,2022.0,US,ev_sim,length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-fca624,Tesla,Model 3,Performance AWD,2022.0,US,ev_sim,length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-816088,Tesla,Model S,Plaid Tri Motor,2022.0,US,ev_sim,tyre_code;length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-e0a618,Tesla,ModelS,Long Range,2022.0,US,ev_sim,tyre_code;length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-a70ec4,Tesla,ModelX,,2022.0,US,ev_sim,tyre_code;length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-d09390,Tesla,ModelX,Plaid,2022.0,US,ev_sim,tyre_code;length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-9deca4,Tesla,ModelY,Long Range AWD,2022.0,US,ev_sim,length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-aeb7d4,Tesla,ModelY,Performance AWD,2022.0,US,ev_sim,length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-0da141,Audi,e-tron 55 quattro,,2021.0,EU,ev_sim,track_width_mm;drive_layout
+vp-0b1be0,Porsche,Taycan,4S,2020.0,EU,ev_sim,length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm
+vp-3d66be,Porsche,Taycan,4S Plus,2020.0,EU,ev_sim,length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm
+vp-e6709a,ВАЗ,ВАЗ-2329,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-26e573,ВАЗ,ВАЗ-2329. 2130,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-30f418,ВАЗинтерсервис,2346,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-85b2b6,ВАЗинтерсервис,2345,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-0db096,ВАЗ,ВАЗ-2329 (Лада-Тул),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-d0539b,ВАЗ,ВАЗ-1706,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-71a9d9,ГАЗ,"ГАЗ-3302. 2707, 2310, 2752",,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-7dbe97,Арзамасский машиностроительный завод,33022,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-00abcc,ГАЗ,ГАЗ 33022. 33028. 2779,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-f38fb0,Автомеханический завод,2766,,,RU/CIS,niiat,track_width_mm;drive_layout;power_kw
+vp-c3417b,Автосалон Юр Авто,2782,,,RU/CIS,niiat,track_width_mm;drive_layout;power_kw
+vp-240359,Багем,27851,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-808545,Спектр-Авто,2790,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-16d9cb,Спектор-Моторс,3796,,,RU/CIS,niiat,track_width_mm;drive_layout;power_kw
+vp-324276,Рустехпрограмм,2797,,,RU/CIS,niiat,tyre_code;height_mm;track_width_mm;drive_layout;power_kw
+vp-2e0b41,Тонар,27551,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-d4399e,ИЖ,ИЖ-2717,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-e36e62,ИЖ,ИЖ-2717 (мод. 2717-220),,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-c9dda7,УАЗ,"УАЗ 3303, 3741.3909",,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-7a4688,Citroen,Citroen Berlingo,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-d9af9e,Ford,Ford Transit,,,RU/CIS,niiat,tyre_code;height_mm;track_width_mm;drive_layout
+vp-e1af08,Fiat,Fiat Риса1о,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-747cae,Fiat,Fiat Зсиао Уап,,,RU/CIS,niiat,wheelbase_mm;track_width_mm;drive_layout
+vp-defc48,Hyundai,Hyundai Н-1,,,RU/CIS,niiat,wheelbase_mm;track_width_mm;drive_layout
+vp-a364ae,Iveco,Iveco Daily,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-33dc0f,Mazda,Mazda В2500,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-8824df,Mercedes,Mercedes-Benz ТО - У,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-8a9528,Mercedes,"Mercedes-Benz Т1N ""8рпп!ег""",,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-917b94,Peugeot,Peugeot Boxer,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-2d5b2a,Peugeot,Peugeot Partner,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-a0dbef,Renault,Renault Kangoo Express,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-5c8a89,Volkswagen,Volkswagen Caddy,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-14d185,Volkswagen,"Volkswagen LT28, LT35",,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-02e680,ЗИЛ,ЗИЛ-4331. 4333. 4421,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-9723c6,ЗИЛ,ЗИЛ-5301 (двигатель Са1егрМ1аг),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-c58d61,ЗИЛ,ЗИЛ-5301 (двигатель ММЗ),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-fdf8b7,КамАЗ,КамАЗ-43114-02. 43116. 43118-02. 44108-02,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-ff2c6c,КамАЗ,КамАЗ-53215. 54115. 55111-02,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-094670,КамАЗ,"КамАЗ-43114-13. 43116-13, 43118-13, 44108-13",,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-7068cc,КамАЗ,КамАЗ-4326,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-f1424e,КамАЗ,"КамАЗ-53215-13. 54115-13, 55111-13",,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-880642,МАЗ,МАЗ-6422. 6430. 6301. 6303. 5516 (Евро-2),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-780a28,МАЗ,"МАЗ-5336. 5337. 5432, 5433. 5440. 555102 (Евро-2)",,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-1fc873,МАЗ,"МАЗ-6422, 6425, 6303, 5516 (Евро-0, Евро-1)",,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-05a2da,МАЗ,"МАЗ-5432. 5433. 5336. 5337, 5551 (Евро-0. Евро-1)",,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-58e375,МАЗ,МАЗ-Купава-5731 (Евро-0. Евро-1),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-48e71c,МАЗ,МАЗ-Купава-5731 (Евро-2),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-c65853,МАЗ,МАЗ-Купава-4788,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-aae0a5,КамАЗ,КамАЗ-Купава-5741,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-c56614,ЗИЛ,ЗИЛ-Купава-3729,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-2f1932,ЗИЛ,ЗИЛ-Купава-3729 (Купава-Сервис),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-7aa5e8,ЗИЛ,ЗИЛ-Купава~4729,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-a93ae9,ГАЗ,ГАЗ-Купава-4738,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-15f52b,НЕФАЗ,НЕФАЗ-4208,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-27a1af,КамАЗ,КамАЗ-55111,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-013b7b,НЕФАЗ,НЕФАЗ-6606,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-f20ed8,Автомеханический завод,4753,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-a0a9c0,111 Военный завод,4789,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-c992fd,Техноспас-НН,3325,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-cc781f,ГАЗ,ГАЗ 3307. 3309,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-98f5b3,Арзамасский машиностроительный завод,27791,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-39414f,Арзамасский машиностроительный завод,4748,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-01602c,Сельхозпромлес,4795,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-75ca9f,ГАЗ,ГАЗ-САЗ-3507,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-779c9f,Тонар,2948,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-bf984c,Меткомплекс,27951,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-11c8dc,Урал,Урал 4320 (двигатель ЯМЗ-236М2),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-791097,Урал,Урал 4320 (двигатель ЯМЗ-238М2),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-6027b4,Урал,Урал 44202,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-3ec9ff,Iveco,Iveco Daily 50,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-3f16a0,Iveco,Iveco Daily 65,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-e217f1,MAN,MAN Р2000 / Е2000,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-05d787,Mercedes,"Mercedes-Benz Т1N ""Зргт1ег""",,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-48431b,Mercedes,Mercedes-Benz 1-КМ Atego,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-659248,Mercedes,Mercedes-Benz 8КМ Ас!гоз/А!едо 8 (2-осные),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-82d525,Mercedes,Mercedes-Benz 8КМ Actros/ АТЕСО 3 (3-осные),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-738396,Mercedes,"Mercedes-Benz ЗКМ Ас*гоз (4140. 4148, 4157)",,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-c613f8,Mercedes,Mercedes-Benz 8КМ Actros 48538,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-c0ee91,Mercedes,Mercedes-Benz Axor,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-d6e3a7,Mercedes,Mercedes-Benz Atego,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-4a6856,Mercedes,Mercedes-Benz 5КЗ,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout
+vp-e1b3fc,Scania,Scania 94.114.124.164,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-72742f,Scania,Scania 114. 124. 164,,,RU/CIS,niiat,tyre_code;length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout;power_kw
+vp-860e1c,Scania,Scania 114. 124. 164 (cont.),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-e1ea02,Tatra,Tatra Т815,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-8ae5df,Tatra,Tatra Т163,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-6e0b40,Tatra,Tatra Т815 (мод. 25А801),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-21957b,Tatra,Tatra Т163 (мод. 36А8К4),,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-96b4c6,ГАЗ,ГАЗ-3259-0000010,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout;power_kw
+vp-69b64b,ГАЗ,ГАЗ-3259-0000010-01,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout;power_kw
+vp-123b7a,ГАЗ,ГАЗ-322132,,,RU/CIS,niiat,track_width_mm;drive_layout;power_kw
+vp-a84fd3,ГАЗ,ГАЗ-322130,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout;power_kw
+vp-b75e4e,ГАЗ,ГАЗ-322100,,,RU/CIS,niiat,track_width_mm;drive_layout;power_kw
+vp-a80d4f,ГАЗ,ГАЗ-3269-0000010,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout;power_kw
+vp-b07252,ГАЗ,ГАЗ-3269-0000010-02,,,RU/CIS,niiat,tyre_code;track_width_mm;drive_layout;power_kw
+vp-06d121,ПАЗ,ПАЗ-3205-110,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-85cdee,ПАЗ,ПАЗ-32051-110,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-92b243,ПАЗ,ПАЗ-3205-110-50,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-77b4e8,ПАЗ,ПАЗ-32051-110-50,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-d39498,ПАЗ,ПАЗ-3205-110-60,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-99d001,ПАЗ,ПАЗ-32051-110-60,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-012023,ПАЗ,ПАЗ-320507-110,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-9cdf81,ПАЗ,ПАЗ-320517-110,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-79cc80,ПАЗ,ПАЗ-3205-110-20,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-e9659c,ПАЗ,ПАЗ-3205-110-21,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-b36ec6,ПАЗ,ПАЗ-3205-110-22,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-1ffb60,ПАЗ,ПАЗ-3205-110-80,,,RU/CIS,niiat,track_width_mm;drive_layout
+vp-f0ebfe,Volkswagen,Beetle (Type 1),"1600, US spec sedan",1974.0,US,web-cited,tyre_code;height_mm;track_width_mm;drive_layout
+vp-d8ce2d,Volkswagen,Golf,"Mk1, 1.1L 50PS, 5-door hatchback",1974.0,Germany/Europe,web-cited,tyre_code;height_mm;track_width_mm;drive_layout
+vp-4ae922,Lada (VAZ),2101 Zhiguli,1.2L base,1970.0,USSR,web-cited,tyre_code;track_width_mm;drive_layout
+vp-795fec,Fiat,126,base 594cc,1972.0,Italy,web-cited,tyre_code;track_width_mm;drive_layout
+vp-09a7e4,Citroen,2CV,"2CV6 (602cc), pre-1975 emissions rating",1970.0,France/Europe,web-cited,tyre_code;track_width_mm;drive_layout
+vp-b100e8,Ford,Escort,"Mk1, 1100 Saloon",1968.0,UK,web-cited,tyre_code;track_width_mm;drive_layout
+vp-179447,Renault,4,GTL,1984.0,France/Europe,web-cited,tyre_code;track_width_mm;drive_layout
+vp-ee2b5d,Renault,5,956cc launch engine (e.g. TL),1972.0,France/Europe,web-cited,tyre_code;track_width_mm;drive_layout;power_kw
+vp-f73037,Austin/Morris,Mini,Mini 1000,1978.0,UK,web-cited,tyre_code;track_width_mm;drive_layout
+vp-d1b9e0,Trabant,601,saloon,1964.0,East Germany,web-cited,tyre_code;track_width_mm;drive_layout
+vp-86dbde,Toyota,Corolla,"E30, 1.3L 4K-C (KE55/KE70)",1979.0,Australia,web-cited,tyre_code;track_width_mm;drive_layout
+vp-d25ace,Datsun/Nissan,Sunny,"B310, 1.4L A14 (JDM)",1977.0,Japan,web-cited,tyre_code;track_width_mm;drive_layout
+vp-1620b0,Honda,Civic,"1st generation, EB1 1169cc, 3-door hatchback",1972.0,Japan,web-cited,tyre_code;length_mm;track_width_mm;drive_layout
+vp-ee27ff,Opel,Kadett,"Kadett C, 1.2 (52 Hp)",1973.0,Germany/Europe,web-cited,tyre_code;track_width_mm;drive_layout
+vp-534f66,Chevrolet,Chevette,"1.6L OHC, North America",1976.0,US,web-cited,tyre_code;track_width_mm;drive_layout
+vp-9fae94,Toyota,RAV4,LE FWD,2022.0,USA,web-cited,track_width_mm;drive_layout
+vp-c8872f,Toyota,Camry Hybrid,Active (EU spec),2021.0,UK/EU,web-cited,track_width_mm;drive_layout
+vp-0166fb,Honda,Civic,Sedan Sport (2.0L non-turbo),2023.0,USA,web-cited,track_width_mm;drive_layout
+vp-265046,Honda,CR-V,EX-L FWD,2023.0,USA,web-cited,track_width_mm;drive_layout
+vp-1f02fe,Honda,Accord,LX,2023.0,USA,web-cited,track_width_mm;drive_layout
+vp-81336c,Ford,F-150,XLT SuperCrew 5.5ft box 2WD (3.3L V6),2021.0,USA,web-cited,track_width_mm;drive_layout
+vp-ae64b8,Ford,Ranger,Double Cab High Rider XLT 4x4 3.2 TDCi,2019.0,South Africa,web-cited,track_width_mm;drive_layout
+vp-30d053,Chevrolet,Silverado 1500,"Crew Cab 6'6"" box, base 5.3L V8",2019.0,USA,web-cited,tyre_code;track_width_mm;drive_layout
+vp-cda378,Nissan,Sentra,SV,2020.0,USA,web-cited,track_width_mm
+vp-490c61,Hyundai,Tucson,SE AWD,2022.0,USA,web-cited,track_width_mm;drive_layout
+vp-d4eaa2,Hyundai,Santa Fe,SE FWD,2024.0,USA,web-cited,length_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-f1ac50,Kia,Sportage,1.6 T-GDI EcoDynamics+ Vision Automatic,2024.0,EU,web-cited,track_width_mm;drive_layout
+vp-37ede4,Volkswagen,Golf,"1.5 eTSI (Mk8 launch, mild hybrid)",2019.0,EU,web-cited,track_width_mm;drive_layout
+vp-6cb0c8,Volkswagen,Tiguan,1.5 TSI Comfortline,2019.0,EU,web-cited,track_width_mm;drive_layout
+vp-b65958,Skoda,Octavia,1.5 TSI,2020.0,EU,web-cited,tyre_code;track_width_mm;drive_layout
+vp-195eec,Toyota,Hilux,Single Cab 2.8 GD-6 4x4 Legend 50,2019.0,South Africa,web-cited,track_width_mm;drive_layout
+vp-c1ab7e,Renault,Clio,TCe 90 (Clio V),2021.0,EU,web-cited,track_width_mm;drive_layout
+vp-ff0452,Peugeot,208,1.2 PureTech 100 Stop&Start,2019.0,EU,web-cited,track_width_mm;drive_layout
+vp-5bbd64,Dacia,Sandero,1.0 TCe 90 (Sandero III facelift),2022.0,EU,web-cited,track_width_mm;drive_layout
+vp-3ce82c,Toyota,Land Cruiser 300,"3.3d V6 Twin-Turbo Diesel, Direct Shift, 5-seat",2021.0,unspecified RHD/LHD export (ME/Australia spec sheet),web-cited,track_width_mm;drive_layout
+vp-3363f3,Solaris,Urbino 12 electric,ZF CeTrax 220 kW / Solaris High Energy 420 kWh (UITP 2023 spec),2023.0,EU (Poland),web-cited,tyre_code;track_width_mm
+vp-eaba4e,Škoda,32Tr SOR,"low-entry, 3-door",2018.0,Czech Republic / EU,web-cited,wheelbase_mm;track_width_mm;power_kw
+vp-d62ca0,Mercedes-Benz,eActros,"300, 4x2 rigid, 3-battery-pack (19 t GVW config)",2021.0,EU,web-cited,tyre_code;length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm
+vp-3f2855,BMW,i3 REx,REx 60 Ah (RDW type-approval variant 1Z41),2015.0,EU,web-cited,length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout
+vp-ac277c,BMW,i3 REx,REx 94 Ah (RDW type-approval variant 1Z81),2017.0,EU,web-cited,track_width_mm
+vp-ef25ec,Mazda,MX-30 R-EV,e-Skyactiv R-EV (RDW type-approval variant 6WJ),2023.0,EU,web-cited,width_mm;height_mm;drive_layout
+vp-2bf8a6,LEVC,TX,"eCity range-extended taxi (RDW type-approval variant A1, e11*2007/46*4190)",2018.0,EU,web-cited,tyre_code;length_mm;width_mm;height_mm;wheelbase_mm;track_width_mm;drive_layout;power_kw
+vp-53491b,Mercedes-Benz,Sprinter Passenger Van,"2500 144 in wheelbase, 12-passenger, standard-output diesel",2025.0,US,brochure,track_width_mm
+vp-11b2e1,MAN,TGE Intercity,"Extra-long minibus, 19 passengers, 130 kW BiTurbo diesel",2020.0,EU,brochure,track_width_mm
+vp-fd36ad,Volkswagen,Multivan,Life standard 2.0 TDI 150PS DSG,2025.0,UK,brochure,track_width_mm
+vp-adb830,Vauxhall,Vivaro,Prime Panel Van 1.5 Turbo D 120PS,2025.0,UK,brochure,width_mm;track_width_mm
+vp-babada,Mercedes-Benz,Vito Crew Van,114 CDI RWD L1 Progressive,2022.0,UK,brochure,tyre_code;track_width_mm
+vp-72edb9,Ford,Focus 1.6,,,International,bosch,tyre_code
+vp-ed5f5c,Volkswagen,Sharan 1.8,,,International,bosch,track_width_mm
+vp-cca33b,Citroën,Saxo 1.0i,,,International,bosch,track_width_mm
+vp-fd07d3,Citroën,Saxo 1.6i,,,International,bosch,track_width_mm
+vp-2f722e,Citroën,Berlingo 1.4i,,,International,bosch,track_width_mm
+vp-acacd7,Citroën,Berlingo 1.9D,,,International,bosch,track_width_mm
+vp-0d9c43,Citroën,Xsara 1.6i,,,International,bosch,tyre_code;track_width_mm
+vp-7feee2,Citroën,Xsara 1.9TD,,,International,bosch,track_width_mm
+vp-9751a6,Smart,0.8 TD,,,International,bosch,tyre_code
+vp-94c564,Lamborghini,Diablo SV 5.7i,,,International,bosch,tyre_code;drive_layout
+vp-165679,Lancia,Y 1.2 i.e.,,,International,bosch,tyre_code
+vp-d90cf2,Citroen,2 CV,0.4 MT,1949,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-09b7c0,Moskvich,400,1.1 MT,1946,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-b8a9e9,Volkswagen,Beetle,1.4 MT,,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout;powertrain;power_kw
+vp-f0ba8b,Citroen,2 CV,0.9 MT,1958,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-80a81f,Lotus,Elite,1.2 MT,1957,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-7fbc12,Chevrolet,Suburban,3.9 3MT Synchro-mesh,1955,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-5d1bd9,Volkswagen,Transporter,1.1 MT,1950,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-7f9393,Chevrolet,El Camino,3.9 Powerglide 4400,1959,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-0287fa,GAZ,21 Volga,2.4 MT,1956,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-47b69d,GAZ,21 Volga,2.5 AT,1956,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm
+vp-b43e4b,Moskvich,423,1.4 MT,1959,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-628ffe,Alfa Romeo,Giulia,1600 MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-810a69,Alfa Romeo,Giulia,1300 GT Junior MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-1f9522,Chevrolet,Suburban,3.9 3MT Synchro-mesh,1960,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-9f5b16,Chevrolet,Van,3.2 MT,1965,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d8fa61,Chevrolet,El Camino,3.9 Powerglide 4400,1960,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d3b775,Alfa Romeo,Giulia,1.8 D MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-5113ea,Porsche,914,1.7 MT,1969,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm
+vp-19cbda,Nissan,Bluebird,1.2 3MT,1964,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout;powertrain;power_kw
+vp-0168ba,Citroen,2 CV,0.4 MT,1975,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-b8ea41,Aston Martin,Vantage,5.3 V8 MT,1977,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-b5a237,Chevrolet,Suburban,4.1 3MT Fully Synchronized,1971,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm;power_kw
+vp-6351b0,Nissan,Bluebird,1.6 AT,1971,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-e9c526,Fiat,126,0.6 MT,1972,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-b5164c,Nissan,Cherry,1.2 MT,1970,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-5f2df9,GAZ,14 Chaika,5.5 AT,1977,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-65ba73,Chevrolet,Van,4.1 AT G10,1978,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-b36248,IZH,2715,1.5 MT,1972,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-0987d7,Audi,100,1.6 AT,1976,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-df282e,Opel,Kadett,1.2 AT,1973,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d1785e,Audi,80,1.3 MT,1978,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm
+vp-c92379,Opel,Kadett,1.0 MT,1973,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-ccb235,Alfa Romeo,S.Z./R.Z.,3.0 MT,1988,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-51d210,Audi,Coupe,1.8 MT,1980,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-28542f,Aro,10,1.4 MT 4WD,1984,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-3d2533,Lancia,Gamma,2.0 AT,1980,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-cb2a8f,Nissan,Bluebird,1.8i AT,1983,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-0b2a7c,Chevrolet,Kadett,1.8 AT,1989,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-1f56c9,Peugeot,205 GTi,1.6 MT,1983,unspecified (Kaggle spec dataset),kaggle-spec,power_kw
+vp-311f68,Daihatsu,Applause,1.6 AT,1989,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-c93fd4,ZIL,4104,7.7 AT,1985,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-7701e0,Chevrolet,Astro,4.3 AT,1985,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm;power_kw
+vp-30f115,Chevrolet,S-10,2.0 4AT,1982,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm;power_kw
+vp-8bee85,BMW,Z1,2.5 MT,1988,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-ae02bc,Alfa Romeo,164,2.0 MT,1987,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-422231,Nissan,Fairlady Z,3.0 T AT,1989,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-64cb5d,Audi,200,2.1 AT,1983,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm
+vp-1b1d7b,Audi,100,1.8 AT,1982,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-bd7d75,Acura,NSX,3.0 MT,1990,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-86624d,Acura,Integra,1.8 MT,1991,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-c5c91d,Acura,SLX,3.2 AT,1996,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-4328bf,Nissan,Cedric,3.0 Turbo AT,1991,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-1d33d6,Alfa Romeo,145,1.4 MT,1994,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-74f034,Alfa Romeo,146,1.4 MT,1994,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-add209,Chevrolet,Astro,4.3 AT,1995,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-0e0d10,Chevrolet,D20,4.0 D MT,1993,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-af49a8,AC,Cobra,4.9 MT,1990,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-7477cb,Acura,Integra,1.8 AT,1991,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-6723d9,Porsche,911,3.6 MT,1993,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-2a9557,Aston Martin,V8 Vantage,5.3 MT,1993,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout;power_kw
+vp-37081d,Alfa Romeo,156,3.2 MT,1997,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-6f334d,Alpina,B3,3.0i AT,2006,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-4cfee4,Acura,NSX,3.0 MT,2002,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-f812d8,Acura,MDX,3.5 AT,2001,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-efa9c2,Citroen,C6,2.2 MT,2004,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-e93114,Alfa Romeo,147,3.2 MT,2000,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-0440ae,Audi,A5,2.0 TDI multitronic,2007,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-a0bc40,Chevrolet,Express,4.3 AT 1500,2003,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-27f34e,Cadillac,Escalade,6.0 AT AWD,2002,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d9efe8,Alpina,Roadster S,3.3 MT,2003,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-b13fea,Acura,EL,1.7 AT,2001,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-ac0646,Opel,Speedster,2.2 MT,2000,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-8fe183,Aston Martin,V8 Vantage,4.3 AMT,2005,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm
+vp-c2deba,Alfa Romeo,156,1.9 JTD MT,2002,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-933b12,Alpina,B6,4.4 BITURBO SWITCH-TRONIC,2011,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-93fcd0,Alfa Romeo,4C,1.7 TCT,2013,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-7c5f6d,Acura,MDX,3.5 AT 4WD,2013,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-b8a255,TagAZ,Aquila,1.6 MT,2012,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-c2f479,Alfa Romeo,Giulietta,1.4 TB MT,2010,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-08c869,Audi,A7,2.8 FSI multitronic quattro,2010,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-e06e83,Hyundai,Equus,5.0 GDi AT,2013,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-65e0cb,BMW,2 Series Active Tourer,214d MT Gran,2014,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-231b08,Chevrolet,Montana,1.4 Flex MT,2010,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-3c6873,Audi,R8,5.2 FSI quattro plus S tronic,2015,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-907466,Alfa Romeo,Giulia,2.0 AT,2016,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-8eea6c,Alfa Romeo,MiTo,0.9 MT,2016,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm
+vp-3db960,Alpina,D3,3.0 BITURBO SWITCH-TRONIC AWD,2013,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-5c21b7,Audi,A3,1.5 AMT,2020,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm
+vp-915fbf,GAZ,M-20 Pobeda,2.1 MT,1948,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-4c07e7,Volkswagen,Beetle,1.6 AT,,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout;powertrain;power_kw
+vp-419398,Chevrolet,Suburban,3.9 3MT Synchro-mesh Heavy Duty,1955,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-1b4622,Volkswagen,Transporter,1.2 MT,1950,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-7fa6c6,Chevrolet,El Camino,3.9 Powerglide 4900,1959,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-dd509a,GAZ,21 Volga,2.4 MT,1958,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-e89e64,GAZ,21 Volga,2.5 MT,1956,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm
+vp-37a345,Alfa Romeo,Giulia,1600 Veloce MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-1ad335,Alfa Romeo,Giulia,1300 GTA Junior Autodelta MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-af87f3,Chevrolet,Suburban,3.9 3MT Synchro-mesh Heavy Duty,1960,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-682816,Chevrolet,Van,3.2 Powerglide,1965,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d244d2,Chevrolet,El Camino,3.9 Powerglide 4900,1960,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-c4afd9,Alfa Romeo,Giulia,1300 MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-6cb8e2,Porsche,914,1.8 MT,1969,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm
+vp-f6459c,Nissan,Bluebird,1.2 4MT,1964,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout;powertrain;power_kw
+vp-76c662,Citroen,2 CV,0.6 MT,1975,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-93b2e0,BMW,6 Series,628CSi 4MT,1976,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-41a69c,Chevrolet,Suburban,4.1 3MT Heavy Duty 4WD,1971,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm;power_kw
+vp-ad922c,Nissan,Bluebird,1.6 MT,1971,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-2a763b,Ford,Fiesta,1.0 MT,1976,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-c4cfc6,Chevrolet,Van,4.1 AT G10 LWB,1978,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-63c736,Audi,100,1.6 MT,1976,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-66712f,Opel,Kadett,1.2 MT,1973,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-6b5f6f,Audi,80,1.6 AT,1978,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm
+vp-6700de,Opel,Kadett,1.0 MT,1977,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-c8e98c,Bentley,Continental,6.75 AT,1984,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-5de17c,Audi,Coupe,2.0 AT,1980,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-05412b,Aro,10,1.6 MT 4WD,1984,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-59a2fc,Lancia,Gamma,2.0 MT,1980,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-abaaf8,Nissan,Bluebird,1.8i MT,1983,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-1128aa,Chevrolet,Kadett,1.8 Flexfuel AT,1989,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;powertrain;power_kw
+vp-761b89,Peugeot,205 GTi,1.9 MT,1983,unspecified (Kaggle spec dataset),kaggle-spec,power_kw
+vp-4ea0e9,Daihatsu,Applause,1.6 MT,1989,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-351119,ZIL,4104,7.7 AT Pullman,1985,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-42b428,Chevrolet,Astro,4.3 AT 7 seat,1985,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm;power_kw
+vp-7c6691,Chevrolet,S-10,2.0 4MT,1982,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm;power_kw
+vp-c0e12d,Mercedes-Benz,SL-Class,SL 500 AT,1989,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d59892,Alfa Romeo,164,2.5 TD MT,1987,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-5ab833,Porsche,911,3.6 MT,1989,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-e03abb,Audi,200,2.1 AT 4WD,1983,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm;drive_layout
+vp-5a8791,Audi,100,1.8 MT,1982,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-1d679e,Alpina,B3,3.0 MT,1993,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-f8a6d9,Alfa Romeo,GTV,1.8 MT,1995,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-e5750e,Acura,SLX,3.5 AT,1996,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-9940da,Nissan,Cedric,3.0 AT,1991,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-8784b8,Alfa Romeo,145,1.6 MT,1994,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-0d8906,Alfa Romeo,146,1.6 MT,1994,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-697e1e,Chevrolet,Astro,4.3 AT 7 seat,1995,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-5bbbc4,Chevrolet,D20,4.0 TD MT,1993,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d32702,AC,Cobra,4.9 MT Lightweight,1990,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout;power_kw
+vp-9da661,Acura,RL,3.5 AT,1999,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-fb2d68,Suzuki,Cappuccino,0.7 AT,1991,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-23bb16,Audi,100,2.0 MT 4WD,1990,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm;drive_layout
+vp-0f8bc5,Audi,100,2.0 AT,1990,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-de9b97,Alpina,B6,4.4 AT,2007,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-65298b,Acura,NSX,3.2 MT,2002,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-c1d838,Acura,MDX,3.5 AT 4WD,2001,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-5e7e3a,Citroen,C6,2.7 HDI AT,2004,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-8b6203,Alfa Romeo,147,1.6 MT,2000,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-e82370,BMW,5 Series,530d Steptronic,2009,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-741f2b,Chevrolet,Express,4.8 AT 2500,2003,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-584626,ChangFeng,Flying,2.2 MT,2005,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-8a0f67,Alpina,Roadster V8,4.8 MT,2002,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-061dc3,Acura,EL,1.7 MT,2001,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-f55fe3,Opel,Speedster,2.0 Turbo MT,2000,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d1b8a7,Aston Martin,V8 Vantage,4.3 MT,2005,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm
+vp-037c6f,Alpina,B3,3.0 Allrad AT,2006,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-a6917e,Audi,A3,1.4 TFSI MT,2012,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-c37180,Alpina,B4,3.0 BITURBO SWITCH-TRONIC,2013,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-04ab13,Acura,RDX,3.5 AT AWD,2012,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-6e77b1,Alfa Romeo,Giulietta,1.4 TB MultiAir MT,2010,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-0bcd11,Audi,A7,2.8 FSI S tronic quattro,2010,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-90734d,BMW,2 Series Active Tourer,216d MT,2014,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d6edc8,Chevrolet,Montana,1.4 MT,2010,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d5a80f,Audi,R8,5.2 FSI quattro S tronic,2015,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-93e24e,Alfa Romeo,Giulia,2.0 AT Q4,2016,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-1596d3,Alfa Romeo,MiTo,1.4 AMT,2016,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm
+vp-d9cf9d,Audi,A4,2.0 TDI MT quattro,2011,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-deab07,Audi,A3,1.5 MT,2020,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm
+vp-e348be,Volkswagen,Beetle,1.6 MT,,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;length_mm;width_mm;height_mm;track_width_mm;drive_layout;powertrain;power_kw
+vp-f3093f,Chevrolet,Suburban,3.9 4MT Synchro-mesh,1955,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-2a9ccc,Volkswagen,Transporter,1.5 MT,1950,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-0ad162,Chevrolet,El Camino,3.9 Synchromesh 4400,1959,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-afdb14,Moskvich,401,1.1 MT,1954,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-4e9dfc,GAZ,21 Volga,21L 2.5 MT,1956,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;track_width_mm
+vp-f36dfe,Chevrolet,Chevelle,3.2 MT,1964,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-8bb6b5,Alfa Romeo,Giulia,1300 GTA Junior MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d31c20,Chevrolet,Suburban,3.9 4MT Synchro-mesh,1960,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-d2b760,Chevrolet,Van,3.8 MT,1965,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-da6e96,Chevrolet,El Camino,3.9 Synchromesh 4400,1960,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-a31a9b,Alfa Romeo,Giulia,1300 Nuova Super MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,tyre_code;power_kw
+vp-15fe85,Renault,4,1.0 MT,1962,unspecified (Kaggle spec dataset),kaggle-spec,track_width_mm
+vp-08f29b,Volvo,XC60,B5 (P) AWD Automatic Core,2027.0,UK,brochure,width_mm;track_width_mm
+vp-0d9082,Ford,Transit Passenger Van,"T-350 PFDI V6, 15-seat, high roof, Long, RWD",2025.0,US,brochure,track_width_mm
+vp-36ba82,Ford,Transit Passenger Van,"T-350 EcoBoost V6, 12-seat, high roof, Long, RWD",2025.0,US,brochure,track_width_mm
+vp-540d01,Ford,Transit Passenger Van,"T-350 EcoBoost V6, 12-seat, low roof, Long, RWD",2025.0,US,brochure,track_width_mm
+vp-78ca54,Ford,Transit Passenger Van,"T-350 EcoBoost V6, 12-seat, low roof, Long, AWD",2025.0,US,brochure,track_width_mm
+vp-ac398a,Ford,Transit Passenger Van,"T-350 PFDI V6, 15-seat, low roof, Long, RWD",2025.0,US,brochure,track_width_mm
+vp-c628f3,Ford,Transit Passenger Van,"T-350HD DRW PFDI V6, 15-seat, high roof, Long-EL, RWD",2025.0,US,brochure,track_width_mm
+vp-cdf3c7,Ford,Transit Passenger Van,"T-350 EcoBoost V6, 15-seat, medium roof, Long, RWD",2025.0,US,brochure,track_width_mm
+vp-d9f681,Volvo,XC90,B5 (P) AWD Automatic Core,2025.0,UK,brochure,width_mm;track_width_mm
+vp-f26977,Ford,Transit Passenger Van,"T-350 PFDI V6, 15-seat, medium roof, Long, RWD",2025.0,US,brochure,track_width_mm
+vp-f7e7fd,Ford,Transit Passenger Van,"T-350 PFDI V6, 12-seat, low roof, Long, RWD",2025.0,US,brochure,track_width_mm
+vp-c7ea35,Fiat,500,"500e 42 kWh High Range, 87 kW (118 hp)",2022.0,UK/EU,brochure,track_width_mm
+vp-7bb5ad,Toyota,Aygo X,1.0 VVT-i 5-speed manual,2022.0,UK/EU,web-cited,track_width_mm
+vp-5beedd,BMW,3 Series,"320i M Sport Saloon, 8-speed automatic",2026.0,UK/EU,web-cited,tyre_code;track_width_mm
+vp-da7737,Volkswagen,T-Roc,"1.5 eTSI 150 PS, 7-speed DSG",2026.0,UK/EU,web-cited,tyre_code;track_width_mm
+vp-dfac45,Peugeot,2008,"Active Premium 1.2 PureTech 100 S&S, 6-speed manual",2022.0,UK/EU,brochure,track_width_mm
+vp-a59e0f,Renault,Captur,"techno TCe 90 MY26, 6-speed manual",2026.0,UK/EU,web-cited,width_mm;track_width_mm
+vp-f5d8f1,Dacia,Duster,"Expression mild hybrid 140 MY26, 6-speed manual",2026.0,UK/EU,web-cited,width_mm;track_width_mm
+vp-889d38,Nissan,Qashqai,"DIG-T 158 mild hybrid, 2WD manual (grade range)",2025.0,UK/EU,brochure,track_width_mm

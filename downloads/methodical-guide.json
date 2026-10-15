@@ -1,5 +1,6 @@
 {
   "title": "Методичні вказівки до виконання курсового проєкту з дисципліни «Автомобілі»",
+  "language": "uk",
   "complete": true,
   "notice": null,
   "chapters": [
@@ -33,6 +34,6 @@
   "requiredCount": 161,
   "plannedCount": 161,
   "pages": 217,
-  "bytes": 3721605,
-  "revision": "0.4.63"
+  "bytes": 3716513,
+  "revision": "0.4.65"
 }
