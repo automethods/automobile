@@ -1,0 +1,178 @@
+{
+  "schema": "technical-data-pin/1",
+  "datasetId": "dataset.powertrain.components",
+  "version": "0.2.1",
+  "consumer": "automobile",
+  "origin": "My_books/vehickle_math_models/data/powertrain",
+  "releaseSha256": "3270209316e801f606cf0620dba7eeaedffed528d9c105f40d7933c1308908eb",
+  "generatorSha256": {
+    "data/powertrain/normalize-epa.mjs": "02bfc3de8b8c36f707f89f99faeda87527c7e0ebe64c8f166434e87567a227f0",
+    "data/powertrain/kernels/alpha-import.mjs": "2e152d382586b986f48423a993ab57ad03c500093b297a659afbcd74cb5d5875",
+    "data/powertrain/kernels/zip-reader.mjs": "f1074ddada456dd86bb19f9fce805a499d3b9e7e8fead456ca32c3e9bd2e0233",
+    "modules/engine-component/maps.mjs": "3f0f0d5ec531149a07ca7ea64dc3636d511f19240b95422d45bd9b4802cf9f68",
+    "modules/engine-component/component-package.mjs": "612df133c00dd76cd3e7a086cadc6b5706082ab5608918981cd57ab805e833ce",
+    "modules/engine-component/runtime.mjs": "4c246b584431d58735178a1f546a7046a8dcf7b4985b464d3b4077459bfa3bf2",
+    "data/powertrain/build-emrax.mjs": "1d33eb6a34ab23564af3b0a2b9d21125824b941f2e7a86f7ed6e2ed9b84dc223",
+    "data/powertrain/digitize-emrax.py": "4f332ceca14f9cf72ce99bdf68690c5e2451f7ccf07498767427ec1e10507234"
+  },
+  "inputs": [
+    {
+      "path": "recipes.json",
+      "sha256": "0ac57986c6362d9b533981bc5e2da6cb86b96515855251c3ad2292fb19c596f1",
+      "originPath": "Engine_motor/ICE/Data/EPA/intake-20260925/recipes.json"
+    },
+    {
+      "path": "sources/epa/2018-toyota-2.5l-a25a-fks-engine-tier3-fuel-alpha-map-package-dated-07-30-20.zip",
+      "sha256": "82dc775eb91091d07cee556cda6f1984ee5e3d8c6049211fbe7841bf4274c2fb",
+      "sourceDriveId": "1w2G-vu2WXX3FRLdhy6tuLhIlEdGBQxFb",
+      "copyDriveId": "1H9Gv07sq8RmaZOKe1ASD9sRQ_FHg4faO",
+      "originPath": "Vehicle_simulation/EPA_ALPHA/2018-toyota-2.5l-a25a-fks-engine-tier3-fuel-alpha-map-package-dated-07-30-20.zip"
+    },
+    {
+      "path": "sources/epa/2016-honda-1-5l-l15b7-engine-tier-3-fuel-alpha-map-package-02-04-19.zip",
+      "sha256": "e7f8fed72f4c732ab15c362b6c611e95c1aa8d6a43e3fe6629a67675b5397d69",
+      "sourceDriveId": "1NttPslxWkV2PbpPNeuK9HpWGnPAIozUj",
+      "copyDriveId": "1kgxey_w3GCLjg7JPi_rh7Ipf_6BWV7h_",
+      "originPath": "Vehicle_simulation/EPA_ALPHA/2016-honda-1-5l-l15b7-engine-tier-3-fuel-alpha-map-package-02-04-19.zip"
+    },
+    {
+      "path": "sources/epa/2015-bmw-3-0-l-n57-engine-diesel-fuel-alpha-map-package-06-11-18.zip",
+      "sha256": "14d72482c1875d82cc6da499d934f42058241bda4ec9dc8db8f52d39df27a583",
+      "sourceDriveId": "10OkTKsOumESdWgXeGkA0fF9PBTPs86jS",
+      "copyDriveId": "1SB4YUV0F38hJX6CZYyR8Mv2JGrbYa_Sm",
+      "originPath": "Vehicle_simulation/EPA_ALPHA/2015-bmw-3-0-l-n57-engine-diesel-fuel-alpha-map-package-06-11-18.zip"
+    },
+    {
+      "path": "sources/epa/Toyota-2.5L-TNGA-Prototype-Hybrid-Engine-from-2017-Vienna Paper-ALPHA-Map-Package-Dated-03-22-23.zip",
+      "sha256": "d99847981b6fbebd54d84430585d1246f98cc518fa371fcfc28bde0993a61342",
+      "sourceDriveId": "1dN0du2EQGQl8fsUuedRCUSxjmSVfTpMK",
+      "copyDriveId": "12T6UrTjR3DkFZeY4xKtWGVd5-UoChNco",
+      "originPath": "Vehicle_simulation/EPA_ALPHA/Toyota-2.5L-TNGA-Prototype-Hybrid-Engine-from-2017-Vienna Paper-ALPHA-Map-Package-Dated-03-22-23.zip"
+    },
+    {
+      "path": "sources/epa/Geely-1.5L-Miller-GHE-from-2020-Aachen-Paper-ALPHA-Map-Package-Dated-03-20-23.zip",
+      "sha256": "828b81f0dfcba64145f1a7a530f7e70fdfcf8b660517db4fceec492f13f35c26",
+      "sourceDriveId": "1XsotNHX1tkJI53plc_SsL8K1r5KsYsxP",
+      "copyDriveId": "1Kdr6s8nFyiINkPv7ngFNTiuWTWRsHYjg",
+      "originPath": "Vehicle_simulation/EPA_ALPHA/Geely-1.5L-Miller-GHE-from-2020-Aachen-Paper-ALPHA-Map-Package-Dated-03-20-23.zip"
+    },
+    {
+      "path": "sources/epa/chevrolet-bolt-bev-150kw-moto-from-2016-sae-paper-alpha-map-package-dated-06-25-24.zip",
+      "sha256": "fc4244e70428e3d965892131115d8e6147d96bceb9e2482b20f8f2eb521a94c8",
+      "sourceDriveId": "1GyXrFrz0LCOuZi8mlSbzeRV3JiFPyKFR",
+      "copyDriveId": "1iQr2nnVwl98Kx1RIueVhU51xkr7wL_N9",
+      "originPath": "Vehicle_simulation/EPA_ALPHA/chevrolet-bolt-bev-150kw-moto-from-2016-sae-paper-alpha-map-package-dated-06-25-24.zip"
+    },
+    {
+      "path": "sources/emrax228-202003/emrax_228_technical_data_table_graphs_5.4.pdf",
+      "sha256": "2f9432c2c5d652e210c5b77977098a92e5d2b950cff500a9e658010e2b2c7897",
+      "originPath": "vehickle_math_models/data/powertrain/sources/emrax228-202003/emrax_228_technical_data_table_graphs_5.4.pdf",
+      "locator": "Original manufacturer source / documented contour derivation"
+    },
+    {
+      "path": "sources/emrax228-202003/efficiency-map.png",
+      "sha256": "8e34cfd0e18f4aebd60cbcc71b51dd4b71147e74632c5d5bae44b940289e7833",
+      "originPath": "vehickle_math_models/data/powertrain/sources/emrax228-202003/efficiency-map.png",
+      "locator": "Original manufacturer source / documented contour derivation"
+    },
+    {
+      "path": "sources/emrax228-202003/contours.json",
+      "sha256": "bf7be413625c78f14d45e2c0b4c97d52d10a95c34d082c2677674fd4504c32a8",
+      "originPath": "vehickle_math_models/data/powertrain/sources/emrax228-202003/contours.json",
+      "locator": "Original manufacturer source / documented contour derivation"
+    },
+    {
+      "path": "sources/brogen-202512/centralized-electric-axle.pdf",
+      "sha256": "08b6e0d810831aa76c970f7641143ed8e243574d2a8ba90466ff66f52707da95",
+      "originPath": "vehickle_math_models/data/powertrain/sources/brogen-202512/centralized-electric-axle.pdf",
+      "locator": "Original manufacturer source / documented contour derivation"
+    }
+  ],
+  "files": {
+    "Data/Vehicle/powertrain/engines/epa-toyota-tnga-hybrid-paper-202303.json": "cf4ce6060c37e37031b0017f44279f6626d91ba6ddaf170adeb4a9581b8b3e72",
+    "Data/Vehicle/powertrain/engines/epa-geely-miller-paper-202303.json": "cfe0bead9c58c4c87ec99e33c0db9daecd081dbddf0970c6cbe2fd72d5ebc04d",
+    "Data/Vehicle/powertrain/engines/epa-toyota-tnga-hybrid-om-tier3-202303.json": "e4fa3c85d5e6121908adbd2fc708eeda565fea14b2bf53590babcdf979398018",
+    "Data/Vehicle/powertrain/engines/epa-geely-miller-om-tier3-202303.json": "b1a2b8b2c51978b065bdb9a37e5c66950ddd1c588337e562c66643057794670b",
+    "Data/Vehicle/powertrain/motors/epa-bolt-moto-paper-202405-loss-map.json": "2b7f82a67eaabb7a5f845dc2dd5ba244234c52cdecc75f8b87425f512e8bd41b",
+    "Data/Vehicle/powertrain/engines/epa-bmw-n57-diesel-201806.json": "2ad68d112bcd323173735f20253ac28e09154a942c8df632d9d903702218e20d",
+    "Data/Vehicle/powertrain/engines/epa-honda-l15b7-tier3-201902.json": "83e612241d81b5c852527e28e8d86a94dd7f518fe36398d6b93736db45dc5ecd",
+    "Data/Vehicle/powertrain/engines/epa-a25a-fks-tier3-202007.json": "e9d98dc697f0736c541bd835d7091e36748b1bd6a9d5afd375cf48297987f913",
+    "vendor/technical-data/powertrain/consumer.mjs": "3efbfbfddd63bb894aced1cf362918040b42fa5f53757fd3a8d976046874c1ca",
+    "Data/Vehicle/powertrain/motors/emrax228-hv-cc-202003-contours.json": "0ecf6d6e3c13bc7b1a965405283aeaee733cfb08129198f75f7c6d781c5b175b",
+    "Data/Vehicle/powertrain/references/brogen-centralized-axles-202512.json": "65604b2e5b29c2980e611781e12d1cbe689b84a13654aa47e77f17b8f04bc583",
+    "Data/Vehicle/powertrain/sources/brogen-202512/centralized-electric-axle.pdf": "08b6e0d810831aa76c970f7641143ed8e243574d2a8ba90466ff66f52707da95"
+  },
+  "components": [
+    {
+      "componentId": "epa-a25a-fks-tier3-202007",
+      "kind": "engine-package",
+      "source": "Toyota A25A-FKS 2.5 L / Tier 3",
+      "sourceVersion": "2020-07",
+      "evidence": "processed-benchmark-map",
+      "packageSha256": "0026d13b584ad32facc3fec8e315eaf43a631eebc5c7f28b5c061bfe35ddc3d9"
+    },
+    {
+      "componentId": "epa-honda-l15b7-tier3-201902",
+      "kind": "engine-package",
+      "source": "Honda L15B7 1.5 L Turbo / Tier 3",
+      "sourceVersion": "2019-02-04",
+      "evidence": "processed-benchmark-map",
+      "packageSha256": "e763a668d6b4a5fac0e6bf4d34f3cee9acb7ad7853415bf29a2220a8dc9fc5a0"
+    },
+    {
+      "componentId": "epa-bmw-n57-diesel-201806",
+      "kind": "engine-package",
+      "source": "BMW N57 3.0 L / Diesel",
+      "sourceVersion": "2018-06",
+      "evidence": "processed-benchmark-map",
+      "packageSha256": "406b0ee60334c71059adaf24c9503771437358534d41a1d4e8c97ce35242f908"
+    },
+    {
+      "componentId": "epa-toyota-tnga-hybrid-paper-202303",
+      "kind": "engine-package",
+      "source": "Toyota TNGA 2.5 L hybrid prototype / paper fuel",
+      "sourceVersion": "2023-03",
+      "evidence": "processed-model-map",
+      "packageSha256": "3451723ee76db311a741a3f7f602cca5d381537f32a26fd420daeeedfd82b0e2"
+    },
+    {
+      "componentId": "epa-toyota-tnga-hybrid-om-tier3-202303",
+      "kind": "engine-package",
+      "source": "Toyota TNGA 2.5 L hybrid prototype / octane-modified Tier 3",
+      "sourceVersion": "2023-03",
+      "evidence": "processed-model-map",
+      "packageSha256": "c7d29017c4a988108dcff8a4ee0461bf25d65fe366ae14d5a5418107a6a13e9d"
+    },
+    {
+      "componentId": "epa-geely-miller-paper-202303",
+      "kind": "engine-package",
+      "source": "Geely GHE 1.5 L Miller / paper fuel",
+      "sourceVersion": "2023-03",
+      "evidence": "processed-model-map",
+      "packageSha256": "19d9f35b5b3345eb15430dbc80e0dfea27715015243993fcfc525666aa13b615"
+    },
+    {
+      "componentId": "epa-geely-miller-om-tier3-202303",
+      "kind": "engine-package",
+      "source": "Geely GHE 1.5 L Miller / octane-modified Tier 3",
+      "sourceVersion": "2023-03",
+      "evidence": "processed-model-map",
+      "packageSha256": "bfbbc4fd89703f638c278fcdda6529bc963f56c1c06e24afd9882773d8aa412a"
+    },
+    {
+      "componentId": "epa-bolt-moto-paper-202405",
+      "kind": "standalone-loss-map",
+      "source": "Chevrolet Bolt 150 kW MOTO / paper-derived",
+      "sourceVersion": "2024-05 (ZIP date 2024-06-25)",
+      "evidence": "processed-model-map"
+    },
+    {
+      "componentId": "emrax228-hv-cc-202003-contours",
+      "kind": "motor-package",
+      "packageSha256": "2f1280043e646734515bbe7a7f2b1656bb173eddb834af4790e3fc9701f45613",
+      "source": "EMRAX 228 HV CC, manual5.4, 2020-03-05",
+      "evidence": "processed-model-map",
+      "limitations": "Contour bands; motoring only; no standby or regeneration coverage."
+    }
+  ]
+}

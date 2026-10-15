@@ -1,0 +1,2010 @@
+{
+  "schema": "battery-calibration-dataset/1",
+  "version": "1.0.0",
+  "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+  "prototypeCrosslink": {
+    "prototypeId": "vp-283497",
+    "matchStatus": "compatible-configuration",
+    "limitation": "Prototype trim/wheels are not proven; coefficients belong to the tested vehicle."
+  },
+  "sources": {
+    "archive": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip",
+    "archiveSha256": "d21ec76c41cd067b73c87f05ef73b6bc188620358937c6b05601defe1e0329eb",
+    "nestedMember": "2016 Chevrolet Volt/All_Data-2016_Chevrolet_Volt.zip",
+    "nestedSha256": "daecfa9c8b158c89ce585367ddb12ac973c6ff6c4b1e609aedcdf1e3aff0ba00",
+    "summaryMember": "2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+    "summarySha256": "3295a20009c2f7e5a105cd70b5205fe668cc63a34d3009e69401fdea3d528afc",
+    "summaryLocator": "page 1 Vehicle Setup Information; charge-depleting rows by test ID and repetition",
+    "descriptionMember": "2016 Chevrolet Volt/Vehicle Description- 2016 Chevrolet Volt.docx",
+    "descriptionSha256": "589539d571e7a48af43a5bb0371bee0cc13e32ca20d063b8935de64a463822db",
+    "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+    "attribution": "Downloadable Dynamometer Database; Advanced Powertrain Research Facility; Argonne National Laboratory; US Department of Energy",
+    "methodologyUrl": "https://publications.anl.gov/anlpubs/2021/08/167512.pdf",
+    "methodologyLocator": "ANL-21/36 section 4.2, printed pages 23-24 (PDF pages 26-27)"
+  },
+  "setup": {
+    "operatingMassKg": 1748.14499398,
+    "coastdownF0N": 139.8520875837901,
+    "coastdownF1NsPerM": 1.9064944109786857,
+    "coastdownF2KgPerM": 0.3412210398510814,
+    "rotatingMassFactor": 1,
+    "gradeRatio": 0,
+    "hvac": "OFF",
+    "fan": "speed-matched",
+    "hood": "closed",
+    "windows": "closed",
+    "batteryGrossEnergyJ": 66239999.99999999,
+    "batteryUsableEnergyJ": 50400000,
+    "wheelConfiguration": null,
+    "payloadKg": null
+  },
+  "derivation": {
+    "builderSha256": "27068e19cf064af6e20a878518fb95cfac4e4b82ea9b00ec86a0ecd3f59bbf78",
+    "wheelDemandModule": {
+      "moduleId": "module.vehicle.road-load",
+      "version": "0.1.1",
+      "modelId": "coastdown-polynomial/1",
+      "implementationSha256": "9c83d7c2b57933c241face29b9230b95816577d7952996692ab0366b34f5d673",
+      "bridgeSha256": "e6f1dad0e0e1eb1f1b2b79ba81310f7f9b27437ea9d0e769002fab0766ac857c"
+    },
+    "batteryBasis": "Trapezoidal integral of measured current times voltage; positive discharge, negative charge",
+    "wheelBasis": "Reconstructed target coastdown plus translational inertia; raw dyno effort retained separately",
+    "acceleration": "Central secant of measured speed/time; one-sided at file endpoints; no smoothing",
+    "integration": "Trapezoidal; clip signed wheel power before integration; consecutive integer phase endpoints only",
+    "fuelScreen": "Engine speed exactly zero and abs(modal fuel) <= 0.01 g/s; analyst noise screen, not an instrument accuracy specification"
+  },
+  "split": {
+    "trainingTestIds": [
+      "61607018",
+      "61607019",
+      "61607020"
+    ],
+    "holdoutTestIds": [
+      "61607021"
+    ],
+    "basis": "Exploratory split after initial data inspection; whole test IDs; holdout UDDS continues the same depletion campaign, not independent external validation"
+  },
+  "records": [
+    {
+      "id": "anl-volt2016-61607018-phase-1",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 1,
+      "summaryRepetition": 1,
+      "inputs": {
+        "wheelTractionEnergyJ": 6765290.397148758,
+        "wheelBrakingEnergyJ": 852845.2141303016,
+        "durationS": 764.799
+      },
+      "batteryNetEnergyJ": 7857097.475074151,
+      "distanceM": 16481.44220242432,
+      "dynoSignalNetEnergyJ": 2811062.6398220398,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4073484.1504480653,
+        "wheelBrakingEnergyJ": 1262421.5106260257,
+        "durationS": 764.799
+      },
+      "conditions": {
+        "temperatureMinC": 22.755,
+        "temperatureMaxC": 27.292,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.89376,
+        "batterySocEnd": 0.7879200000000001
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 313,
+        "lastDataLine": 7961,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-23b4d904a92c9332efdf"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-23b4d904a92c9332efdf",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607018; HWYx10, ph 1; 07/25/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "214.63",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-2",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 2,
+      "summaryRepetition": 2,
+      "inputs": {
+        "wheelTractionEnergyJ": 6766598.488942716,
+        "wheelBrakingEnergyJ": 853631.758177363,
+        "durationS": 764.7989999999999
+      },
+      "batteryNetEnergyJ": 7341342.946354903,
+      "distanceM": 16484.771752768,
+      "dynoSignalNetEnergyJ": 2582910.504945344,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 3879452.135274646,
+        "wheelBrakingEnergyJ": 1296541.6303293023,
+        "durationS": 764.7989999999999
+      },
+      "conditions": {
+        "temperatureMinC": 21.964,
+        "temperatureMaxC": 26.403,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.7879200000000001,
+        "batterySocEnd": 0.6742400000000001
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 8103,
+        "lastDataLine": 15751,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-e889f1ab815db9055e14"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-e889f1ab815db9055e14",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607018; HWYx10, ph 2; 07/25/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "200.52",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-3",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 3,
+      "summaryRepetition": 3,
+      "inputs": {
+        "wheelTractionEnergyJ": 6790774.6063817665,
+        "wheelBrakingEnergyJ": 853253.7273837094,
+        "durationS": 764.8000000000002
+      },
+      "batteryNetEnergyJ": 7317398.863412003,
+      "distanceM": 16518.422867584,
+      "dynoSignalNetEnergyJ": 2565131.9771421836,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 3909759.967886605,
+        "wheelBrakingEnergyJ": 1344627.9907444213,
+        "durationS": 764.8000000000002
+      },
+      "conditions": {
+        "temperatureMinC": 20.991,
+        "temperatureMaxC": 26.167,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.6742400000000001,
+        "batterySocEnd": 0.5684
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 15913,
+        "lastDataLine": 23561,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-128dc69863802fe5da35"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-128dc69863802fe5da35",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607018; HWYx10, ph 3; 07/25/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "199.43",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-4",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 4,
+      "summaryRepetition": 4,
+      "inputs": {
+        "wheelTractionEnergyJ": 6786756.251400316,
+        "wheelBrakingEnergyJ": 830352.8146529477,
+        "durationS": 764.799
+      },
+      "batteryNetEnergyJ": 7315031.533127671,
+      "distanceM": 16548.94370147744,
+      "dynoSignalNetEnergyJ": 2577070.1840759465,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 3855863.2650166424,
+        "wheelBrakingEnergyJ": 1278793.080940696,
+        "durationS": 764.799
+      },
+      "conditions": {
+        "temperatureMinC": 21.099,
+        "temperatureMaxC": 25.934,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.5684,
+        "batterySocEnd": 0.46256
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 23703,
+        "lastDataLine": 31351,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-b024488c4fecb87e903b"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-b024488c4fecb87e903b",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607018; HWYx10, ph 4; 07/25/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "199.07",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-5",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 5,
+      "summaryRepetition": 5,
+      "inputs": {
+        "wheelTractionEnergyJ": 6725024.511140381,
+        "wheelBrakingEnergyJ": 830442.9936131858,
+        "durationS": 764.799
+      },
+      "batteryNetEnergyJ": 7216842.844423324,
+      "distanceM": 16458.729892431198,
+      "dynoSignalNetEnergyJ": 2541390.4186232598,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 3813388.6849196614,
+        "wheelBrakingEnergyJ": 1271998.2662964016,
+        "durationS": 764.799
+      },
+      "conditions": {
+        "temperatureMinC": 20.972,
+        "temperatureMaxC": 26.112,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.46256,
+        "batterySocEnd": 0.36064
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 31523,
+        "lastDataLine": 39171,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-bc91b199a5cad521834a"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-bc91b199a5cad521834a",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607018; HWYx10, ph 5; 07/25/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "197.42",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-6",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 6,
+      "summaryRepetition": 6,
+      "inputs": {
+        "wheelTractionEnergyJ": 6721859.219054333,
+        "wheelBrakingEnergyJ": 810920.2798300878,
+        "durationS": 764.7999999999997
+      },
+      "batteryNetEnergyJ": 7254572.182289344,
+      "distanceM": 16482.389253087997,
+      "dynoSignalNetEnergyJ": 2552335.610807037,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 3820946.8481500787,
+        "wheelBrakingEnergyJ": 1268611.2373430417,
+        "durationS": 764.7999999999997
+      },
+      "conditions": {
+        "temperatureMinC": 20.985,
+        "temperatureMaxC": 26.063,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.003,
+        "batterySocStart": 0.35672,
+        "batterySocEnd": 0.25088
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 39313,
+        "lastDataLine": 46961,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-050912547d2c7dc46655"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-050912547d2c7dc46655",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607018; HWYx10, ph 6; 07/25/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "198.11",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-7",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 7,
+      "summaryRepetition": 7,
+      "inputs": {
+        "wheelTractionEnergyJ": 6785910.782399782,
+        "wheelBrakingEnergyJ": 845938.7056543863,
+        "durationS": 764.7990000000009
+      },
+      "batteryNetEnergyJ": 6057094.951561158,
+      "distanceM": 16523.85148821264,
+      "dynoSignalNetEnergyJ": 2569933.559326071,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 3884519.228601704,
+        "wheelBrakingEnergyJ": 1314585.669275633,
+        "durationS": 764.7990000000009
+      },
+      "conditions": {
+        "temperatureMinC": 20.946,
+        "temperatureMaxC": 25.99,
+        "engineSpeedMaxRpm": 2898.124,
+        "fuelFlowAbsMaxGPerS": 1.816,
+        "batterySocStart": 0.25088,
+        "batterySocEnd": 0.1568
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 47123,
+        "lastDataLine": 54771,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen"
+      ],
+      "summaryObservationIds": [
+        "obs-4616b49fd83c1d2d97fb"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-4616b49fd83c1d2d97fb",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607018; HWYx10, ph 7; 07/25/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "165.28",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-8",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 8,
+      "summaryRepetition": 8,
+      "inputs": {
+        "wheelTractionEnergyJ": 6826753.438266404,
+        "wheelBrakingEnergyJ": 862868.4241226136,
+        "durationS": 764.799
+      },
+      "batteryNetEnergyJ": -649154.0912214788,
+      "distanceM": 16556.18103655824,
+      "dynoSignalNetEnergyJ": 2583673.6560317073,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 3883714.4137882884,
+        "wheelBrakingEnergyJ": 1300040.757756581,
+        "durationS": 764.799
+      },
+      "conditions": {
+        "temperatureMinC": 20.992,
+        "temperatureMaxC": 26.314,
+        "engineSpeedMaxRpm": 3007.324,
+        "fuelFlowAbsMaxGPerS": 1.929,
+        "batterySocStart": 0.1568,
+        "batterySocEnd": 0.16463999999999998
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 54913,
+        "lastDataLine": 62561,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "summaryObservationIds": [],
+      "summaryReferences": []
+    },
+    {
+      "id": "anl-volt2016-61607018-phase-9",
+      "testId": "61607018",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "HWFET",
+      "phase": 9,
+      "summaryRepetition": 9,
+      "inputs": {
+        "wheelTractionEnergyJ": 6769092.772836997,
+        "wheelBrakingEnergyJ": 823521.1295225198,
+        "durationS": 764.799
+      },
+      "batteryNetEnergyJ": -119679.37719207972,
+      "distanceM": 16536.0449429824,
+      "dynoSignalNetEnergyJ": 2572299.6613665856,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 3841008.2772754785,
+        "wheelBrakingEnergyJ": 1268708.615908893,
+        "durationS": 764.799
+      },
+      "conditions": {
+        "temperatureMinC": 21.404,
+        "temperatureMaxC": 26.429,
+        "engineSpeedMaxRpm": 2977.928,
+        "fuelFlowAbsMaxGPerS": 1.911,
+        "batterySocStart": 0.16463999999999998,
+        "batterySocEnd": 0.16856000000000002
+      },
+      "source": {
+        "member": "61607018 Test Data.txt",
+        "sha256": "021a543ec8e789eb5d25f3b3c62f287753987dddafd4416b78691a9cf044a857",
+        "firstDataLine": 62723,
+        "lastDataLine": 70371,
+        "intervalCount": 7648,
+        "fractionalPhaseSamplesExcluded": 18,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "summaryObservationIds": [],
+      "summaryReferences": []
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-1",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 1,
+      "summaryRepetition": 1,
+      "inputs": {
+        "wheelTractionEnergyJ": 8923383.051399233,
+        "wheelBrakingEnergyJ": 3068337.286906103,
+        "durationS": 600.699
+      },
+      "batteryNetEnergyJ": 8731230.771570073,
+      "distanceM": 12902.39610332992,
+      "dynoSignalNetEnergyJ": 3127844.4771948773,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 6809541.183227467,
+        "wheelBrakingEnergyJ": 3681696.70603259,
+        "durationS": 600.699
+      },
+      "conditions": {
+        "temperatureMinC": 22.048,
+        "temperatureMaxC": 28.816,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.89768,
+        "batterySocEnd": 0.77224
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 304,
+        "lastDataLine": 6311,
+        "intervalCount": 6007,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-7e24bbdcea0c86af2772"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-7e24bbdcea0c86af2772",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607019; US06x10, ph 1; 07/26/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "304.35",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-2",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 2,
+      "summaryRepetition": 2,
+      "inputs": {
+        "wheelTractionEnergyJ": 8821591.91542336,
+        "wheelBrakingEnergyJ": 2977678.3737366702,
+        "durationS": 599.7999999999998
+      },
+      "batteryNetEnergyJ": 8146123.11706735,
+      "distanceM": 12893.277337599999,
+      "dynoSignalNetEnergyJ": 3098930.893625025,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 6663661.684999333,
+        "wheelBrakingEnergyJ": 3564730.7913743076,
+        "durationS": 599.7999999999998
+      },
+      "conditions": {
+        "temperatureMinC": 20.697,
+        "temperatureMaxC": 27.226,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.77224,
+        "batterySocEnd": 0.6468
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 6313,
+        "lastDataLine": 12311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-7f43aa7fc70ea78519d3"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-7f43aa7fc70ea78519d3",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607019; US06x10, ph 2; 07/26/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "284.09",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-3",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 3,
+      "summaryRepetition": 3,
+      "inputs": {
+        "wheelTractionEnergyJ": 8776080.164914332,
+        "wheelBrakingEnergyJ": 2894447.0648883525,
+        "durationS": 599.799
+      },
+      "batteryNetEnergyJ": 8193574.689994069,
+      "distanceM": 12932.445816519681,
+      "dynoSignalNetEnergyJ": 3097266.638278152,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 6554025.146741568,
+        "wheelBrakingEnergyJ": 3456758.5084634162,
+        "durationS": 599.799
+      },
+      "conditions": {
+        "temperatureMinC": 20.496,
+        "temperatureMaxC": 27.032,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.6468,
+        "batterySocEnd": 0.52528
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 12313,
+        "lastDataLine": 18311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-d2ba907b05f66524dd52"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-d2ba907b05f66524dd52",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607019; US06x10, ph 3; 07/26/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "284.85",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-4",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 4,
+      "summaryRepetition": 4,
+      "inputs": {
+        "wheelTractionEnergyJ": 8761424.29956413,
+        "wheelBrakingEnergyJ": 2879103.139551678,
+        "durationS": 599.8000000000002
+      },
+      "batteryNetEnergyJ": 8232365.894746194,
+      "distanceM": 12927.660167487998,
+      "dynoSignalNetEnergyJ": 3095438.3519554366,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 6522746.537094968,
+        "wheelBrakingEnergyJ": 3427308.1851395313,
+        "durationS": 599.8000000000002
+      },
+      "conditions": {
+        "temperatureMinC": 20.325,
+        "temperatureMaxC": 26.907,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.52528,
+        "batterySocEnd": 0.40375999999999995
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 18313,
+        "lastDataLine": 24311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-1479687ef69700feaa62"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-1479687ef69700feaa62",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607019; US06x10, ph 4; 07/26/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "286.2",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-5",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 5,
+      "summaryRepetition": 5,
+      "inputs": {
+        "wheelTractionEnergyJ": 8888491.664569773,
+        "wheelBrakingEnergyJ": 3042912.8550349902,
+        "durationS": 599.799
+      },
+      "batteryNetEnergyJ": 8242585.497131292,
+      "distanceM": 12894.223801076641,
+      "dynoSignalNetEnergyJ": 3076503.7245743563,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 6774966.442885158,
+        "wheelBrakingEnergyJ": 3698462.718310801,
+        "durationS": 599.799
+      },
+      "conditions": {
+        "temperatureMinC": 20.241,
+        "temperatureMaxC": 27.02,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.003,
+        "batterySocStart": 0.40375999999999995,
+        "batterySocEnd": 0.27440000000000003
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 24313,
+        "lastDataLine": 30311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-b3ee50a7a501e0b81f9d"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-b3ee50a7a501e0b81f9d",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607019; US06x10, ph 5; 07/26/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "287.69",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-6",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 6,
+      "summaryRepetition": 6,
+      "inputs": {
+        "wheelTractionEnergyJ": 8763607.270081196,
+        "wheelBrakingEnergyJ": 2924120.604052747,
+        "durationS": 599.7999999999997
+      },
+      "batteryNetEnergyJ": 7673389.801935511,
+      "distanceM": 12884.304306016,
+      "dynoSignalNetEnergyJ": 3066089.812142318,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 6567149.260004822,
+        "wheelBrakingEnergyJ": 3501059.447862504,
+        "durationS": 599.7999999999997
+      },
+      "conditions": {
+        "temperatureMinC": 20.177,
+        "temperatureMaxC": 27.046,
+        "engineSpeedMaxRpm": 3074.432,
+        "fuelFlowAbsMaxGPerS": 2.159,
+        "batterySocStart": 0.27440000000000003,
+        "batterySocEnd": 0.15288000000000002
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 30313,
+        "lastDataLine": 36311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen"
+      ],
+      "summaryObservationIds": [
+        "obs-f42ae7a8d92db702aa11"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-f42ae7a8d92db702aa11",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607019; US06x10, ph 6; 07/26/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "267.6",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-7",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 7,
+      "summaryRepetition": 7,
+      "inputs": {
+        "wheelTractionEnergyJ": 8813389.389344994,
+        "wheelBrakingEnergyJ": 2926603.8078515045,
+        "durationS": 599.7989999999995
+      },
+      "batteryNetEnergyJ": -79098.26495376621,
+      "distanceM": 12926.47687473648,
+      "dynoSignalNetEnergyJ": 3102329.7279092297,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 6568947.3343471065,
+        "wheelBrakingEnergyJ": 3466617.606437877,
+        "durationS": 599.7989999999995
+      },
+      "conditions": {
+        "temperatureMinC": 20.349,
+        "temperatureMaxC": 27.246,
+        "engineSpeedMaxRpm": 4184.357,
+        "fuelFlowAbsMaxGPerS": 3.049,
+        "batterySocStart": 0.15288000000000002,
+        "batterySocEnd": 0.15288000000000002
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 36313,
+        "lastDataLine": 42311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "summaryObservationIds": [],
+      "summaryReferences": []
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-8",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 8,
+      "summaryRepetition": 8,
+      "inputs": {
+        "wheelTractionEnergyJ": 8754364.15857446,
+        "wheelBrakingEnergyJ": 2866364.1799674546,
+        "durationS": 599.7990000000009
+      },
+      "batteryNetEnergyJ": -286457.1144091399,
+      "distanceM": 12929.639141818081,
+      "dynoSignalNetEnergyJ": 3101030.163732918,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 6525600.601296738,
+        "wheelBrakingEnergyJ": 3424570.43756382,
+        "durationS": 599.7990000000009
+      },
+      "conditions": {
+        "temperatureMinC": 20.659,
+        "temperatureMaxC": 27.339,
+        "engineSpeedMaxRpm": 4191.434,
+        "fuelFlowAbsMaxGPerS": 2.947,
+        "batterySocStart": 0.15288000000000002,
+        "batterySocEnd": 0.15288000000000002
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 42313,
+        "lastDataLine": 48311,
+        "intervalCount": 5998,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "summaryObservationIds": [],
+      "summaryReferences": []
+    },
+    {
+      "id": "anl-volt2016-61607019-phase-9",
+      "testId": "61607019",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "US06",
+      "phase": 9,
+      "summaryRepetition": 9,
+      "inputs": {
+        "wheelTractionEnergyJ": 0.0,
+        "wheelBrakingEnergyJ": -0.0,
+        "durationS": 30.5
+      },
+      "batteryNetEnergyJ": 10773.086352499997,
+      "distanceM": 0.0,
+      "dynoSignalNetEnergyJ": 0.0,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 0.0,
+        "wheelBrakingEnergyJ": -0.0,
+        "durationS": 30.5
+      },
+      "conditions": {
+        "temperatureMinC": 21.052,
+        "temperatureMaxC": 21.053,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.011,
+        "batterySocStart": 0.15288000000000002,
+        "batterySocEnd": 0.15288000000000002
+      },
+      "source": {
+        "member": "61607019 Test Data.txt",
+        "sha256": "f89b347c92f1cd4276b8c022b53dfefb486b728863301460ebe1c3ee90789462",
+        "firstDataLine": 48313,
+        "lastDataLine": 48618,
+        "intervalCount": 305,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "stationary-tail-or-incomplete-cycle",
+        "fuel-channel-above-0.01-g-per-s-screen"
+      ],
+      "summaryObservationIds": [],
+      "summaryReferences": []
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-1",
+      "testId": "61607020",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 1,
+      "summaryRepetition": 1,
+      "inputs": {
+        "wheelTractionEnergyJ": 5583625.250212462,
+        "wheelBrakingEnergyJ": 2696359.078626327,
+        "durationS": 1372.799
+      },
+      "batteryNetEnergyJ": 5356697.486203313,
+      "distanceM": 11997.15021045728,
+      "dynoSignalNetEnergyJ": 907585.7782643215,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4241183.181473623,
+        "wheelBrakingEnergyJ": 3333597.4032093016,
+        "durationS": 1372.799
+      },
+      "conditions": {
+        "temperatureMinC": 20.495,
+        "temperatureMaxC": 26.659,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.003,
+        "batterySocStart": 0.89768,
+        "batterySocEnd": 0.8271200000000001
+      },
+      "source": {
+        "member": "61607020 Test Data.txt",
+        "sha256": "eb78524d2930e803c8169f45af2b9715d8cd1e2859a45f7ca9f6d1904eeef018",
+        "firstDataLine": 313,
+        "lastDataLine": 14041,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-dc28df18d1163561674c"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-dc28df18d1163561674c",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607020; UDDS #1; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "203.73",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-2",
+      "testId": "61607020",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 2,
+      "summaryRepetition": 2,
+      "inputs": {
+        "wheelTractionEnergyJ": 5623650.443943227,
+        "wheelBrakingEnergyJ": 2739297.007639316,
+        "durationS": 1372.798
+      },
+      "batteryNetEnergyJ": 4894155.681411698,
+      "distanceM": 11998.34683885904,
+      "dynoSignalNetEnergyJ": 905212.0636751911,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4317130.935157468,
+        "wheelBrakingEnergyJ": 3411918.8714822764,
+        "durationS": 1372.798
+      },
+      "conditions": {
+        "temperatureMinC": 20.412,
+        "temperatureMaxC": 25.987,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.004,
+        "batterySocStart": 0.8271200000000001,
+        "batterySocEnd": 0.75656
+      },
+      "source": {
+        "member": "61607020 Test Data.txt",
+        "sha256": "eb78524d2930e803c8169f45af2b9715d8cd1e2859a45f7ca9f6d1904eeef018",
+        "firstDataLine": 14043,
+        "lastDataLine": 27771,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-1fdd5f12a6f1a782e2f4"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-1fdd5f12a6f1a782e2f4",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607020; UDDS #2; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "186.44",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-3",
+      "testId": "61607020",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 3,
+      "summaryRepetition": 3,
+      "inputs": {
+        "wheelTractionEnergyJ": 5630467.6321104895,
+        "wheelBrakingEnergyJ": 2726000.0713314237,
+        "durationS": 1372.7989999999995
+      },
+      "batteryNetEnergyJ": 4883391.058918505,
+      "distanceM": 12050.349237815679,
+      "dynoSignalNetEnergyJ": 918531.4700997396,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4318791.703201782,
+        "wheelBrakingEnergyJ": 3400260.233102042,
+        "durationS": 1372.7989999999995
+      },
+      "conditions": {
+        "temperatureMinC": 20.668,
+        "temperatureMaxC": 26.326,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.003,
+        "batterySocStart": 0.75656,
+        "batterySocEnd": 0.68208
+      },
+      "source": {
+        "member": "61607020 Test Data.txt",
+        "sha256": "eb78524d2930e803c8169f45af2b9715d8cd1e2859a45f7ca9f6d1904eeef018",
+        "firstDataLine": 27773,
+        "lastDataLine": 41501,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-7bb58ecf721218e8621a"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-7bb58ecf721218e8621a",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607020; UDDS #3; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "185.1",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-4",
+      "testId": "61607020",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 4,
+      "summaryRepetition": 4,
+      "inputs": {
+        "wheelTractionEnergyJ": 5645153.3254461475,
+        "wheelBrakingEnergyJ": 2752146.6943447394,
+        "durationS": 1371.799000000001
+      },
+      "batteryNetEnergyJ": 4836857.091471777,
+      "distanceM": 12007.09265096352,
+      "dynoSignalNetEnergyJ": 915457.8543941302,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4344382.2028789045,
+        "wheelBrakingEnergyJ": 3428924.3484847746,
+        "durationS": 1371.799000000001
+      },
+      "conditions": {
+        "temperatureMinC": 20.606,
+        "temperatureMaxC": 26.233,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.005,
+        "batterySocStart": 0.68208,
+        "batterySocEnd": 0.6076
+      },
+      "source": {
+        "member": "61607020 Test Data.txt",
+        "sha256": "eb78524d2930e803c8169f45af2b9715d8cd1e2859a45f7ca9f6d1904eeef018",
+        "firstDataLine": 41503,
+        "lastDataLine": 55221,
+        "intervalCount": 13718,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-19ea933b63aeff6f094e"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-19ea933b63aeff6f094e",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607020; UDDS #4; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "184.03",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-5",
+      "testId": "61607020",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 5,
+      "summaryRepetition": 5,
+      "inputs": {
+        "wheelTractionEnergyJ": 5631347.348753513,
+        "wheelBrakingEnergyJ": 2719979.4171004687,
+        "durationS": 1372.7979999999998
+      },
+      "batteryNetEnergyJ": 4814640.55365259,
+      "distanceM": 12071.41513011104,
+      "dynoSignalNetEnergyJ": 921632.3744715792,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4265431.214322355,
+        "wheelBrakingEnergyJ": 3343798.839850776,
+        "durationS": 1372.7979999999998
+      },
+      "conditions": {
+        "temperatureMinC": 20.648,
+        "temperatureMaxC": 26.376,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.006,
+        "batterySocStart": 0.6076,
+        "batterySocEnd": 0.54096
+      },
+      "source": {
+        "member": "61607020 Test Data.txt",
+        "sha256": "eb78524d2930e803c8169f45af2b9715d8cd1e2859a45f7ca9f6d1904eeef018",
+        "firstDataLine": 55223,
+        "lastDataLine": 68951,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-1357893ee3e99ea420d0"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-1357893ee3e99ea420d0",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607020; UDDS #5; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "181.98",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-6",
+      "testId": "61607020",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 6,
+      "summaryRepetition": 6,
+      "inputs": {
+        "wheelTractionEnergyJ": 5618760.713331089,
+        "wheelBrakingEnergyJ": 2717190.502098414,
+        "durationS": 1372.799
+      },
+      "batteryNetEnergyJ": 4795291.803564806,
+      "distanceM": 12043.13448764272,
+      "dynoSignalNetEnergyJ": 916144.1364640837,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4252599.406375406,
+        "wheelBrakingEnergyJ": 3336455.2699113227,
+        "durationS": 1372.799
+      },
+      "conditions": {
+        "temperatureMinC": 20.648,
+        "temperatureMaxC": 26.276,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.009,
+        "batterySocStart": 0.54096,
+        "batterySocEnd": 0.46648
+      },
+      "source": {
+        "member": "61607020 Test Data.txt",
+        "sha256": "eb78524d2930e803c8169f45af2b9715d8cd1e2859a45f7ca9f6d1904eeef018",
+        "firstDataLine": 68953,
+        "lastDataLine": 82681,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-7ea4ae075f7756165520"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-7ea4ae075f7756165520",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607020; UDDS #6; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "181.74",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-7",
+      "testId": "61607020",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 7,
+      "summaryRepetition": 7,
+      "inputs": {
+        "wheelTractionEnergyJ": 5571073.660585256,
+        "wheelBrakingEnergyJ": 2687270.363330201,
+        "durationS": 1372.798999999999
+      },
+      "batteryNetEnergyJ": 4746810.436618924,
+      "distanceM": 11983.8511953688,
+      "dynoSignalNetEnergyJ": 908566.504821197,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4204784.265678411,
+        "wheelBrakingEnergyJ": 3296217.760857214,
+        "durationS": 1372.798999999999
+      },
+      "conditions": {
+        "temperatureMinC": 20.667,
+        "temperatureMaxC": 26.23,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.009,
+        "batterySocStart": 0.46648,
+        "batterySocEnd": 0.39592
+      },
+      "source": {
+        "member": "61607020 Test Data.txt",
+        "sha256": "eb78524d2930e803c8169f45af2b9715d8cd1e2859a45f7ca9f6d1904eeef018",
+        "firstDataLine": 82683,
+        "lastDataLine": 96411,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-1bff895a396f5313aebd"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-1bff895a396f5313aebd",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607020; UDDS #7; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "180.76",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607020-phase-8",
+      "testId": "61607020",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 8,
+      "summaryRepetition": 8,
+      "inputs": {
+        "wheelTractionEnergyJ": 5607507.6079427935,
+        "wheelBrakingEnergyJ": 2724716.1771398983,
+        "durationS": 1371.7979999999989
+      },
+      "batteryNetEnergyJ": 4743735.609396868,
+      "distanceM": 11993.837373821601,
+      "dynoSignalNetEnergyJ": 906722.1452239784,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4247842.431584272,
+        "wheelBrakingEnergyJ": 3341120.2863602936,
+        "durationS": 1371.7979999999989
+      },
+      "conditions": {
+        "temperatureMinC": 20.676,
+        "temperatureMaxC": 26.321,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.01,
+        "batterySocStart": 0.39592,
+        "batterySocEnd": 0.32536000000000004
+      },
+      "source": {
+        "member": "61607020 Test Data.txt",
+        "sha256": "eb78524d2930e803c8169f45af2b9715d8cd1e2859a45f7ca9f6d1904eeef018",
+        "firstDataLine": 96413,
+        "lastDataLine": 110131,
+        "intervalCount": 13718,
+        "fractionalPhaseSamplesExcluded": 9,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-2b184cb4c6dbba8290cb"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-2b184cb4c6dbba8290cb",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607020; UDDS #8; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "180.34",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-1",
+      "testId": "61607021",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 1,
+      "summaryRepetition": 9,
+      "inputs": {
+        "wheelTractionEnergyJ": 5619647.509674684,
+        "wheelBrakingEnergyJ": 2703918.777318731,
+        "durationS": 1372.799
+      },
+      "batteryNetEnergyJ": 4854976.744275113,
+      "distanceM": 12090.0807093,
+      "dynoSignalNetEnergyJ": 923070.0318101123,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4254657.39374505,
+        "wheelBrakingEnergyJ": 3331587.3619349375,
+        "durationS": 1372.799
+      },
+      "conditions": {
+        "temperatureMinC": 20.799,
+        "temperatureMaxC": 26.618,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.32536000000000004,
+        "batterySocEnd": 0.25088
+      },
+      "source": {
+        "member": "61607021 Test Data.txt",
+        "sha256": "9a51688209db8537d3201ad863c044adfdbed6d0b28067bd23efc51563535560",
+        "firstDataLine": 313,
+        "lastDataLine": 14041,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 5,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-071ca3e33df1c250ba78"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-071ca3e33df1c250ba78",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607021; UDDS #9; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "182.9",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-2",
+      "testId": "61607021",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 2,
+      "summaryRepetition": 10,
+      "inputs": {
+        "wheelTractionEnergyJ": 5636486.115116847,
+        "wheelBrakingEnergyJ": 2722663.4679062967,
+        "durationS": 1372.798
+      },
+      "batteryNetEnergyJ": 4828572.733388045,
+      "distanceM": 12076.43452361808,
+      "dynoSignalNetEnergyJ": 920936.0146906526,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4271444.477104736,
+        "wheelBrakingEnergyJ": 3350508.4624140835,
+        "durationS": 1372.798
+      },
+      "conditions": {
+        "temperatureMinC": 20.6,
+        "temperatureMaxC": 26.118,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.002,
+        "batterySocStart": 0.25088,
+        "batterySocEnd": 0.17248000000000002
+      },
+      "source": {
+        "member": "61607021 Test Data.txt",
+        "sha256": "9a51688209db8537d3201ad863c044adfdbed6d0b28067bd23efc51563535560",
+        "firstDataLine": 14043,
+        "lastDataLine": 27771,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 5,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "eligible",
+      "exclusionReasons": [],
+      "summaryObservationIds": [
+        "obs-ea222b037a63dbb4c7e8"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-ea222b037a63dbb4c7e8",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607021; UDDS #10; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "182.04",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-3",
+      "testId": "61607021",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 3,
+      "summaryRepetition": 11,
+      "inputs": {
+        "wheelTractionEnergyJ": 5575141.634797548,
+        "wheelBrakingEnergyJ": 2697831.897762178,
+        "durationS": 1372.7989999999995
+      },
+      "batteryNetEnergyJ": 1427743.1607678041,
+      "distanceM": 11973.4723604496,
+      "dynoSignalNetEnergyJ": 904418.048381953,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4229842.690920576,
+        "wheelBrakingEnergyJ": 3325424.642538623,
+        "durationS": 1372.7989999999995
+      },
+      "conditions": {
+        "temperatureMinC": 20.849,
+        "temperatureMaxC": 26.452,
+        "engineSpeedMaxRpm": 2725.15,
+        "fuelFlowAbsMaxGPerS": 1.588,
+        "batterySocStart": 0.17248000000000002,
+        "batterySocEnd": 0.14504
+      },
+      "source": {
+        "member": "61607021 Test Data.txt",
+        "sha256": "9a51688209db8537d3201ad863c044adfdbed6d0b28067bd23efc51563535560",
+        "firstDataLine": 27773,
+        "lastDataLine": 41501,
+        "intervalCount": 13728,
+        "fractionalPhaseSamplesExcluded": 5,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen"
+      ],
+      "summaryObservationIds": [
+        "obs-e670e02f6402b2853d46"
+      ],
+      "summaryReferences": [
+        {
+          "id": "obs-e670e02f6402b2853d46",
+          "sourceFile": "/media/cigameca/SHARED/Work/Vehicle_simulation/Test_PHEV_Data/2016 Chevrolet Volt.zip:2016 Chevrolet Volt/D3 Master Summary List - 2016 Chevrolet Volt 72F.pdf",
+          "sourceUrl": "https://www.anl.gov/taps/plugin-hybrid-electric-vehicle-testing",
+          "locator": "p. 1; charge-depleting section; test 61607021; UDDS #11; 07/27/16; Cycle HV battery Energy Consumption [DC Wh/mi]",
+          "originalValue": "56.91",
+          "originalUnit": "Wh/mi"
+        }
+      ]
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-4",
+      "testId": "61607021",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 4,
+      "summaryRepetition": 12,
+      "inputs": {
+        "wheelTractionEnergyJ": 5558401.376256304,
+        "wheelBrakingEnergyJ": 2679359.8701283177,
+        "durationS": 1371.799000000001
+      },
+      "batteryNetEnergyJ": -463411.43879517034,
+      "distanceM": 11978.34567179008,
+      "dynoSignalNetEnergyJ": 903878.6217195309,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 4185289.2288691266,
+        "wheelBrakingEnergyJ": 3281410.607149596,
+        "durationS": 1371.799000000001
+      },
+      "conditions": {
+        "temperatureMinC": 20.73,
+        "temperatureMaxC": 26.359,
+        "engineSpeedMaxRpm": 2831.678,
+        "fuelFlowAbsMaxGPerS": 1.891,
+        "batterySocStart": 0.14504,
+        "batterySocEnd": 0.15288000000000002
+      },
+      "source": {
+        "member": "61607021 Test Data.txt",
+        "sha256": "9a51688209db8537d3201ad863c044adfdbed6d0b28067bd23efc51563535560",
+        "firstDataLine": 41503,
+        "lastDataLine": 55221,
+        "intervalCount": 13718,
+        "fractionalPhaseSamplesExcluded": 5,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "engine-operated-PHEV-battery-balance",
+        "fuel-channel-above-0.01-g-per-s-screen",
+        "nonpositive-net-battery-discharge"
+      ],
+      "summaryObservationIds": [],
+      "summaryReferences": []
+    },
+    {
+      "id": "anl-volt2016-61607021-phase-5",
+      "testId": "61607021",
+      "sourceVehicleId": "anl-aprf-2016-chevrolet-volt",
+      "cycle": "UDDS",
+      "phase": 5,
+      "summaryRepetition": 13,
+      "inputs": {
+        "wheelTractionEnergyJ": 0.0,
+        "wheelBrakingEnergyJ": -0.0,
+        "durationS": 34.5
+      },
+      "batteryNetEnergyJ": 11486.195544699947,
+      "distanceM": 0.0,
+      "dynoSignalNetEnergyJ": 0.0,
+      "dynoSignalInputs": {
+        "wheelTractionEnergyJ": 0.0,
+        "wheelBrakingEnergyJ": -0.0,
+        "durationS": 34.5
+      },
+      "conditions": {
+        "temperatureMinC": 20.939,
+        "temperatureMaxC": 20.951,
+        "engineSpeedMaxRpm": 0.0,
+        "fuelFlowAbsMaxGPerS": 0.009,
+        "batterySocStart": 0.15288000000000002,
+        "batterySocEnd": 0.15288000000000002
+      },
+      "source": {
+        "member": "61607021 Test Data.txt",
+        "sha256": "9a51688209db8537d3201ad863c044adfdbed6d0b28067bd23efc51563535560",
+        "firstDataLine": 55223,
+        "lastDataLine": 55568,
+        "intervalCount": 345,
+        "fractionalPhaseSamplesExcluded": 5,
+        "originalHeaders": [
+          "Time[sec]",
+          "Test_Cell_Temp[C]",
+          "Dyno_Speed[mph]",
+          "Dyno_Tractive_Effort[N]",
+          "Phase_#",
+          "HV_Battery_Current[A]",
+          "HV_Battery_Voltage[V]",
+          "HV_Battery_SOC[%]",
+          "Engine_Speed[rpm]",
+          "Fuel_Flow_Bench_Modal[g/s]"
+        ]
+      },
+      "calibrationStatus": "excluded",
+      "exclusionReasons": [
+        "stationary-tail-or-incomplete-cycle"
+      ],
+      "summaryObservationIds": [],
+      "summaryReferences": []
+    }
+  ]
+}

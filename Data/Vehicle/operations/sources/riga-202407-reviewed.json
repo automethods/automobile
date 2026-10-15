@@ -1,0 +1,13 @@
+{
+  "title": "Rigas satiksme procurement announcement, 2July2024",
+  "url": "https://www.rigassatiksme.lv/en/current%20information/rigas-satiksme-has-concluded-an-agreement-with-solaris-bus-coach-sp-z-o-o-for-the-procurement-of-17-more-electric-buses/",
+  "reviewedAt": "2026-10-08",
+  "facts": {
+    "contractEUR": 9900000,
+    "buses": 17,
+    "includes": "buses and spare parts"
+  },
+  "artifactType": "reviewed-web-extraction",
+  "originalPdfSha256": null,
+  "note": "Operator web page reviewed; direct retrieval403. Preserved review hash is not an original webpage hash. Package price is not a per-bus purchase price."
+}
