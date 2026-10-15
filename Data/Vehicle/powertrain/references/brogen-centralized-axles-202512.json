@@ -1,0 +1,178 @@
+{
+  "schema": "component-reference-table/1",
+  "version": "0.1.0",
+  "sourceFile": "/media/cigameca/SHARED/Work/Literature/Transport/Automobiles/by brands/components/Brogen/1Centralized Electric Axle for Trucks - Brogen EV Solution - Updated on 2025.12.pdf",
+  "sourceCopy": "sources/brogen-202512/centralized-electric-axle.pdf",
+  "sourceSha256": "08b6e0d810831aa76c970f7641143ed8e243574d2a8ba90466ff66f52707da95",
+  "sourceEdition": "Updated 2025.12",
+  "manufacturer": "Brogen / Shanghai OE Industrial Co., Ltd.",
+  "records": [
+    {
+      "sku": "LCV eAxle-F",
+      "ratedAxleLoadKg": 3500,
+      "maximumVehicleSpeedKmh": 100,
+      "maximumWheelEndTorqueNm": 5300,
+      "motorRatedPowerKw": 60,
+      "motorPeakPowerKw": 120,
+      "motorRatedTorqueNm": 145,
+      "motorPeakTorqueNm": 335,
+      "reportedTransmissionRatios": [
+        16.6
+      ],
+      "reportedWheelEndReduction": null,
+      "dualMotorLabel": false,
+      "ratingAggregation": "source motor column",
+      "locator": "PDF p.3, specification table, LCV eAxle-F"
+    },
+    {
+      "sku": "LCV eAxle-I",
+      "ratedAxleLoadKg": 4500,
+      "maximumVehicleSpeedKmh": 100,
+      "maximumWheelEndTorqueNm": 6640,
+      "motorRatedPowerKw": 80,
+      "motorPeakPowerKw": 160,
+      "motorRatedTorqueNm": 175,
+      "motorPeakTorqueNm": 400,
+      "reportedTransmissionRatios": [
+        16.6
+      ],
+      "reportedWheelEndReduction": null,
+      "dualMotorLabel": false,
+      "ratingAggregation": "source motor column",
+      "locator": "PDF p.3, specification table, LCV eAxle-I"
+    },
+    {
+      "sku": "Truck eAxle-E-1.5",
+      "ratedAxleLoadKg": 13000,
+      "maximumVehicleSpeedKmh": 110,
+      "maximumWheelEndTorqueNm": 40000,
+      "motorRatedPowerKw": 121,
+      "motorPeakPowerKw": 250,
+      "motorRatedTorqueNm": 320,
+      "motorPeakTorqueNm": 850,
+      "reportedTransmissionRatios": [
+        13.2,
+        4.4
+      ],
+      "reportedWheelEndReduction": 3.478,
+      "dualMotorLabel": false,
+      "ratingAggregation": "source motor column",
+      "locator": "PDF p.3, specification table, Truck eAxle-E-1.5"
+    },
+    {
+      "sku": "Truck eAxle-E-1.6",
+      "ratedAxleLoadKg": 13000,
+      "maximumVehicleSpeedKmh": 110,
+      "maximumWheelEndTorqueNm": 40000,
+      "motorRatedPowerKw": 136,
+      "motorPeakPowerKw": 290,
+      "motorRatedTorqueNm": 326,
+      "motorPeakTorqueNm": 860,
+      "reportedTransmissionRatios": [
+        13.2,
+        4.4
+      ],
+      "reportedWheelEndReduction": 3.478,
+      "dualMotorLabel": false,
+      "ratingAggregation": "source motor column",
+      "locator": "PDF p.3, specification table, Truck eAxle-E-1.6"
+    },
+    {
+      "sku": "Truck eAxle-H",
+      "ratedAxleLoadKg": 13000,
+      "maximumVehicleSpeedKmh": 120,
+      "maximumWheelEndTorqueNm": 39089,
+      "motorRatedPowerKw": 150,
+      "motorPeakPowerKw": 252,
+      "motorRatedTorqueNm": 285,
+      "motorPeakTorqueNm": 550,
+      "reportedTransmissionRatios": [
+        10.2,
+        20,
+        36.3,
+        71
+      ],
+      "reportedWheelEndReduction": null,
+      "dualMotorLabel": false,
+      "ratingAggregation": "source motor column",
+      "locator": "PDF p.3, specification table, Truck eAxle-H"
+    },
+    {
+      "sku": "Truck eAxle-F-1",
+      "ratedAxleLoadKg": 13000,
+      "maximumVehicleSpeedKmh": 120,
+      "maximumWheelEndTorqueNm": 45000,
+      "motorRatedPowerKw": 150,
+      "motorPeakPowerKw": 252,
+      "motorRatedTorqueNm": 285,
+      "motorPeakTorqueNm": 550,
+      "reportedTransmissionRatios": [
+        71,
+        36.3,
+        20,
+        10.2
+      ],
+      "reportedWheelEndReduction": null,
+      "dualMotorLabel": true,
+      "ratingAggregation": "unspecified; dual label preserved without multiplying",
+      "locator": "PDF p.3, specification table, Truck eAxle-F-1",
+      "reportedAuxiliaryMotorRatios": [
+        46.8,
+        46.8,
+        13.2,
+        13.2
+      ]
+    },
+    {
+      "sku": "Truck eAxle-F-2",
+      "ratedAxleLoadKg": 13000,
+      "maximumVehicleSpeedKmh": 120,
+      "maximumWheelEndTorqueNm": 45000,
+      "motorRatedPowerKw": 190,
+      "motorPeakPowerKw": 310,
+      "motorRatedTorqueNm": 280,
+      "motorPeakTorqueNm": 590,
+      "reportedTransmissionRatios": [
+        71,
+        36.3,
+        20,
+        10.2
+      ],
+      "reportedWheelEndReduction": null,
+      "dualMotorLabel": true,
+      "ratingAggregation": "unspecified; dual label preserved without multiplying",
+      "locator": "PDF p.3, specification table, Truck eAxle-F-2",
+      "reportedAuxiliaryMotorRatios": [
+        46.8,
+        46.8,
+        13.2,
+        13.2
+      ]
+    }
+  ],
+  "comparisonPoints": [
+    {
+      "label": "Motor A",
+      "ratio": 10.3,
+      "rpmAt90Kmh": 4600,
+      "zeroTorqueLossW": 800,
+      "efficiencyAt50KwLowerBound": 0.965
+    },
+    {
+      "label": "Motor B",
+      "ratio": 13.2,
+      "rpmAt90Kmh": 5936,
+      "zeroTorqueLossW": 1500,
+      "efficiencyAt50KwLowerBound": 0.96
+    }
+  ],
+  "comparisonLocator": "PDF p.5; unidentified Motor A / Motor B example",
+  "installableComponent": false,
+  "limitations": [
+    "Peak duty, operating voltage/current, torque constant and temperature absent.",
+    "Motor A/B plots are not identified with any SKU.",
+    "Efficiency boundary and loss-chart electrical/shaft interpretation are insufficiently specified. No fitted motor loss package made from these charts.",
+    "Transmission and wheel-end ratios are preserved separately. Dash values are unknown, not unity.",
+    "Dual motor column aggregation unspecified."
+  ]
+}
