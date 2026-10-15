@@ -1,0 +1,29 @@
+{
+  "title": "Foothill Transit BEB evaluation, June2021, NREL/TP-5400-80022",
+  "url": "https://docs.nlr.gov/docs/fy21osti/80022.pdf",
+  "reviewedAt": "2026-10-08",
+  "facts": {
+    "arcadia2020": {
+      "beb40e2": {
+        "buses": 14,
+        "miles": 507619,
+        "roadcalls": 22,
+        "propulsionRoadcalls": 15,
+        "tyresChanged": 83,
+        "milesPerTyreReplacement": 6116,
+        "lowVoltageChangeouts": 21
+      },
+      "cng": {
+        "buses": 14,
+        "miles": 787353,
+        "roadcalls": 32,
+        "tyresChanged": 74,
+        "milesPerTyreReplacement": 10640,
+        "lowVoltageChangeouts": 11
+      }
+    }
+  },
+  "artifactType": "reviewed-web-extraction",
+  "originalPdfSha256": null,
+  "note": "Primary report reviewed through PDF web reader. Direct PDF/OSTI download returned404; no original PDF hash is claimed. Tables/sections remain directly locatable."
+}

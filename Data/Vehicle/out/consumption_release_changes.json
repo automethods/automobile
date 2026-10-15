@@ -1,0 +1,139 @@
+{
+  "schema": "automobile-change-record/1",
+  "version": "0.4.36",
+  "previousVersion": "0.4.35",
+  "date": "2026-10-07",
+  "baselineSnapshot": "/tmp/transport-contract-20261007/baseline",
+  "modified": [
+    {
+      "file": "package.json",
+      "beforeSha256": "d877037934ec500baae09d7a601714692313430de5fb4a28336d60368836796b",
+      "afterSha256": "7819d9a803643f83dfe9cdb85c7c15a97a296366a13fcf095aafc71559b2ec20"
+    },
+    {
+      "file": "package-lock.json",
+      "beforeSha256": "ef566ff67839425e450dc1b6862351188f7251016a7042e0c71e3a3163ee02ef",
+      "afterSha256": "4cded7b87315d6a45513feb17589bfa399a267508d6f58f7ade023ee4a32aa7c"
+    },
+    {
+      "file": "CURRENT-RELEASE.txt",
+      "beforeSha256": "0322d7c982ee2d1d656266fc293b6a192bbe92af7c83bcf630fd513de70e7e40",
+      "afterSha256": "9aa7872f12c14f002fd927fe2f7f80100acec1cdc468293a3e1e21e6febf34fd"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "beforeSha256": "b9546303c9ab7e023c67056ab22d29dbe98205700e90dea34b370c8b1836673c",
+      "afterSha256": "30dc6550c31c044d93f045e3a64c036875e5fed3c1e9eec744bf94febc93a70b"
+    },
+    {
+      "file": "README.md",
+      "beforeSha256": "e484a24f4459752a6a76273b98edacae88927f89a180a854090afaa612a6bb2f",
+      "afterSha256": "cfdf99d9e0afcdf965d7c5145318df6631d0b0f9813ca345f898da0ce734189b"
+    },
+    {
+      "file": "RELEASE-NOTES.md",
+      "beforeSha256": "7e7d800064df950d7f04e1eea611d4b6e9c5188ec98489c66dbc274c1f7978c3",
+      "afterSha256": "90fd636d531ee997a61f56226a467c2b89debcbdc4d95cf6c01dfa7150752c67"
+    },
+    {
+      "file": "ROADMAP.md",
+      "beforeSha256": "9747639f596dfa4178f7c0565355960faa066a36cb3244d9850f5de1184108e2",
+      "afterSha256": "96bf8d8b3c2537f9e816222e7781ee5a2e558fbde0c884d474eed04ef4d768f8"
+    },
+    {
+      "file": "manuscript/shell.html",
+      "beforeSha256": "5c4311a8f7987efcb70ca0fd1f5ccc755a9b41e93143e809faaaa9df94c5a202",
+      "afterSha256": "a44d96b22b2ca500a0fedb88d78802d463dc5ba33e8e3123d7834c0236dfde3a"
+    },
+    {
+      "file": "Vehickle_calculations_assets/engineering-model.js",
+      "beforeSha256": "8845594a34bd44d140c1249ea00b8f0dc5d8b2afcb12fdce0520c21567f7d01d",
+      "afterSha256": "de0cf35a1bd2077ac4e85c9f780584f753b6bb12bfab3462d2ec19a20aa6d81b"
+    },
+    {
+      "file": "Vehickle_calculations_assets/prototype-selection.js",
+      "beforeSha256": "c28e3fb44a5a6b5fe81ba30aeaa65299148276f11a9e017aeedccbb36ca98f5a",
+      "afterSha256": "7ad3e269f84961f35e06b180a7eb140caa9a6a1feadca410a505da03e760058e"
+    },
+    {
+      "file": "Vehickle_calculations_assets/prototype-dataset.json",
+      "beforeSha256": "875834ae13a5de0eef8294fa72e6795a236ab84f98b11d711ec611ec4e203d94",
+      "afterSha256": "424cb61eccce4806cd0c672297766fd2540d473f8781614498fb725c8f1e7a50"
+    },
+    {
+      "file": "Data/Vehicle/sources/prototype_measurements.csv",
+      "beforeSha256": "43992db086e5e3d940e4705773f4529ac3ce85dd41e3ac723ab3c3afd986881e",
+      "afterSha256": "45edd4e3b480effb169681cff68e9dd8e07892879eaa9fc38ab7ce2027dc9145"
+    },
+    {
+      "file": "Data/Vehicle/build/prototype_measurements.py",
+      "beforeSha256": "85da37a2a99ffcb5f6670c05a4fd9bac468e13b8fe0149a07d9d3e4ffc1c70e3",
+      "afterSha256": "8b41f4028beae45e9f30f96cb903e18bf375e7dc6a4d4af8d70084ba040d85cf"
+    },
+    {
+      "file": "Data/Vehicle/build/test_prototype_measurements.py",
+      "beforeSha256": "291f9d5737d0626bcea942e03ebafe33d68c3e7aa3a43421cafe3f6152203b74",
+      "afterSha256": "2554e18f7b576d0d7064d24b65e3f7d751cb170907da761054a3d223e293d9e3"
+    }
+  ],
+  "added": [
+    {
+      "file": "Data/Vehicle/build/build_consumption_observations.py",
+      "sha256": "ab883f7bb151ff3a8459ced9876774bf55bc8e4525024c0ad38d6cfa02227c44"
+    },
+    {
+      "file": "Data/Vehicle/build/test_consumption_observations.py",
+      "sha256": "a4fa34b171e8203dfea26542aaa7e5befc774919806b5697ae0480fee6dbc9b0"
+    },
+    {
+      "file": "Data/Vehicle/docs/consumption_observations.md",
+      "sha256": "25c3d8be3c8bf8a7b8b8a13e3665426b22ae42f006452af2dde57f13f13d3159"
+    },
+    {
+      "file": "Data/Vehicle/sources/consumption_intake.json",
+      "sha256": "ec5af0ea4aea0112ee8ad9bbb0d519cdf0709fe01ac53c8201449f074f13e897"
+    },
+    {
+      "file": "Data/Vehicle/sources/epa_consumption_snapshot.csv",
+      "sha256": "fead191c854478ed80afdfe7d133a34c132296f918ed83c6229c373e21aff77a"
+    },
+    {
+      "file": "Data/Vehicle/sources/outlander_obd_consumption_snapshot.csv",
+      "sha256": "32cac27aabc1cc65952b3d61911bd3e46f9e5be4c123cb1593e2a0fea9d065c4"
+    },
+    {
+      "file": "Data/Vehicle/out/consumption_coverage.csv",
+      "sha256": "e8d67dad2a3230533246ed7052af17333839cf194bddc02a08515ab6a08e87a4"
+    },
+    {
+      "file": "Data/Vehicle/out/consumption_observations.json",
+      "sha256": "5f1f304ddffb5006d1bd042e1ef82618030cd3d469b6eb22cf2c0f0522f2b669"
+    },
+    {
+      "file": "Data/Vehicle/out/consumption_intake_audit.json",
+      "sha256": "9d6a93c64e06b5da045d351d240fb993d9a3ff94bb0bc8664be50f2476db901f"
+    },
+    {
+      "file": "VALIDATION-v0.4.36.md",
+      "sha256": "beddebd32c12b910c222319b5a7042863c1b44092028072d65ec40ae4050ef80"
+    }
+  ],
+  "catalogueUnchanged": {
+    "file": "Data/Vehicle/vehicle_prototypes.csv",
+    "sha256": "5e6c84b075815e9ddf1b8236c6bc4e09883c8edb276cd01abe4a184c15c4d310"
+  },
+  "sharedBundle": "My_books/vehickle_math_models/modules @ 0.1.0; TECHNICAL-MODULES.md; contracts v1",
+  "note": "Task-specific before/after hashes distinguish this change from earlier uncommitted workspace changes. Generated build files are verified separately.",
+  "additionalModified": [
+    {
+      "file": "Vehickle_calculations_assets/prototype-selection.test.js",
+      "afterSha256": "8efbc3e651baf6febb67ebde3c20378f28fe0610b5b96af6ebba2705c02d33a1",
+      "beforeSha256": null
+    },
+    {
+      "file": "scripts/browser/prototype-electric-reference.test.mjs",
+      "afterSha256": "9cd6a833172ff0d21345754b4f26f27dd5085c01aa0096792249d62e437ae415",
+      "beforeSha256": null
+    }
+  ]
+}

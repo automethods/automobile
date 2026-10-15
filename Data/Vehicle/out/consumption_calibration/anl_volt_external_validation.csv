@@ -1,0 +1,4 @@
+testId,phase,partition,calibrationStatus,batteryNetEnergyJ,predictionEnergyJ,residualEnergyJ,residualPercent
+61607011,1,external-validation,eligible,5317457.048065707,5175838.429528731,-141618.61853697617,-2.6632771502779096
+61607011,2,external-validation,eligible,5187185.864460198,5179844.714309064,-7341.150151134469,-0.14152471769773856
+61607011,3,external-validation,excluded,16656162.370081447,,,
