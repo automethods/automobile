@@ -1,5 +1,5 @@
 {
-  "version": "0.4.67",
+  "version": "0.4.68",
   "mount": "/projects/automobile/",
   "files": [
     {
@@ -1530,7 +1530,7 @@
     {
       "path": "README.md",
       "bytes": 793,
-      "sha256": "afad1e86013b9b16a1a8d461acf482231cb936f752aa57ecb23ffc4b70a4b633"
+      "sha256": "a49507ab6a113b8432fdbcde3ce5f51b780a252c391d6e4a75a43e007a553f40"
     },
     {
       "path": "assets/department-hazards-off-CCP16_hL.png",
@@ -1558,9 +1558,9 @@
       "sha256": "fcb6b7f86c31e780ce40898666b29e5c9840f223f0f5535a91142d52052c9105"
     },
     {
-      "path": "assets/index-DnEYzOBe.js",
-      "bytes": 8411014,
-      "sha256": "5cba62db9d9ae761a8540654ff75a409fd98a0f1328bd4080239b4b6c830e784"
+      "path": "assets/index-B1b-gem_.js",
+      "bytes": 8411472,
+      "sha256": "2caedb218b54d7459985ba61654d745a6b44338ae38d9011902f250847ca1d4a"
     },
     {
       "path": "assets/layout-3d-runtime-DtArkcfl.js",
@@ -1624,8 +1624,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 588046,
-      "sha256": "3176f778990f114e58974bb076beff04890a2dc74230d715c4387de313fa4b8d"
+      "bytes": 588250,
+      "sha256": "17ef2db972cf609f9438725ad9084b8704467b710fbe3d21b1c96174993ee14a"
     },
     {
       "path": "vendor/mathjax/LICENSE.txt",

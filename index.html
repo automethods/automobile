@@ -6,10 +6,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Навчальний застосунок для проєктного розрахунку автомобіля">
+  <script id="vehicle-session-startup">
+    window.VehicleSessionReady = fetch("/api/session", { credentials: "same-origin", cache: "no-store" })
+      .then(response => response.ok ? response.json() : null).catch(() => null);
+  </script>
   <title>automethods.com — Автомобілі</title>
   <link rel="icon" href="./assets/favicon-DgtH_dQ1.svg?v=2" type="image/svg+xml">
   <script defer src="./vendor/mathjax/tex-svg-full.js" id="MathJax-script"></script>
-  <script type="module" crossorigin src="./assets/index-DnEYzOBe.js"></script>
+  <script type="module" crossorigin src="./assets/index-B1b-gem_.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/vendor-BMARtC1L.js">
   <link rel="modulepreload" crossorigin href="./assets/math-runtime-BqI7GVnH.js">
   <link rel="modulepreload" crossorigin href="./assets/engdoc-runtime-4gYSjIFG.js">
@@ -21,7 +25,7 @@
     <aside class="sidebar" aria-label="Навігація за розділами">
       <div class="institution-hierarchy" aria-label="Заклад освіти і кафедра">
         <details class="institution-group" data-institution-id="zhatk"><summary class="brand"><img src="./assets/logo-CcDgs7jA.svg" alt=""><span><small>Заклад освіти</small><strong>Житомирський агротехнічний фаховий коледж</strong></span></summary><div class="institution-children"><a class="institution-site" href="https://zhatk.zt.ua/" target="_blank" rel="noopener">Офіційний сайт закладу ↗</a><a class="brand department-brand" data-institution-id="zhatk-automobile-transport" href="https://zhatk.zt.ua/osvitnij-proczes/kafedri/kafedra-avtomobilnij-transport/" target="_blank" rel="noopener"><span class="department-emblem" aria-hidden="true"><img src="./assets/department-hazards-off-CCP16_hL.png" alt="" width="768" height="352"><img class="hazards-on" src="./assets/department-hazards-on-CyoWiva8.png" alt="" width="768" height="352"></span><span><small>Кафедра</small><strong>Автомобільний транспорт ↗</strong></span></a></div></details>
-        <a class="worksheet-home" href="#chapter-1">Інтерактивні методичні рекомендації · v0.4.67</a>
+        <a class="worksheet-home" href="#chapter-1">Інтерактивні методичні рекомендації · v0.4.68</a>
       </div>
 
       <nav class="chapter-nav">
@@ -156,8 +160,8 @@
       </header>
 
       <div class="account-access" translate="no">
-        <p id="accountNotice" role="status" aria-live="polite">Режим перегляду. Увійдіть, щоб змінювати дані та створювати PDF.</p>
-        <a href="/?account=signin" target="_blank" rel="noopener" data-account-link>Увійти</a>
+        <p id="accountNotice" role="status" aria-live="polite" aria-busy="true">Перевіряємо обліковий запис…</p>
+        <a href="/?account=signin" target="_blank" rel="noopener" data-account-link hidden>Увійти</a>
       </div>
 
       <section class="section" id="chapter-1">
@@ -165,7 +169,7 @@
           <div class="hero-copy">
             <h1>Проєктний розрахунок автомобіля</h1>
             <p class="lead">Інтерактивні методичні рекомендації поєднують класичну методику тягового розрахунку з явними одиницями, перевіркою введення, сучасною класифікацією транспортних засобів і відтворюваними звітами.</p>
-            <p class="hero-version">v0.4.67 · © 2026 Автори проєкту</p>
+            <p class="hero-version">v0.4.68 · © 2026 Автори проєкту</p>
             <div class="guide-download" data-guide-download>
               <a class="guide-download-link" id="guideDownloadLink"
                  href="downloads/methodical-guide.pdf" download
