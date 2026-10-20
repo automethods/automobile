@@ -1,0 +1,1646 @@
+{
+  "version": "0.4.68",
+  "mount": "/projects/automobile/",
+  "files": [
+    {
+      "path": "Data/Vehicle/cycles/NEDC.csv",
+      "bytes": 12257,
+      "sha256": "0dd9ba4ef7f6de1bde761885e28e87ef3d2eacb434a9fc571a0104357a624f9e"
+    },
+    {
+      "path": "Data/Vehicle/cycles/Teaching_60_s.csv",
+      "bytes": 50,
+      "sha256": "016ecb3861d552cc6ca29fa484aee6635ba23c9728de1046f8ca3fda8a2d06ec"
+    },
+    {
+      "path": "Data/Vehicle/cycles/WLTC_Class_3_v53.csv",
+      "bytes": 21410,
+      "sha256": "fc455e69834533a28f725f9d9febab9e8c1a5f028b0e108a5c2f9c2eb212fc77"
+    },
+    {
+      "path": "Data/Vehicle/cycles/pin.json",
+      "bytes": 11619,
+      "sha256": "15d22a5e2ddbe60b62a3fbc609a63346f8ac31bc88714734bd8d1131a5118954"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/artemis-hw130.csv",
+      "bytes": 12192,
+      "sha256": "aee611a02c127c05a3e4a8c92a91093ed45a7bf81afd77486147d573e28fd618"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/artemis-rural.csv",
+      "bytes": 11694,
+      "sha256": "3af61e2c17e6adc3a305ec9bc432520e7a99ea0a7b1472ecb4fb9f873ecaffb7"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/artemis-urban.csv",
+      "bytes": 9756,
+      "sha256": "f5fc27e2cad6a7f8816683b47da699e73465be6d0d74f17deb6c3b4a191cad31"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/ftp75.csv",
+      "bytes": 20057,
+      "sha256": "42fa2651eb6be24e8fda7c8e112a2cce738b0fea3f6d010af77e026bdbaacab4"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/hwfet.csv",
+      "bytes": 9139,
+      "sha256": "24d918cdacff45a75b598ef338895aca7f7bfbef1f0fe8cb5dd729983a12b4ae"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/manifest.json",
+      "bytes": 4698,
+      "sha256": "fd6c47e1905e2e52a4a16733cf910969041b50ee46fa8c15d6e6a93e91d9f46d"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/nedc.csv",
+      "bytes": 11094,
+      "sha256": "fa4eb542eae328524e12d054373345f2b27e90819d6c44974c8718924ca7ba77"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/teaching-60.csv",
+      "bytes": 49,
+      "sha256": "0a5b58fbbf7cd8e44f7641dc6403dc5904f3c478ad00bf88e0663fa2b45f88b2"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/udds.csv",
+      "bytes": 21910,
+      "sha256": "a06e0dc41119265a5db280dff9a55856d91f46d5ba7fb3037e6a88c477987bb1"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/us06.csv",
+      "bytes": 7065,
+      "sha256": "cfc053404ebd83d2a59ca9119c7761dd887b15d885dd689c9d3eaab2d97ddeee"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/wltc1.csv",
+      "bytes": 13569,
+      "sha256": "16bb733a8e043741ffa3ec6783bbead7c6d29ccbf508405a5d4dbdb146e25bfb"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/wltc2.csv",
+      "bytes": 15955,
+      "sha256": "f9bd4c1573a8b3d0723d06e4c4001740f5d033f3f7b2b52574bf47857b216389"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/wltc3.csv",
+      "bytes": 15959,
+      "sha256": "98b6c3fbd7745f421ef5b34a18e7c906e1b3cf6649f6c913f0e96cc4e43af6f2"
+    },
+    {
+      "path": "Data/Vehicle/cycles/presets/wltc3a.csv",
+      "bytes": 15927,
+      "sha256": "88f20f58970b6fb81849e9e141ec317b94ed68902e2743c142ad914eada67ee8"
+    },
+    {
+      "path": "Data/Vehicle/docs/axle_drive_sources.md",
+      "bytes": 6739,
+      "sha256": "c93693abf26459dd36c7b39aa6838f6003b54798dd2e90efcddf6bcbf8188e03"
+    },
+    {
+      "path": "Data/Vehicle/docs/brakes_sources.md",
+      "bytes": 11628,
+      "sha256": "d3973dbcd1a02d4a5803141546476a25e0fa994839f0eeda6c87f4b77ff409fe"
+    },
+    {
+      "path": "Data/Vehicle/docs/clutch_sources.md",
+      "bytes": 30817,
+      "sha256": "4e913d16534db37de10f5e8470c78dc3418317469a9be4b0e2be22f19c13b497"
+    },
+    {
+      "path": "Data/Vehicle/docs/consumption_observations.md",
+      "bytes": 7400,
+      "sha256": "f858238dfbd9cb6ac80c2dcf78d29c44158b7f251ed2a819c1854e5e4bde10c0"
+    },
+    {
+      "path": "Data/Vehicle/docs/cycle_consumption_sources.md",
+      "bytes": 12131,
+      "sha256": "528fd56dc492388fdaf7ea2c6ff9bb3753894c18721d02bbf55ff83446c76652"
+    },
+    {
+      "path": "Data/Vehicle/docs/driveshaft_sources.md",
+      "bytes": 7681,
+      "sha256": "230910cc707632e03db75f4ea604d8f56bfd240098e2509ea64f2475329f3cd3"
+    },
+    {
+      "path": "Data/Vehicle/docs/dynamics.md",
+      "bytes": 9460,
+      "sha256": "711512bba21e4fcbbac5ea684552920e5f5f59673f6a1b4b58ceb3f6eca84e73"
+    },
+    {
+      "path": "Data/Vehicle/docs/efficiency_map_sources.md",
+      "bytes": 9503,
+      "sha256": "4251fdb06eb657e57be5ba279494ac749878fc669752689045b394ad46ceb5c3"
+    },
+    {
+      "path": "Data/Vehicle/docs/elastic_elements_sources.md",
+      "bytes": 11139,
+      "sha256": "ef178e9b4f5abdde1e4bc39317c75be1ed4cd7406d5bd46788edd3ffd53c3db7"
+    },
+    {
+      "path": "Data/Vehicle/docs/electric_driveline_sources.md",
+      "bytes": 4568,
+      "sha256": "897cb31c5f5f9a81be9cf0c4d2868bce695f2ec31f4bee8b148467c6bbe4b656"
+    },
+    {
+      "path": "Data/Vehicle/docs/embedded-table-audit.md",
+      "bytes": 1358,
+      "sha256": "721a7578d1688d4afa29f750a32eed88327464b48ca7ff551cad821616604123"
+    },
+    {
+      "path": "Data/Vehicle/docs/engine_speed_characteristic_coefficients.md",
+      "bytes": 12070,
+      "sha256": "5f3e3178ba9649c4f54ccd7b7b2def622b0dfcfbd5ab6ecfa4c63d1889dc43a0"
+    },
+    {
+      "path": "Data/Vehicle/docs/finaldrive_sources.md",
+      "bytes": 14118,
+      "sha256": "57d0a286830700f4dcf8fb67410f2336a5615d4f95e60576dc90b202589b57aa"
+    },
+    {
+      "path": "Data/Vehicle/docs/gearbox_sources.md",
+      "bytes": 10346,
+      "sha256": "286b737e3d61650ed32ff947371e164a6e334bd973fc56da4cb0baf2da21a865"
+    },
+    {
+      "path": "Data/Vehicle/docs/gearshift_regulation_sources.md",
+      "bytes": 5170,
+      "sha256": "96dd70bffb94f128b8e9e4ed432aa3a76f52b1f88274e1e09619da874581ace8"
+    },
+    {
+      "path": "Data/Vehicle/docs/handling_sources.md",
+      "bytes": 3658,
+      "sha256": "f54b0d897d0229142c33a4fab9e17b7bce2965666ee2bbdffe4339ccc079ed28"
+    },
+    {
+      "path": "Data/Vehicle/docs/prototype_enrichment_audit_2026-10-05.md",
+      "bytes": 11324,
+      "sha256": "a588ec6c498ee88c82a3082346246cde6416a1e2439e0dbf130e92bc53de0dce"
+    },
+    {
+      "path": "Data/Vehicle/docs/prototype_measurements_and_bev_gearing_2026-10-06.md",
+      "bytes": 7592,
+      "sha256": "616cbfdf1ecdc7f413dc64f47643d4ea155b6d8e88424ae1429a5383f688a922"
+    },
+    {
+      "path": "Data/Vehicle/docs/prototype_validation.md",
+      "bytes": 19936,
+      "sha256": "73526039242a490988ff9393c37957531ef0fedd2de27847f74773a7cec5d795"
+    },
+    {
+      "path": "Data/Vehicle/docs/ride_offroad_sources.md",
+      "bytes": 4304,
+      "sha256": "2c81c31608646cca410f8e3fce9fbfed5661455db89f8d2ebd47f73ac45707e2"
+    },
+    {
+      "path": "Data/Vehicle/docs/shift_strategy_sources.md",
+      "bytes": 5054,
+      "sha256": "1ba59552d91e2444656976c63b05a34e07b5e6e5d1462970150a9a6d5f8f5823"
+    },
+    {
+      "path": "Data/Vehicle/docs/steering_linkage_sources.md",
+      "bytes": 7257,
+      "sha256": "378061e99f6524784779d85a6408fcf650e3a9b26fdd6d72bda1dbacb6a3585d"
+    },
+    {
+      "path": "Data/Vehicle/docs/steering_sources.md",
+      "bytes": 3684,
+      "sha256": "556fdd11c1a08afe05a43d30ee1d5d8101db60726dcc7c60dd9b43cdfe44314e"
+    },
+    {
+      "path": "Data/Vehicle/docs/suspension_sources.md",
+      "bytes": 6685,
+      "sha256": "563f4a7a167f80b4d7683a24b1ebbb5567bbf5c0175084f13a05273898cbb772"
+    },
+    {
+      "path": "Data/Vehicle/docs/transmission_ratio_ranges.md",
+      "bytes": 6195,
+      "sha256": "b6097f7980595173796fd60c5809ae45810cd0acb57e20d0d8deaffc08c11bbc"
+    },
+    {
+      "path": "Data/Vehicle/docs/tyre_load_index_tables.md",
+      "bytes": 8527,
+      "sha256": "c3307b19ba2a72677159b0fba4c46147363546582dcaacd9d36894df85f7dfbc"
+    },
+    {
+      "path": "Data/Vehicle/docs/vehicle_prototypes_bus_payload_standard.md",
+      "bytes": 14232,
+      "sha256": "2f2574c1e92467f12995429a993f2cdb2cc90fa227c9c7e650ee60106651c345"
+    },
+    {
+      "path": "Data/Vehicle/docs/vehicle_prototypes_design.md",
+      "bytes": 26109,
+      "sha256": "5b48038a294ab0ed9ac547ceb59fa08845693b5aec0505f57ea4ad80cfe1baf9"
+    },
+    {
+      "path": "Data/Vehicle/docs/vehicle_prototypes_drivetrain_plan.md",
+      "bytes": 17466,
+      "sha256": "9dbca34c002a918b7c8da291268aafa04c6b3a5b9148c7560ac02e5af388e2e4"
+    },
+    {
+      "path": "Data/Vehicle/docs/vehicle_prototypes_drivetrain_schema_review.md",
+      "bytes": 23970,
+      "sha256": "d8d970aa82fa45e41c0a5157f0363fc0d5ca7bb43fa301ae68eb0b6560bf69ed"
+    },
+    {
+      "path": "Data/Vehicle/docs/vehicle_prototypes_enrichment_design.md",
+      "bytes": 10064,
+      "sha256": "7e927faf6ae696e3906d849056cc90e7a554ebd2d8c70bf6b7f9d69955d7a71b"
+    },
+    {
+      "path": "Data/Vehicle/docs/vehicle_prototypes_extension_design.md",
+      "bytes": 4827,
+      "sha256": "20bc7058fe2e4bdf712ae597ba4d8e7bb5fd395e20acea6ab79a75e15419eff8"
+    },
+    {
+      "path": "Data/Vehicle/docs/web_sourced_masses_report.md",
+      "bytes": 63227,
+      "sha256": "5975acb25670c31bd6dfd6a9d57bcde93ade493555d1d8d35c9fd50b5df439ac"
+    },
+    {
+      "path": "Data/Vehicle/docs/weight.md",
+      "bytes": 6029,
+      "sha256": "896b7d965f252542db464cf02ecb2e4a62f3be64bbd8e22978c63ac109db0e74"
+    },
+    {
+      "path": "Data/Vehicle/docs/wheel_gear_sources.md",
+      "bytes": 10150,
+      "sha256": "1d27181939d0adc4ec4e8a5387e95b4005496fd303e70085f2e9daf0f5810d1e"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/LICENSE.txt",
+      "bytes": 14837,
+      "sha256": "ee72a7de63b9390dea379ce1e560402097e083a3ab0b04b149d2c40aebbe666f"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/SOURCE.json",
+      "bytes": 188,
+      "sha256": "3f981335786ab37931e6acbc5d2751a1ae65ddd1de98819f6753314ea13b777e"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/V_class1.txt",
+      "bytes": 7586,
+      "sha256": "f8db1c3b74937d6ca18bcf9b3d8d59806819f6a95d93428928f0fab056b6fd06"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/V_class2.txt",
+      "bytes": 8859,
+      "sha256": "c3bfbb0ef5925e556f52bbc70072a8fffe9fe2aac159eda552c2953e056a8098"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/V_class3a.txt",
+      "bytes": 8891,
+      "sha256": "fdd62f5cfecdcc1c43c05b72a61d1702c8c61e7ebda54d1bbd9c8f921ec45fce"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/V_class3b.txt",
+      "bytes": 8891,
+      "sha256": "3df48abd608c5b01abf5c0d8c64a4e5c030f164b3bd98d4073361b46eb6fef67"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/class1.py",
+      "bytes": 1371,
+      "sha256": "696a297458943c2583b81c8cb801437ad0275071a9023bdaa70a8acab7fa2f0e"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/class2.py",
+      "bytes": 1391,
+      "sha256": "eaff11cb122e47b9930f39f761c31eb7d282a52256634e665738bcface644763"
+    },
+    {
+      "path": "Data/Vehicle/external-data/JRC-WLTC/class3.py",
+      "bytes": 2036,
+      "sha256": "276d0c893031327ade49696fed2e3a76f353a298d2d20af14cc20d605a937602"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_HW130.csv",
+      "bytes": 12198,
+      "sha256": "c1fa1354498f72a0ba948ae506fa020f5291f9be36b8a280a0d187d7bb0d6abb"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_HW150.csv",
+      "bytes": 12146,
+      "sha256": "1ce25e53199bab126153fa6420345853227830fde70f103659ade31281132edc"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_Rural.csv",
+      "bytes": 11700,
+      "sha256": "e639783c972eb1900b3fa4b9b041132b5b297e1e5eb2904968df28410946114a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_Urban.csv",
+      "bytes": 9762,
+      "sha256": "e05a79aee8dae0371976e636d995699687ad2e4b60afd278a3cf4b7285adae06"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_Urban_Road_HW130.csv",
+      "bytes": 35727,
+      "sha256": "441a5fd37a4e57a3be2f7e0ecf2f1620f3ec525cbe6f8f10cd7fbcde1c28e8f6"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Artemis/Artemis_Urban_Road_HW150.csv",
+      "bytes": 35675,
+      "sha256": "26d0aa0d83dcf1cf43b5ab6d3b02277bb7f85a22530b17436045d9d3f39f693c"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Asia/CLTC_P.csv",
+      "bytes": 15297,
+      "sha256": "45fe053275119cfea86d0793669e7974e9eb337d21c1ac55804c878dc12f6109"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Asia/EPA_j1015col.csv",
+      "bytes": 6805,
+      "sha256": "a6b785ded292e8b8584b39f97484997f37edf482dab8a3982918ad6f3e94ca5a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Asia/EPA_jpn10col.csv",
+      "bytes": 1091,
+      "sha256": "940fef584e827640819b46fb34b664f98fc38c1a3ed3a31f51241a3e8ceb1f2d"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Asia/EPA_jpn15col.csv",
+      "bytes": 1871,
+      "sha256": "93d8f4360563144b7b2661267b2a9413dd2104a53a4b0c8868e6b96b77949673"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Asia/JC08.csv",
+      "bytes": 12582,
+      "sha256": "3c02b03292dc6c5b96c91319a93af61e9effb51a582a6857acc90301242d1c60"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/FTP75.csv",
+      "bytes": 21941,
+      "sha256": "4aa0d9c0225262c3785da536588e27c40417053785e1bbc2aa40b327a21d4d1a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/HWFET.csv",
+      "bytes": 9158,
+      "sha256": "9e72aa3b8ba6fa2f2382044025b994148f9a2036d765ab3818897360c8fd9da2"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/SFTP_us06col.csv",
+      "bytes": 10468,
+      "sha256": "499a39851e3b9c9b497626abf7f777ed0425f3574c6034ce4d524f0fce836308"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/US06.csv",
+      "bytes": 7131,
+      "sha256": "3c4495918c5a0ebc6af7caaf85996e90bc7bee7f25b1ed291814136b326c2846"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/epa-new-york-city-cycle.csv",
+      "bytes": 5106,
+      "sha256": "8e8ef2aa14464be80be94b881a2660f4d15afd099ef1f5bfd9d1ace19368942a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/eudccol.csv",
+      "bytes": 4836,
+      "sha256": "74be2858fdb266977f6ae3384617b087b3981039251a38e810f085f9aab5f1dd"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/ftp10hz_flat.csv",
+      "bytes": 323117,
+      "sha256": "97310af027aae71c172de638e05be446975cca016a5a71f6c23d5162fc0b9776"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/ftpcol.csv",
+      "bytes": 30429,
+      "sha256": "bdddcd38521f3e63c5f5effa052a467309d080179723213eb7d518b615dba047"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/hwy10hz.csv",
+      "bytes": 280490,
+      "sha256": "f676ad3e25dc9905754508cc7282d6a397c7bf61aee692225756078837c1852e"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/hwycol.csv",
+      "bytes": 12931,
+      "sha256": "906c7b3256882039e06b5f1ca8656a2ab9b3f5db5c39254a6dafefe0b8bc3b67"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/im240col.csv",
+      "bytes": 4062,
+      "sha256": "7e07f442a385e574aecebeafac831be92d18d0a5efa06c7c053284f70a9bef38"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/la92col.csv",
+      "bytes": 28786,
+      "sha256": "b45b17f3154e3b4ca31abdaca5fedea31b6cd4a3ea06349326279699f3b69151"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/la92dds.csv",
+      "bytes": 23944,
+      "sha256": "533a2ceb5b7806d661759a91708645d3d18ed15b666a12b867c6919b4cb1abae"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/la92shortdds.csv",
+      "bytes": 15753,
+      "sha256": "e1775b1a189907bddc144b9ceb93f30125d01427432d34dce1f23dcadeba85f0"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/sc03col.csv",
+      "bytes": 10157,
+      "sha256": "32188ffe0a63e0a437576fba265592e0258c4e7f59d3c2d3261c95cd1b6b5f93"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/uddscol.csv",
+      "bytes": 21911,
+      "sha256": "87a833ebee80e994c3d7701d7e905e0231987049006372fa95527f2a0ddb7c3a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/EPA/us06col.csv",
+      "bytes": 10782,
+      "sha256": "308f4f6fda090eeba6771811b331816df02aa5b836d5c424f9bad152a19b0b33"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Special/Grossglockner_downHilldrive.csv",
+      "bytes": 10269,
+      "sha256": "32fe7aab19f92b3f8974ca86a2fb1c5a449a5f56984af17f329f0e3fcc15e81f"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/Special/Grossglockner_upHilldrive.csv",
+      "bytes": 9401,
+      "sha256": "de927162cabf61e72c38e0e7746c34f0500d97a1a8bc3c1145a402a580d020a5"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/WLTP_Europe/NEDC.csv",
+      "bytes": 12260,
+      "sha256": "817969c91df3bbac3abaa69246f2057c35059c0b8d71056ed71661380c020dd1"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/WLTP_Europe/WLTC.csv",
+      "bytes": 21027,
+      "sha256": "5e65b1387f8f64b43e37352b2dd5760923360ab7bb261f117e570b4e3af0ab2b"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/WLTP_Europe/WLTC_Class_1_v1.4.csv",
+      "bytes": 15338,
+      "sha256": "8da55c21edcc296b8df43f073086985c7359f9414d5654da6c7794cc895fdc7b"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/WLTP_Europe/WLTC_Class_2_v1.4.csv",
+      "bytes": 22584,
+      "sha256": "031b3cc067ba6dc2d58a581101292333734ee189e26a7174fd86e26265a8d2da"
+    },
+    {
+      "path": "Data/Vehicle/external-data/driving-cycles/WLTP_Europe/WLTC_Class_3_v53.csv",
+      "bytes": 21413,
+      "sha256": "7ab1ef55cf494becb4261dfecc7b2daaa800c09c5fa1e9cc6e0d41dbfa1b10d7"
+    },
+    {
+      "path": "Data/Vehicle/external-data/ev-sim/EV_dataset.csv",
+      "bytes": 4804,
+      "sha256": "ef622761a20d632ecaefbb213bdc0518d15a086f982bef26f01e39bd4ada2435"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2010 Mazda 3 i-Stop.yaml",
+      "bytes": 1788,
+      "sha256": "96fb5e35a06dafb69632f643d7cd31d745a3491e3bba732224acb49435de2f9d"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2012 Ford Focus.yaml",
+      "bytes": 1781,
+      "sha256": "577a3f4c3b188895d81cbb04ea72c9cabb12c61b5a2287ffb17885ba8176b751"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2012 Ford Fusion.yaml",
+      "bytes": 1783,
+      "sha256": "c624e0209d1ba9c979e94f94faa5a529ffb88166981adde734268fdd8d9f126a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 AUDI A3 4cyl 2WD.yaml",
+      "bytes": 1785,
+      "sha256": "9f1cda358be9573d035e247a8aeb5715ea6df69be3856a64b796796ff5818575"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 BMW 328d 4cyl 2WD.yaml",
+      "bytes": 1784,
+      "sha256": "20a947c06d0fd46da03ad2204978fce3483d273962c79c9ac47809dd794268d5"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 BMW i3 REx PHEV.yaml",
+      "bytes": 1813,
+      "sha256": "f25c9f6d5bffef318f1cc20bcc3cb03b8d685fd36276806e4a5adf3172ef9caf"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 CHEVROLET Malibu 4cyl 2WD.yaml",
+      "bytes": 1790,
+      "sha256": "32da2bd6b371d1ab068578acf3b7b48e03dc308a82686e7468fe0e2144611fda"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 CHEVROLET Spark EV.yaml",
+      "bytes": 1808,
+      "sha256": "bb9f5525dc987a25f0ea083433b1228e93e392dec66b069b78e2ac48f0822c05"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 CHEVROLET Volt.yaml",
+      "bytes": 1809,
+      "sha256": "ddca6f6ce3baa97a680de441accffbd300fc17e7ff0e90120cb2d7a1c0f4355b"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 FORD C-MAX (PHEV).yaml",
+      "bytes": 1942,
+      "sha256": "27ed32a6e4dd869d6321d02cada0c2481e27fc4dff5828bc04945e6fa9862133"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 FORD C-MAX HEV.yaml",
+      "bytes": 1942,
+      "sha256": "72bc6a9e8f1fa761a0978d38a34f19baf41667db564be4d314536c18591cc958"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 FORD Escape 4cyl 2WD.yaml",
+      "bytes": 1786,
+      "sha256": "805716a12b0f0f468dd4c665057da2bfd1c49de71a0a5d2cc09db1af6806b4e0"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 FORD Explorer 4cyl 2WD.yaml",
+      "bytes": 1787,
+      "sha256": "3966b292781784fca0b4af53e912e07864606f39cf747c4ad4861893505f75d4"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 HYUNDAI Elantra 4cyl 2WD.yaml",
+      "bytes": 1788,
+      "sha256": "780e3a00b33b4df2950936f7baff0ee279d26dffed7c989729c8c0fa1d399354"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 HYUNDAI Sonata PHEV.yaml",
+      "bytes": 1945,
+      "sha256": "772735df411ab28f6b1367efe0f413e28d3e750ae6aad3f80b6e7c823caf4366"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 Hyundai Tucson Fuel Cell.yaml",
+      "bytes": 1835,
+      "sha256": "dd00184f04e031e03d30af80d034c4cfa85dc4f024bc58097783826c2e57bd9f"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 KIA Optima Hybrid.yaml",
+      "bytes": 1943,
+      "sha256": "f14e046763f171f64a0ae9ba3ca96bdd7e3e3ff6c9428ece566ac10668719bd1"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 Leaf 24 kWh.yaml",
+      "bytes": 1800,
+      "sha256": "32b0d3b5c45f829cb6be333472c28db4541f52a6e9e79af585e070cb5563e3d3"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 MITSUBISHI i-MiEV.yaml",
+      "bytes": 1930,
+      "sha256": "0919ebb2ffc443962897093ea245095ba87ffab694bb4d6651e90c93ef50ed9d"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 Nissan Leaf 30 kWh.yaml",
+      "bytes": 1807,
+      "sha256": "a2d505aefe259d50cc8e4b2798c54f76b5d94cf0fdba610ebec620b1bae322ed"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 TESLA Model S60 2WD.yaml",
+      "bytes": 1810,
+      "sha256": "08b0d11a851e376cb5567ae175c08a48e274509f83e2a0c50baed50e18e1deaa"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 TOYOTA Camry 4cyl 2WD.yaml",
+      "bytes": 1786,
+      "sha256": "542bc75dcb08aa925820e9972e38b19a23e4f00f051c2b6410aaa5f67c473908"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 TOYOTA Corolla 4cyl 2WD.yaml",
+      "bytes": 1787,
+      "sha256": "7ad3b5c725114c3a627e41546be23b464b9d004bcf72d37fab2718e3aeada6cf"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 TOYOTA Highlander Hybrid.yaml",
+      "bytes": 1823,
+      "sha256": "1b758fa97e659af26ef39365d99331af41a1e9302f7a347d40e2309bf1d8b55d"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2016 Toyota Prius Two FWD.yaml",
+      "bytes": 1800,
+      "sha256": "03e065742d28afde123f2e7cb2ffc67722b3ea22f955f68b01938c06edbdb599"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2017 CHEVROLET Bolt.yaml",
+      "bytes": 1802,
+      "sha256": "67716d373e60b1c15f068849d01f0e4c3f06d55579d215d517cd97a40642cc98"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2017 Maruti Dzire VDI.yaml",
+      "bytes": 1785,
+      "sha256": "a966b9a370574ab958dbdf19d101cbeff4c4a7b5d41055f1d7ad2ae7fd05ffad"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2017 Prius Prime.yaml",
+      "bytes": 1937,
+      "sha256": "2262dd79ed06cc94d3c92087941dcc8dd7a196274729bfd1e04710b708cae9b7"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2017 Toyota Highlander 3.5 L.yaml",
+      "bytes": 1800,
+      "sha256": "9f15767f0350b4e880133855053dcf1d35ce7c90345d25b5de41604c50538c48"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2020 Chevrolet Colorado 2WD Diesel.yaml",
+      "bytes": 1799,
+      "sha256": "94278accd4248da4b05176a8dd0669c8ee2641e00eafcb4e8243ad0cb925eff5"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2020 Hero Splendor+ 100cc.yaml",
+      "bytes": 1836,
+      "sha256": "776f31ba564dfc9e326eb12e8fc0a1d5fa2e2e693c9ab704f23eb9c8a70a9b8d"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2020 VW Golf 1.5TSI.yaml",
+      "bytes": 1791,
+      "sha256": "5d04d44c4b726f1447f1fec805ba0a38cddd5fb32784c8ca4ff474e6a26aa8e6"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2020 VW Golf 2.0TDI.yaml",
+      "bytes": 1794,
+      "sha256": "1567ed9ffb3082dfa702b7b07847857aa07494adb4e468ea46d87eea1304bfc8"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2021 BMW iX xDrive40.yaml",
+      "bytes": 1807,
+      "sha256": "f2a915efab77819317369a16fc420381a852ea9dc928277f8f65e5af45df91ba"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2021 Cupra Born.yaml",
+      "bytes": 1804,
+      "sha256": "f750487ec9898cc6013eb364babf7a554621892b48c228389f48d2f8dbd42bbd"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2021 Fiat Panda Mild Hybrid.yaml",
+      "bytes": 1785,
+      "sha256": "1947d783c6dd5a73803e442b58841d6432c4c423eb7497fa544018c51d325a0e"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2021 Honda N-Box G.yaml",
+      "bytes": 1770,
+      "sha256": "0ba017fd4ba12bea0788be2d24b841e9bd875559192a8059bb4c0ed6f40e3f51"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2021 Peugot 3008.yaml",
+      "bytes": 1776,
+      "sha256": "f5b8a5d40343882474600b2b003b34c7b9e5fd40b1c0f6c2c40591cb419f8d22"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 Ford F-150 Lightning 4WD.yaml",
+      "bytes": 1842,
+      "sha256": "0222249e8d64ea8f424ba727bed959913506993f4cbc564d029d1596e058b430"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 MINI Cooper SE Hardtop 2 door.yaml",
+      "bytes": 1810,
+      "sha256": "b85616e679fe3f8f2952c13d8c5b7bbfab7fed6e18a5bc699bc9ca6c85ec9167"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 Renault Megane E-Tech.yaml",
+      "bytes": 1815,
+      "sha256": "3ddd75abaf0699107f29ae74c9afb46a8d62ac63a7c51c343b1b22eea5a4e520"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 Renault Zoe ZE50 R135.yaml",
+      "bytes": 1825,
+      "sha256": "be46ae05074e2fa3c41e0b3838daf43d7d6203b1c5391927e92b88a8080bdfa2"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 Tesla Model 3 RWD.yaml",
+      "bytes": 1830,
+      "sha256": "9e12a72925adada239cd65ec49c5ffdbe1b04b82dcba0173b31e7c18a62a8c55"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 Tesla Model Y RWD.yaml",
+      "bytes": 1798,
+      "sha256": "8486c0115876c18521b026758b76171c83f2dbef893ee90721d0f810949b1c18"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 Toyota RAV4 Hybrid LE.yaml",
+      "bytes": 1847,
+      "sha256": "2c393f87c33901cfbd02c79ed2c4fdb12872a6ce623dc0b8e3afaee807e339a9"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 Toyota Yaris Hybrid Mid.yaml",
+      "bytes": 1800,
+      "sha256": "d90f1eb3d43963f15b4d5507e0fda89251cdaf4643c6c5e072ab7c2199a19bdc"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2022 Volvo XC40 Recharge twin.yaml",
+      "bytes": 1851,
+      "sha256": "64aa310e1ae2518a1249cbb78c7e3ca2891a53b8783749e081fee382f22c6f69"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2023 Mitsubishi Pajero Sport.yaml",
+      "bytes": 1787,
+      "sha256": "07bb018fdd481f0a45932563699f8b7462db1bab0afef7e5904355928faf15ab"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2023 Polestar 2 Long range Dual motor.yaml",
+      "bytes": 1847,
+      "sha256": "536bfa9d0e0cc4e153c4aa61349e7dc07436cae454b32d9e58a803fad57f9660"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2023 Volvo C40 Recharge.yaml",
+      "bytes": 1826,
+      "sha256": "4477778b1f4ed6178652af92fc67d3a99ab92a2c60183b59390d55882ac11def"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2024 BYD Dolphin Active.yaml",
+      "bytes": 1928,
+      "sha256": "acbacfb390a8af64a9ef6b0b43ac7cdda23a4ef6c75a93e6708c5beff4e2a113"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2024 Toyota Vios 1.5 G.yaml",
+      "bytes": 1783,
+      "sha256": "19ceb05e16fe6468b1e2c5f0c142a12d4af7962cea65f7ce8e208f7a98109bff"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2024 VinFast VF e34.yaml",
+      "bytes": 1803,
+      "sha256": "9cbc195f6ca09ee1f70951d5891c96d2798a7e753a037f742e9ae08ead27fdb8"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/2024 Volkswagen Polo 1.0 MPI.yaml",
+      "bytes": 1780,
+      "sha256": "7771f31423b2590568e8c9d44455ed69dabbbfdc3af2fe2622a5840bc250d641"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/BYD ATTO 3.yaml",
+      "bytes": 1805,
+      "sha256": "6becbbf6c0275b61f9590319a0de4b17f4ea071fa96f5d90e952a77b6d137c68"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Bajaj Boxer 150.yaml",
+      "bytes": 1821,
+      "sha256": "0cb4934c70a98c5083a5908fb3026d157ea4bf17264e00aa00df84f1be41d5eb"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Class 4 Truck (Isuzu NPR HD).yaml",
+      "bytes": 1790,
+      "sha256": "12353a59d0b32c174b768c969b3afa21551d5b539ff4924c72f9ead141b651c9"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Line Haul Conv.yaml",
+      "bytes": 1785,
+      "sha256": "939daa58a3f1d36dc801f4b1caa3967909072577fe599a63887c6770bbc2d16a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Maruti Swift 4cyl 2WD.yaml",
+      "bytes": 1779,
+      "sha256": "60af8bb80ceafd2737477633199bd3e0571deed29b8b64d35a39f4e28afc8da4"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Nissan Navara.yaml",
+      "bytes": 1776,
+      "sha256": "e41f5a350f2d0607a80c1f1c4d0b04f8b50c2e379ea2dbbabd661efc0cccab4a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Regional Delivery Class 8 Truck.yaml",
+      "bytes": 1805,
+      "sha256": "8764c087f6050f15a34e69fdd8f57c3e04e74baae36c33639d575598d17a98a5"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Renault Clio IV diesel.yaml",
+      "bytes": 1783,
+      "sha256": "139f4c18541da0e7da148cd5421c800d7c87fdf966b3062bc1a04e0ff5e51c3c"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Renault Megane 1.5 dCi Authentique.yaml",
+      "bytes": 1795,
+      "sha256": "27f9f5b99675ea313c76cb498e97b3e343162e984dc77e3bb3134561cf7a23cd"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Toyota Corolla Cross Hybrid.yaml",
+      "bytes": 1796,
+      "sha256": "46143f00531f8a87dd03f8093c79b95ebd03939bc8489189e946b70a1b7133a3"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Toyota Etios Liva diesel.yaml",
+      "bytes": 1787,
+      "sha256": "7cac2f17a7a87c33f9755c810daba7f07c925953eb74b8ed10d93dbf6c46d247"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Toyota Hilux Double Cab 4WD.yaml",
+      "bytes": 1790,
+      "sha256": "004a6bc180923d9a125768d0cf3e49e9b9df6ad5607ec62a4afbf30fd4827780"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f2-vehicles/Toyota Mirai.yaml",
+      "bytes": 1799,
+      "sha256": "ea3814d338798c3d1aeed0f50661daae983364beac6fcbf3379ef983b2187102"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2010 Mazda 3 i-Stop.yaml",
+      "bytes": 5107,
+      "sha256": "f2380958f1f55a26aa9ca7a9197dae246743eec9a8e70b0c3edc9a551c692b6e"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2012 Ford Focus.yaml",
+      "bytes": 5111,
+      "sha256": "8f39531f2f82c8e362ece36d53a5fba6a9781ade8093f85da2a51ffe645f49e6"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2012 Ford Fusion.yaml",
+      "bytes": 5112,
+      "sha256": "68c6a5e9762cf2befae00502e818d3969d0907ed3f2f853d7c1a4d707f903de7"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 AUDI A3 4cyl 2WD.yaml",
+      "bytes": 5127,
+      "sha256": "4c30ff8302a7f241e24b8e71ccc8cd5bacdbd22a0f8cc8b0f5e4e9ef4e0517f6"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 BMW 328d 4cyl 2WD.yaml",
+      "bytes": 5116,
+      "sha256": "6238a0679604045eac2010b874099baf32b520b7790ed915e15f471491aa36ca"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 BMW i3 REx PHEV.yaml",
+      "bytes": 10822,
+      "sha256": "72f7aaf8d5b1eed234865df02f36d710d13c9e88b55a5107e7c55da27e68cf88"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 CHEVROLET Malibu 4cyl 2WD.yaml",
+      "bytes": 5134,
+      "sha256": "ca7de08059dd8f4690c8ba39fdf08d841f21577111ea59cbee1f620697a72890"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 CHEVROLET Spark EV.yaml",
+      "bytes": 7313,
+      "sha256": "39056a6e1669b5d48add2946bbeffc4b902bc0d915511b30f75a44fbada401b1"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 CHEVROLET Volt.yaml",
+      "bytes": 10821,
+      "sha256": "c9451da9583cf0c98e2f6c742800fd6a707e55799518eb63e37e4f9c904e807e"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 FORD C-MAX (PHEV).yaml",
+      "bytes": 11052,
+      "sha256": "6398cecfbc205c923d40b353dbd4105caf484c330227687047773077832b0522"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 FORD C-MAX HEV.yaml",
+      "bytes": 11077,
+      "sha256": "cf48f5687b9fa2a52bc2e453692132ed4c8b4990397190dd6374e7468d221188"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 FORD Escape 4cyl 2WD.yaml",
+      "bytes": 5132,
+      "sha256": "e7186cb81999002056f93b0f8578ee7d04d0285c5101e4a7e1095334bec72a63"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 FORD Explorer 4cyl 2WD.yaml",
+      "bytes": 5133,
+      "sha256": "e4282816aaa10afb95ffd209f7a41e140242527426564c4aad2a5f6770c81c36"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 HYUNDAI Elantra 4cyl 2WD.yaml",
+      "bytes": 5134,
+      "sha256": "c489090471e1f68372a4512548535341f7eed5ee28a26a53c939b419eda01401"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 HYUNDAI Sonata PHEV.yaml",
+      "bytes": 11083,
+      "sha256": "0154778aa5e887e011822466fdd3650349174678f1f98613ff5f256e0b8d89dc"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 Hyundai Tucson Fuel Cell.yaml",
+      "bytes": 10831,
+      "sha256": "9b1ce55d8dab9801afd83e9291e9007336b462312361a39068c6b1224f9fba68"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 KIA Optima Hybrid.yaml",
+      "bytes": 11082,
+      "sha256": "dbc179fcc7301c372d46519be59e40ed1f6ba126ef7fe3c3d3a11d885fc1b5e5"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 Leaf 24 kWh.yaml",
+      "bytes": 7305,
+      "sha256": "f71c38c1da9188d92ff97988adc2cb99e16d53fe8d6aba855773db4c7ba6378f"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 MITSUBISHI i-MiEV.yaml",
+      "bytes": 7567,
+      "sha256": "b0229583c04666801f7987c9d156df53986594c598c4114f3bafe5ea5850a344"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 Nissan Leaf 30 kWh.yaml",
+      "bytes": 7312,
+      "sha256": "e94e2ae5f369511dd0fb87916e6c9ed6c29a5d1410e83950f8f11c88bcfc78f9"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 TESLA Model S60 2WD.yaml",
+      "bytes": 7316,
+      "sha256": "e1d3c6de854b9f8789b9e1c0b70e807f377b741e44ffbab8ecdb2ba8e049b856"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 TOYOTA Camry 4cyl 2WD.yaml",
+      "bytes": 5131,
+      "sha256": "791f543d9109a482ee306a458466943dad96fb9fbc8cc76117295728a5a769f7"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 TOYOTA Corolla 4cyl 2WD.yaml",
+      "bytes": 5131,
+      "sha256": "9a278aa60bba6049f2f821dbb61da10f1fd2875dc81ed328ee39820167194997"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 TOYOTA Highlander Hybrid.yaml",
+      "bytes": 10831,
+      "sha256": "29199f843568eb93c7869b5615afc8d99080cadba97a087af879e51ffe3aa169"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2016 Toyota Prius Two FWD.yaml",
+      "bytes": 10772,
+      "sha256": "bd56c59e9aed4d9bffe536abe530bbf7114a0d891130d835677c0b2f6e757b02"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2017 CHEVROLET Bolt.yaml",
+      "bytes": 7309,
+      "sha256": "593050dd920f4f59f852f61208f3baffdc822114d98bceca838f83ded22ed7ff"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2017 Maruti Dzire VDI.yaml",
+      "bytes": 5110,
+      "sha256": "05ec028b34f09c6914a54b088c7250227fc5a6ba0720564e92af8d13fc05f26c"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2017 Prius Prime.yaml",
+      "bytes": 11085,
+      "sha256": "d8cfa0731b1ee44aff47fe403157c64a20f6d31c10c4c254f699b71eb1300318"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2017 Toyota Highlander 3.5 L.yaml",
+      "bytes": 5126,
+      "sha256": "df84a6715f6c036677356fb337a915b3257bc2322d7725d7bca9cfb82556102d"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2020 Chevrolet Colorado 2WD Diesel.yaml",
+      "bytes": 5116,
+      "sha256": "cfedd408e1d4e01bd86e1bfd0bb0fed2526ad3fa71dace2f5e4a3e77c4f5d960"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2020 Hero Splendor+ 100cc.yaml",
+      "bytes": 5185,
+      "sha256": "5e1ace5a11a87d9f9a0b4199ff5f6597829bc89709e7c22e6a7b6ad8e4f8c82e"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2020 VW Golf 1.5TSI.yaml",
+      "bytes": 5109,
+      "sha256": "4af8fb6b7472bd168cc3cc9aa8bf396ece0fda1a685f4087b523e733b1af6592"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2020 VW Golf 2.0TDI.yaml",
+      "bytes": 5115,
+      "sha256": "c22293296eeda8f022f31f0c6d414db68a73d9fd73342dbbd3952d8df1ea51fe"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2021 BMW iX xDrive40.yaml",
+      "bytes": 7317,
+      "sha256": "febd43b61a98e10602b96b1a74b8189045f3e90a7a1967938410d806e3ace0b3"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2021 Cupra Born.yaml",
+      "bytes": 7314,
+      "sha256": "33a8b2426ef9d508508a40884fb95d7b94f3cc5f06f9d91a38ab55e188bb8e46"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2021 Fiat Panda Mild Hybrid.yaml",
+      "bytes": 5107,
+      "sha256": "2c8c0358a3d3640a5af32d6c62d55503eca9311a5b9606a98085631e42f9e371"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2021 Honda N-Box G.yaml",
+      "bytes": 5112,
+      "sha256": "f9df6150c9fcc59b0970fcca89b1831cb8be8d710dc2af76047080b6b3641ceb"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2021 Peugot 3008.yaml",
+      "bytes": 5094,
+      "sha256": "40297d97f0b24252347129bbc4c65462ed2432b2f5367ca6ff4550e9366c57d3"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 Ford F-150 Lightning 4WD.yaml",
+      "bytes": 7341,
+      "sha256": "6a717284067c8380c1649af7f7878e06849a3449fe076bcd7f7747140389abb6"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 MINI Cooper SE Hardtop 2 door.yaml",
+      "bytes": 7286,
+      "sha256": "fe50933e86ed4bfe5b66a70785ad9aa2b605ec08cec1e4b12696211948b695d8"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 Renault Megane E-Tech.yaml",
+      "bytes": 7322,
+      "sha256": "c27e196c22670976402843ce9153721337ae98042b048a3b16084cb90fcf75f3"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 Renault Zoe ZE50 R135.yaml",
+      "bytes": 7325,
+      "sha256": "e0efc7d5f43be2c666bcbe1548879c4da09d3db3a96ad6ccfd712df9a8a26d94"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 Tesla Model 3 RWD.yaml",
+      "bytes": 7320,
+      "sha256": "59fe41c7cb3eac6dcb9cf8704378e7e05e02152dc8d8869d719c4b755002caa4"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 Tesla Model Y RWD.yaml",
+      "bytes": 7263,
+      "sha256": "cb719ffeeafe7c7528cea40690e43d7432a62cf57df1f9b4bbc252257567083d"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 Toyota RAV4 Hybrid LE.yaml",
+      "bytes": 10859,
+      "sha256": "40fbfa55af18409bc82a0390386d3f91e7bad572bf927c1c6a59b0afec6d1587"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 Toyota Yaris Hybrid Mid.yaml",
+      "bytes": 10779,
+      "sha256": "3d90e206ab9d1dbcb34e1dcb4d512842d31ca40b855d09756f37d3ef096d6905"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2022 Volvo XC40 Recharge twin.yaml",
+      "bytes": 7348,
+      "sha256": "47f89327f78573b23e7fc7dde433e19c279ebeb58732be9012b847bb7bfdf954"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2023 Mitsubishi Pajero Sport.yaml",
+      "bytes": 5127,
+      "sha256": "689fdfe42a2d8801b9eb20f2bdfe556b2b3bee1c4c2e6524c29febdb2abe4968"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2023 Polestar 2 Long range Dual motor.yaml",
+      "bytes": 7358,
+      "sha256": "0a745a5a06d3a0514e8ca767b08eff0183def013ed33eb6e7430e2981d99143c"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2023 Volvo C40 Recharge.yaml",
+      "bytes": 7333,
+      "sha256": "07b8a2a8947713ccff67cdeb3385fdddfc1fdb06fe0eb0978c77474316513c6b"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2024 BYD Dolphin Active.yaml",
+      "bytes": 7555,
+      "sha256": "246bb2d8d3665d5ffc5dd96e277e28c9c455ef25a10aada48607122175d7af24"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2024 Toyota Vios 1.5 G.yaml",
+      "bytes": 5131,
+      "sha256": "86c290ee1a387073de6c66c5d416f9b2aab560c13e3dc98201f1f2b5cc91d112"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2024 VinFast VF e34.yaml",
+      "bytes": 7313,
+      "sha256": "ec2cf322421ab20e26ebb4ca475691c08f158a21382497e0bea9a916ace3ee03"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/2024 Volkswagen Polo 1.0 MPI.yaml",
+      "bytes": 5125,
+      "sha256": "4f49f3ee9a19c3ec21ef4ae8c4ca13bc9378b7afd60ad93a3048628426201cc7"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/BYD ATTO 3.yaml",
+      "bytes": 7305,
+      "sha256": "710e89e3d6750a09ce0f55ba9b38efeec3eb84a4c478b7854e571d6d6f41236b"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Bajaj Boxer 150.yaml",
+      "bytes": 5173,
+      "sha256": "e46087ae7ad0cf63d82733557f0e5b7b516f46346c56a7ec91219b5a8dddf8e5"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Class 4 Truck (Isuzu NPR HD).yaml",
+      "bytes": 5124,
+      "sha256": "f6a7e18866422794d7cbe9d61b8766d3abb2ae30950cb1b7970d9177e254a693"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Line Haul Conv.yaml",
+      "bytes": 5097,
+      "sha256": "a8570b1520d8a1149bbf9c0077ed36d5fed48e1397161e941e75cbb50fd4fe1c"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Maruti Swift 4cyl 2WD.yaml",
+      "bytes": 5111,
+      "sha256": "56f30c3f6c4ecee52f63c03f6e79f2f88f36cf98dcf8a6c0c2bb42f94eb8890a"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Nissan Navara.yaml",
+      "bytes": 5105,
+      "sha256": "297324fc3c232d262cd105aa0ae50749e1fce08bba7c17b39fae87dd66c265e5"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Regional Delivery Class 8 Truck.yaml",
+      "bytes": 5128,
+      "sha256": "ff9a7b4116473bc3bf9a0b7650b96e275ca4578c9e4b45c604ca79ac28bc9ad9"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Renault Clio IV diesel.yaml",
+      "bytes": 5101,
+      "sha256": "6bea71c6f3c2b14ce764d63949129b6a38676a7888cdb74b3a25067475d633cf"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Renault Megane 1.5 dCi Authentique.yaml",
+      "bytes": 5124,
+      "sha256": "dbe1ad6d045b11239b0c518da28e828dd7e0e3c04244e71c4a736781d366fca9"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Toyota Corolla Cross Hybrid.yaml",
+      "bytes": 10786,
+      "sha256": "057ff9c832f69e8977f49a971564b2b57fc34aba6b3fc80da1705f5f4afae95b"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Toyota Etios Liva diesel.yaml",
+      "bytes": 5114,
+      "sha256": "8ae6c6eac3c77f301b9c54f14f30e7a131a64836c5c42277567c9056a80aadb2"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Toyota Hilux Double Cab 4WD.yaml",
+      "bytes": 5119,
+      "sha256": "13ce0441651a8379e7a52a83aef1f5ae5cd04d8fe8e847f3be157dd385158dcd"
+    },
+    {
+      "path": "Data/Vehicle/external-data/fastsim/f3-vehicles/Toyota Mirai.yaml",
+      "bytes": 10800,
+      "sha256": "ab2b50aae5de4775e330e88beb459531cfa1c5820c324ba560441b2e723b44c3"
+    },
+    {
+      "path": "Data/Vehicle/external-data/manifest.json",
+      "bytes": 56804,
+      "sha256": "25aa147628479d5ab07cc53f33694297e8a15b8815466849fbd956e51e32f5af"
+    },
+    {
+      "path": "Data/Vehicle/operations/build.py",
+      "bytes": 10216,
+      "sha256": "1684f60251140b87154a14f3b8bb2454da6f5401dd3a626017e135dc410a8975"
+    },
+    {
+      "path": "Data/Vehicle/operations/coverage.csv",
+      "bytes": 94812,
+      "sha256": "33bdb46953a77b9c6fdc4347397f329dd09ef39a3a6136d2cb27abac41c00deb"
+    },
+    {
+      "path": "Data/Vehicle/operations/dataset.json",
+      "bytes": 125216,
+      "sha256": "f9702477e1136c6c54d63553dc7974449293fbec18335ac50e299968441bd2fa"
+    },
+    {
+      "path": "Data/Vehicle/operations/observations.csv",
+      "bytes": 38028,
+      "sha256": "38c7fd14e5059cc9109cf9f33d2f5c406176eec0b3d0e1273c7c14649511e5d0"
+    },
+    {
+      "path": "Data/Vehicle/operations/pin.json",
+      "bytes": 3453,
+      "sha256": "cbc8508cafb5f46cffb970242922bc1c47978e782d554a9dc0e9388bcf7dbd8f"
+    },
+    {
+      "path": "Data/Vehicle/operations/release.json",
+      "bytes": 2760,
+      "sha256": "d650f6dd3bb6a29cc4d2fb60aa1fe12c35a1f17998cc6a4810424e277c902ca6"
+    },
+    {
+      "path": "Data/Vehicle/operations/sources.json",
+      "bytes": 11682,
+      "sha256": "1ba0790adfaf17901953853ba5fe1d3a1dc0cc52d8a460072216a668f2ff1409"
+    },
+    {
+      "path": "Data/Vehicle/operations/sources/cummins-isb67-reviewed.json",
+      "bytes": 889,
+      "sha256": "5c3a296b39abb7c0303e5298a75ad410c569cd1767beb43746b3cf3d1962b7c2"
+    },
+    {
+      "path": "Data/Vehicle/operations/sources/nrel-80022-reviewed.json",
+      "bytes": 897,
+      "sha256": "fac6c6928bb3438ad8e997e510cd95481ac18ccc6410d96abcc6f2a0d1d98b6a"
+    },
+    {
+      "path": "Data/Vehicle/operations/sources/riga-202407-reviewed.json",
+      "bytes": 626,
+      "sha256": "d21a8de507d385b67716471a02e923c71ac2fff7683d39a596b1f65577619f0e"
+    },
+    {
+      "path": "Data/Vehicle/out/consumption_calibration/anl_volt_external_validation.csv",
+      "bytes": 407,
+      "sha256": "89ef3f5a2b9b031075720a51124c0804c7eaa7273dfe4d2d79291210fc1eb52e"
+    },
+    {
+      "path": "Data/Vehicle/out/consumption_calibration/anl_volt_external_validation.json",
+      "bytes": 9975,
+      "sha256": "1d619f995af916d1a97cc1e53d592c194c3c9da6855ccabfa15c7a0639f3a354"
+    },
+    {
+      "path": "Data/Vehicle/out/consumption_calibration/anl_volt_fit.json",
+      "bytes": 29044,
+      "sha256": "610ad520efb9d78eec724a1f0d9ca9a0e0be169f420c727b6a670183673cfb8e"
+    },
+    {
+      "path": "Data/Vehicle/out/consumption_calibration/anl_volt_residuals.csv",
+      "bytes": 3255,
+      "sha256": "33956cd5d6e9265e61eab968fd86a7c8517b13b5a14ab2fb9021754620e88769"
+    },
+    {
+      "path": "Data/Vehicle/out/consumption_coverage.csv",
+      "bytes": 55115,
+      "sha256": "2f503388ec76367081f8fff50a2dd61d4cff0c463a1032d7297722aaa8d85293"
+    },
+    {
+      "path": "Data/Vehicle/out/consumption_intake_audit.json",
+      "bytes": 1713,
+      "sha256": "bfdb474b77bc2cc7e290fc1bae248e9c80784f867d26f1280e20b570537565ce"
+    },
+    {
+      "path": "Data/Vehicle/out/consumption_observations.json",
+      "bytes": 2286084,
+      "sha256": "89f8e7d79de0e4146d1f7d6f8e7fe3c6d7042c97ca40823092318fe8c40f1e6b"
+    },
+    {
+      "path": "Data/Vehicle/out/consumption_release_changes.json",
+      "bytes": 6015,
+      "sha256": "3ccac8c9c944100df723a34073515f7c7811b779dafd246f1c53b8f994f4edef"
+    },
+    {
+      "path": "Data/Vehicle/out/prototype_missing_measurements.csv",
+      "bytes": 19377,
+      "sha256": "6fbbb0a86cd6b38950044d80c31e6b0a8b8131efed2642895e23fb6601247d65"
+    },
+    {
+      "path": "Data/Vehicle/out/prototype_missing_reference_fields.csv",
+      "bytes": 50376,
+      "sha256": "b888992ded63bde482fd1fa002630db1d5925b26ea3d1e939ebc6be4c6cfbf9e"
+    },
+    {
+      "path": "Data/Vehicle/out/vehicle_prototypes_provenance.csv",
+      "bytes": 1010010,
+      "sha256": "98e374f5023f328da8f053b778b57ce689d980e5eb0fa5f53ad0e6ad4899d8f2"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/engines/epa-a25a-fks-tier3-202007.json",
+      "bytes": 18997,
+      "sha256": "e9d98dc697f0736c541bd835d7091e36748b1bd6a9d5afd375cf48297987f913"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/engines/epa-bmw-n57-diesel-201806.json",
+      "bytes": 20915,
+      "sha256": "2ad68d112bcd323173735f20253ac28e09154a942c8df632d9d903702218e20d"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/engines/epa-geely-miller-om-tier3-202303.json",
+      "bytes": 53473,
+      "sha256": "b1a2b8b2c51978b065bdb9a37e5c66950ddd1c588337e562c66643057794670b"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/engines/epa-geely-miller-paper-202303.json",
+      "bytes": 53496,
+      "sha256": "cfe0bead9c58c4c87ec99e33c0db9daecd081dbddf0970c6cbe2fd72d5ebc04d"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/engines/epa-honda-l15b7-tier3-201902.json",
+      "bytes": 20830,
+      "sha256": "83e612241d81b5c852527e28e8d86a94dd7f518fe36398d6b93736db45dc5ecd"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/engines/epa-toyota-tnga-hybrid-om-tier3-202303.json",
+      "bytes": 31610,
+      "sha256": "e4fa3c85d5e6121908adbd2fc708eeda565fea14b2bf53590babcdf979398018"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/engines/epa-toyota-tnga-hybrid-paper-202303.json",
+      "bytes": 31144,
+      "sha256": "cf4ce6060c37e37031b0017f44279f6626d91ba6ddaf170adeb4a9581b8b3e72"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/motors/emrax228-hv-cc-202003-contours.json",
+      "bytes": 119762,
+      "sha256": "0ecf6d6e3c13bc7b1a965405283aeaee733cfb08129198f75f7c6d781c5b175b"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/motors/epa-bolt-moto-paper-202405-loss-map.json",
+      "bytes": 28169,
+      "sha256": "2b7f82a67eaabb7a5f845dc2dd5ba244234c52cdecc75f8b87425f512e8bd41b"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/pin.json",
+      "bytes": 10280,
+      "sha256": "5f193b80b275b19e404f7c33aaa8b704e88e7c7fdacce8c48b5c6354baab1ff7"
+    },
+    {
+      "path": "Data/Vehicle/powertrain/references/brogen-centralized-axles-202512.json",
+      "bytes": 5563,
+      "sha256": "65604b2e5b29c2980e611781e12d1cbe689b84a13654aa47e77f17b8f04bc583"
+    },
+    {
+      "path": "Data/Vehicle/sources/anl_volt_calibration_features.json",
+      "bytes": 72136,
+      "sha256": "6a4f7c059e38e25df472288909fa77db43ccd07a50dd86accbd334bbc08e9a00"
+    },
+    {
+      "path": "Data/Vehicle/sources/bosch_passenger_cars.csv",
+      "bytes": 180879,
+      "sha256": "e0dca42335dcb1cd19c26eb338a6d53b12d3ec257b18cf7d1d5159319eee09ae"
+    },
+    {
+      "path": "Data/Vehicle/sources/brogen_eaxle_efficiency_points.csv",
+      "bytes": 782,
+      "sha256": "5b7f0f5b0ef0b51a6476289df959f272e9706a96a8051805638633289eb96181"
+    },
+    {
+      "path": "Data/Vehicle/sources/consumption_intake.json",
+      "bytes": 124499,
+      "sha256": "ec5af0ea4aea0112ee8ad9bbb0d519cdf0709fe01ac53c8201449f074f13e897"
+    },
+    {
+      "path": "Data/Vehicle/sources/drivetrain_configs.csv",
+      "bytes": 52367,
+      "sha256": "130088274d3ff9e8153beeafae487872978f7072f4120ca8b82ea44c31a5a4c9"
+    },
+    {
+      "path": "Data/Vehicle/sources/electric_drive_components.csv",
+      "bytes": 8405,
+      "sha256": "a96021cf664f0b55b5080fe76e525495ddc373a09edcaac3da49d4c2528ea49b"
+    },
+    {
+      "path": "Data/Vehicle/sources/epa_consumption_snapshot.csv",
+      "bytes": 29330,
+      "sha256": "fead191c854478ed80afdfe7d133a34c132296f918ed83c6229c373e21aff77a"
+    },
+    {
+      "path": "Data/Vehicle/sources/kamaz-55111-acceleration-60.md",
+      "bytes": 2769,
+      "sha256": "9e3f0520b93e858ab087e3c6e8f8bcea76eae28b18efda4e3e70b13bf2e6de77"
+    },
+    {
+      "path": "Data/Vehicle/sources/kamaz-55111-technical-page-259.png",
+      "bytes": 276687,
+      "sha256": "0241a48f4651513bf0cf70a6d5c8645875257f30aaa31bc36765e75283252261"
+    },
+    {
+      "path": "Data/Vehicle/sources/manual_vehicles.csv",
+      "bytes": 83124,
+      "sha256": "76e1c47cee0120c2534ef62a9552cb50a7e6919f842f362764580a5b9d4b5a8b"
+    },
+    {
+      "path": "Data/Vehicle/sources/niiat_33022_page62.md",
+      "bytes": 2011,
+      "sha256": "f623ef484980cde5b0642674113dd0ee89b5b278c8d2d66517d1ecb8b8cbb733"
+    },
+    {
+      "path": "Data/Vehicle/sources/niiat_trucks.csv",
+      "bytes": 64764,
+      "sha256": "e058917e120b713427e0c911dd0c2b6d140ef78d2ea7ae8ac3b40bfebd31a2a6"
+    },
+    {
+      "path": "Data/Vehicle/sources/niiat_vehicle_names.json",
+      "bytes": 1516,
+      "sha256": "5748b5a48d30fe48dd9e50dacc1da6cb8c08cfddd328fb0e62b2d111aebb29ab"
+    },
+    {
+      "path": "Data/Vehicle/sources/outlander_obd_consumption_snapshot.csv",
+      "bytes": 183792,
+      "sha256": "32cac27aabc1cc65952b3d61911bd3e46f9e5be4c123cb1593e2a0fea9d065c4"
+    },
+    {
+      "path": "Data/Vehicle/sources/prototype_enrichment.csv",
+      "bytes": 39424,
+      "sha256": "6dd3a262be35d5bd61496902ba23b1a5b450644fc7d2f6895dd45c8667bbd956"
+    },
+    {
+      "path": "Data/Vehicle/sources/prototype_enrichment_v2.csv",
+      "bytes": 107145,
+      "sha256": "0925aa78200cf39ac91a9c939a7f2d49a11b7aadb344a8accec14f523ce26fca"
+    },
+    {
+      "path": "Data/Vehicle/sources/prototype_measurements.csv",
+      "bytes": 1369608,
+      "sha256": "6f5a56eb63f2a86478a243c98085f892f45467c0182bd32544026285811ec5e0"
+    },
+    {
+      "path": "Data/Vehicle/sources/prototype_specifications.csv",
+      "bytes": 632227,
+      "sha256": "66abcfc4dfef6f07c00e483e1dc3bd6d78f3cbd7359b47394fa96684c5f41262"
+    },
+    {
+      "path": "Data/Vehicle/sources/web_sourced_masses.csv",
+      "bytes": 24361,
+      "sha256": "904c7b3c32dd8c0301f5aa34ba23f73c35723675cac93c227d94d79b2d90106a"
+    },
+    {
+      "path": "Data/Vehicle/tyre_catalog.csv",
+      "bytes": 10593,
+      "sha256": "2d322e074f4cbe8703af1dd8732a7b66b735add7e1cbbf1ae559e6f877317f7b"
+    },
+    {
+      "path": "Data/Vehicle/tyre_load_index.csv",
+      "bytes": 1611,
+      "sha256": "4dcfd12dbc229951c8569d38309c98e4166e3a06e0bd9775970372b7e19ac1ac"
+    },
+    {
+      "path": "Data/Vehicle/tyre_speed_category.csv",
+      "bytes": 182,
+      "sha256": "e64f5e239905d0d64ac128f76a3e5096718c373c02bfcf00d6ed9cec16a72920"
+    },
+    {
+      "path": "Data/Vehicle/validation/assumptions.json",
+      "bytes": 2230,
+      "sha256": "37f9c2711db35a79b5a1dcff65e77b7d674a6b66dbad1602268f9701d3565ef1"
+    },
+    {
+      "path": "Data/Vehicle/validation/cases/chevrolet-volt-2013.json",
+      "bytes": 4312,
+      "sha256": "a78971f4806e2adb56184e3a70f7b9036be42a439e0793f4f69ac70a8b102770"
+    },
+    {
+      "path": "Data/Vehicle/validation/cases/mini-cooper-e-2023.json",
+      "bytes": 1625,
+      "sha256": "7ae081fab5896b603acb36ed6f11afa0023e81583285ca2b31787283ac86b044"
+    },
+    {
+      "path": "Data/Vehicle/validation/cases/mini-cooper-se-2023.json",
+      "bytes": 2518,
+      "sha256": "1959c59a4a6820803ed1d5723169267953d9918d5059068439f882171fd2944c"
+    },
+    {
+      "path": "Data/Vehicle/validation/cases/outlander-phev-2014.json",
+      "bytes": 2830,
+      "sha256": "c2db2f570027075e4458d0e144283ce56a862a8c2e47cd46a8db2cd615433b1a"
+    },
+    {
+      "path": "Data/Vehicle/validation/cycles.json",
+      "bytes": 3263,
+      "sha256": "08240accc5b8531e8fc65164aa442c9b7139f35af819ce2c37867036753707fb"
+    },
+    {
+      "path": "Data/Vehicle/validation/real-world-gap.json",
+      "bytes": 8357,
+      "sha256": "40e0c4cfcaa5686a8172ce94be607f387cea84b76b5e892dd9d2ed02ae5daf57"
+    },
+    {
+      "path": "Data/Vehicle/vehicle_prototypes.csv",
+      "bytes": 530364,
+      "sha256": "ec8e872a20dc83c938e370acf35db6ab23b30bc873c2bdfb10fe79771b6f919a"
+    },
+    {
+      "path": "Images/department-hazards-off.png",
+      "bytes": 113888,
+      "sha256": "d9a933c9f7a338fbe56b947f23e0a72be0425e4f33afb2ab57faf6be666e9edf"
+    },
+    {
+      "path": "Images/department-hazards-on.png",
+      "bytes": 113980,
+      "sha256": "d8f100f219b4a12e6addca48a37ec082dd2c3b4b607017c80d224cabc44f4fe6"
+    },
+    {
+      "path": "Images/logo.svg",
+      "bytes": 12238,
+      "sha256": "09453c1d1f9d9d9307831ba9518382d85cc1efe62d13c797807930e17ab75008"
+    },
+    {
+      "path": "Images/project-vehicle.svg",
+      "bytes": 587898,
+      "sha256": "ed4d56034d59448d904a782fd93ad2d5a7d11b6b492b5f49dde5279542ddce08"
+    },
+    {
+      "path": "Images/vehicle-M1.svg",
+      "bytes": 823,
+      "sha256": "305607a74e06d4434d5b762e7e64dbe4afe50ad898af5acfd96f60f20af00388"
+    },
+    {
+      "path": "Images/vehicle-M2.svg",
+      "bytes": 837,
+      "sha256": "c7c8547b7cf371df4091ac9bf602f547678860bfa730b825aecd53b51c60f1fc"
+    },
+    {
+      "path": "Images/vehicle-M3.svg",
+      "bytes": 852,
+      "sha256": "a9eb97a38f5e7b328500194d597ceb1f6bd41aac14c2c2e9abbc212930f81d79"
+    },
+    {
+      "path": "Images/vehicle-N1.svg",
+      "bytes": 801,
+      "sha256": "69170c1d71f66db892211647954f6fa4857f44b347929d98c7ef8085c38c9d0b"
+    },
+    {
+      "path": "Images/vehicle-N2.svg",
+      "bytes": 808,
+      "sha256": "6fcf0042333d6d89615007f9553fc189e8835b338ce791e8c9e1c734f74001db"
+    },
+    {
+      "path": "Images/vehicle-N3.svg",
+      "bytes": 976,
+      "sha256": "7e936f92ac455d753e31c1f6c949f2786c774c154aa44c42d9f6c12aed7d6f9c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 793,
+      "sha256": "a49507ab6a113b8432fdbcde3ce5f51b780a252c391d6e4a75a43e007a553f40"
+    },
+    {
+      "path": "assets/department-hazards-off-CCP16_hL.png",
+      "bytes": 113888,
+      "sha256": "d9a933c9f7a338fbe56b947f23e0a72be0425e4f33afb2ab57faf6be666e9edf"
+    },
+    {
+      "path": "assets/department-hazards-on-CyoWiva8.png",
+      "bytes": 113980,
+      "sha256": "d8f100f219b4a12e6addca48a37ec082dd2c3b4b607017c80d224cabc44f4fe6"
+    },
+    {
+      "path": "assets/engdoc-runtime-4gYSjIFG.js",
+      "bytes": 51076,
+      "sha256": "7f45cc40780e77d7f0530711be3bc18daab8f227278ca5866247cc5ae35de2ae"
+    },
+    {
+      "path": "assets/favicon-DgtH_dQ1.svg",
+      "bytes": 3071,
+      "sha256": "1e7f39c2d9262f825c91b51b677343479d7ea2e2bfba44d9864519400a6999ca"
+    },
+    {
+      "path": "assets/index-22r2XBSk.css",
+      "bytes": 54259,
+      "sha256": "fcb6b7f86c31e780ce40898666b29e5c9840f223f0f5535a91142d52052c9105"
+    },
+    {
+      "path": "assets/index-B1b-gem_.js",
+      "bytes": 8411472,
+      "sha256": "2caedb218b54d7459985ba61654d745a6b44338ae38d9011902f250847ca1d4a"
+    },
+    {
+      "path": "assets/layout-3d-runtime-DtArkcfl.js",
+      "bytes": 576449,
+      "sha256": "0c5af257a7c68f9102c64a6d70ba0d041ed4798e93cb3955d95a3f5a3e84878c"
+    },
+    {
+      "path": "assets/layout-3d-scene-DGXV1dMl.js",
+      "bytes": 4861,
+      "sha256": "c93ab4e0f08f3bf1e189fb1e21d2d20c4b40e11918a77a06a6c72f0674db32e5"
+    },
+    {
+      "path": "assets/logo-CcDgs7jA.svg",
+      "bytes": 12238,
+      "sha256": "09453c1d1f9d9d9307831ba9518382d85cc1efe62d13c797807930e17ab75008"
+    },
+    {
+      "path": "assets/math-runtime-BqI7GVnH.js",
+      "bytes": 602203,
+      "sha256": "04b99fc33751f97c690ed28ff1c9f836fbeb6263a16a9b71706716b7f0d5b01f"
+    },
+    {
+      "path": "assets/project-vehicle-CJKRLUpM.svg",
+      "bytes": 587898,
+      "sha256": "ed4d56034d59448d904a782fd93ad2d5a7d11b6b492b5f49dde5279542ddce08"
+    },
+    {
+      "path": "assets/vendor-BMARtC1L.js",
+      "bytes": 225904,
+      "sha256": "e3baa7005dfc64ab67edceaac54be0ab43c10210d0f39d45713f33e0839cf432"
+    },
+    {
+      "path": "downloads/methodical-guide-en.html",
+      "bytes": 2580207,
+      "sha256": "1097ae6b258e611b4d2ebf0b37b9c08c9dfd5bcbc4135f3b5f3e399f465fff95"
+    },
+    {
+      "path": "downloads/methodical-guide-en.json",
+      "bytes": 493,
+      "sha256": "098468bf10e95e6d4eaa3e6c637ce8b2576644386770712dec85b5fb816b68b0"
+    },
+    {
+      "path": "downloads/methodical-guide-en.pdf",
+      "bytes": 3602106,
+      "sha256": "50bfbd4892d143b59f29a3e4b97e67bd8a7f3b0f1e5a427d7fcd2cfa75bf3c0c"
+    },
+    {
+      "path": "downloads/methodical-guide.html",
+      "bytes": 2891723,
+      "sha256": "ea9d2ffc3ca82f99c8e0c82f0a772276a6406740a601dd5a3d0ec9a91dfcda12"
+    },
+    {
+      "path": "downloads/methodical-guide.json",
+      "bytes": 589,
+      "sha256": "9aa0c50537eeb76f01bd54a54f0a9d784a3e4d09014b5f48bebc440fd264a0ed"
+    },
+    {
+      "path": "downloads/methodical-guide.pdf",
+      "bytes": 3716513,
+      "sha256": "7aa08ac2aaccfb49d57c40cd261933fdc66d392961036fbddd880cc5d53c1266"
+    },
+    {
+      "path": "index.html",
+      "bytes": 588250,
+      "sha256": "17ef2db972cf609f9438725ad9084b8704467b710fbe3d21b1c96174993ee14a"
+    },
+    {
+      "path": "vendor/mathjax/LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "vendor/mathjax/ORIGIN.json",
+      "bytes": 255,
+      "sha256": "c12f1e6e5b7d16affadd6c15769e430bd3c985e3012054f2d5e739c09f340639"
+    },
+    {
+      "path": "vendor/mathjax/tex-svg-full.js",
+      "bytes": 2275113,
+      "sha256": "a4354ff94fd868aea0cc6eaaa79a57fda0588646fc46ee3700a349ee0a11cbe6"
+    }
+  ]
+}
