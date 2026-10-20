@@ -1,4 +1,4 @@
-# AutoMethods — Automobile v0.4.66
+# AutoMethods — Automobile v0.4.67
 
 Publication files for https://automethods.com/projects/automobile/.
 Managed independently in `automethods/automobile` and mounted by the verified
